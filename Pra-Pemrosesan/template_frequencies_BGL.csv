@@ -1,0 +1,2388 @@
+rank,template,count,pct_of_lines,cumulative_pct
+1,generating <*>,1706750,36.21,36.21
+2,iar <*> dear <*>,441942,9.376,45.586
+3,<*> double-hummer alignment exceptions,295763,6.275,51.861
+4,<*> floating point alignment exceptions,267724,5.68,57.541
+5,CE sym <*> at <*> mask <*>,201205,4.269,61.81
+6,data TLB error interrupt,152734,3.24,65.05
+7,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,134852,2.861,67.911
+8,instruction cache parity error corrected,105924,2.247,70.158
+9,"<*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",91293,1.937,72.095
+10,"idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",84168,1.786,73.881
+11,data storage interrupt,63493,1.347,75.228
+12,ciod: generated <*> core files for program <*>,61452,1.304,76.532
+13,program interrupt: <*> <*>,51730,1.097,77.629
+14,instruction address: <*>,51226,1.087,78.716
+15,"ciod: Error loading <*> invalid or missing program image, No such file or directory",46384,0.984,79.7
+16,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",43798,0.929,80.629
+17,ciod: LOGIN <*> failed: No such file or directory,43643,0.926,81.555
+18,"ciod: Error loading <*> invalid or missing program image, Permission denied",42912,0.91,82.465
+19,"<*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",33937,0.72,83.185
+20,total of <*> ddr error(s) detected and corrected,28484,0.604,83.789
+21,ciod: Error reading message prefix on CioStream socket to <*> <*> <*> <*> <*>,27794,0.59,84.379
+22,Lustre mount FAILED : <*> : point /p/gb1,26425,0.561,84.94
+23,ciod: Error reading message prefix after <*> on CioStream socket to <*> <*> <*> <*> <*>,23212,0.492,85.432
+24,Kernel detected <*> integer alignment exceptions <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*>,22173,0.47,85.902
+25,"ciod: Error loading <*> invalid or missing program image, Exec format error",21512,0.456,86.358
+26,Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,21354,0.453,86.811
+27,"ciod: Received signal 15, code=0, errno=0, <*>",21056,0.447,87.258
+28,rts: kernel terminated for reason <*>,18586,0.394,87.652
+29,"ciod: Received signal <*> <*> errno=0, <*>",18397,0.39,88.042
+30,machine check: i-fetch......................0,18017,0.382,88.424
+31,data store interrupt caused by <*>,17598,0.373,88.797
+32,Node card is not fully functional,17364,0.368,89.165
+33,Can not get assembly information for node card,17305,0.367,89.532
+34,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,15073,0.32,89.852
+35,data address: <*>,14498,0.308,90.16
+36,MACHINE CHECK <*> <*> <*> <*> iar 0x00000000 lr <*>,14481,0.307,90.467
+37,exception syndrome register: 0x00800000,14337,0.304,90.771
+38,data cache <*> parity error detected. attempting to correct,14005,0.297,91.068
+39,floating pt ex mode <*> <*>,12854,0.273,91.341
+40,Ido chip status changed: <*> <*> <*> <*> status=M <*> <*> <*> <*> PDT 2005,11297,0.24,91.581
+41,<*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected,10486,0.222,91.803
+42,"<*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",10435,0.221,92.024
+43,total of <*> ddr error(s) detected and corrected over <*> seconds,10414,0.221,92.245
+44,floating point operation....................0,9808,0.208,92.453
+45,machine state register: <*>,8453,0.179,92.632
+46,auxiliary processor.........................0,8419,0.179,92.811
+47,byte ordering exception.....................0,8102,0.172,92.983
+48,program interrupt: fp cr update.............0,8102,0.172,93.155
+49,program interrupt: fp cr field .............0,8102,0.172,93.327
+50,<*> tree receiver <*> in re-synch state event(s) (dcr <*> detected,7844,0.166,93.493
+51,suppressing further interrupts of same type,7694,0.163,93.656
+52,critical input interrupt (unit=0x0b <*> warning for <*> <*> wire,7681,0.163,93.819
+53,machine check <*>,6754,0.143,93.962
+54,wait state enable.................0,6745,0.143,94.105
+55,external input interrupt <*>,6555,0.139,94.244
+56,problem state <*>,6545,0.139,94.383
+57,debug wait enable.................0,6524,0.138,94.521
+58,debug interrupt enable............0,6521,0.138,94.659
+59,instruction address space.........0,6506,0.138,94.797
+60,data address space................0,6503,0.138,94.935
+61,disable store gathering..................0,6495,0.138,95.073
+62,critical input interrupt <*>,6464,0.137,95.21
+63,ciod: pollControlDescriptors: Detected the debugger died.,6443,0.137,95.347
+64,core configuration register: 0x00002000,6384,0.135,95.482
+65,floating point instr. enabled.....1,6249,0.133,95.615
+66,store operation.............................1,6145,0.13,95.745
+67,program interrupt: illegal instruction......0,6144,0.13,95.875
+68,ciod: failed to read message prefix on control stream (CioStream socket to <*>,5982,0.127,96.002
+69,Found invalid node ecid in processor card slot <*> ecid 0000000000000000000000000000,5530,0.117,96.119
+70,ciod: Error creating node map from file <*> <*> <*> <*>,5208,0.11,96.229
+71,"Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",5120,0.109,96.338
+72,Lustre mount FAILED : <*> : block_id : location,5104,0.108,96.446
+73,guaranteed <*> cache block <*>,4778,0.101,96.547
+74,icache prefetch <*>,4776,0.101,96.648
+75,Ido packet timeout,4276,0.091,96.739
+76,rts panic! - stopping execution,3983,0.085,96.824
+77,ciod: <*> <*> <*> <*> <*> <*> <*> at line <*> of node map file <*>,3880,0.082,96.906
+78,store <*>,3679,0.078,96.984
+79,exception syndrome register: <*>,3676,0.078,97.062
+80,program interrupt,3667,0.078,97.14
+81,<*> <*> <*> error(s) (dcr <*> detected and corrected,3667,0.078,97.218
+82,"critical input interrupt (unit=0x0b <*> warning for <*> <*> wire, suppressing further interrupts of same type",3544,0.075,97.293
+83,<*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected over <*> seconds,3510,0.074,97.367
+84,New ido chip inserted into the database: <*> <*> <*> <*>,3453,0.073,97.44
+85,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, <*> <*> <*> <*>",3330,0.071,97.511
+86,L1 DCACHE summary averages: #ofDirtyLines: <*> out of 1024 #ofDirtyDblWord: <*> out of 4096,3148,0.067,97.578
+87,<*> tree receiver <*> in re-synch state event(s) (dcr <*> detected over <*> seconds,3147,0.067,97.645
+88,ciod: cpu 0 at treeaddr <*> sent unrecognized message 0xffffffff,2568,0.054,97.699
+89,"NFS Mount failed on <*> slept <*> seconds, retrying <*>",2466,0.052,97.751
+90,disable apu instruction broadcast........0,2396,0.051,97.802
+91,disable trace broadcast..................0,2393,0.051,97.853
+92,force load/store alignment...............0,2389,0.051,97.904
+93,general purpose registers:,2318,0.049,97.953
+94,special purpose registers:,2316,0.049,98.002
+95,PrepareForService shutting down <*> <*> <*> <*> <*> as part of Service Action <*>,2304,0.049,98.051
+96,ciod: Message code <*> is not <*> or 4294967295,2276,0.048,98.099
+97,rts internal error,2187,0.046,98.145
+98,<*> 13:1eeeeeee 14:ffffffff <*>,2110,0.045,98.19
+99,20:00000000 <*> 22:00000000 <*>,2089,0.044,98.234
+100,<*> <*> 18:00000000 19:00000000,2050,0.043,98.277
+101,28:1feaa7b0 29:00000001 30:000008ce 31:1feaa790,2048,0.043,98.32
+102,24:1feaa7a0 25:00284538 26:00230000 27:00320000,2048,0.043,98.363
+103,4:000008ce 5:ffffffff 6:00000038 7:00086590,2048,0.043,98.406
+104,0:000008ce 1:00086000 2:1eeeeeee 3:1feaa770,2048,0.043,98.449
+105,data store interrupt caused by dcbf.........0,2048,0.043,98.492
+106,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000,2048,0.043,98.535
+107,ciod: Error reading message prefix on CioStream socket to <*> Connection timed out,1990,0.042,98.577
+108,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,1824,0.039,98.616
+109,Microloader Assertion,1504,0.032,98.648
+110,"ciod: Error loading <*> program image too big, <*> > <*>",1504,0.032,98.68
+111,<*> L3 <*> error(s) (dcr <*> detected and corrected over <*> seconds,1473,0.031,98.711
+112,<*> L3 <*> error(s) (dcr <*> detected and corrected,1356,0.029,98.74
+113,external input interrupt (unit=0x02 <*> torus sender <*> retransmission error was corrected,1321,0.028,98.768
+114,ddr: activating redundant bit steering: rank=0 <*>,1313,0.028,98.796
+115,ciod: Error creating node map from file <*> Permission denied,1264,0.027,98.823
+116,<*> torus <*> <*> <*> error(s) (dcr <*> detected and corrected,1210,0.026,98.849
+117,8:00000004 9:4e800020 <*> <*>,1129,0.024,98.873
+118,ciod: Error creating node map from file <*> <*> <*>,1056,0.022,98.895
+119,"ciod: Error loading -mode VN: invalid or missing program image, No such file or directory",1024,0.022,98.917
+120,rts: bad message header: expecting type <*> instead of type <*> <*> <*> <*> 00000000) <*> PSR1=00000000 <*> PIXF=00000007,1024,0.022,98.939
+121,ciod: Missing or invalid fields on line 1 of node map file <*>,1024,0.022,98.961
+122,"ciod: Error opening node map file /p/gb2/welcome3/32k_128x256x1_8x4x4.map, No such file or directory",1024,0.022,98.983
+123,ciod: Error loading /p/gb1/light3/sppm_chkpt/sppm: not a CNK program image,1024,0.022,99.005
+124,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/64mps.sequential.mapfile,1024,0.022,99.027
+125,ciod: generated 64 core files for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2,1024,0.022,99.049
+126,iar 003a90fc dear <*>,1023,0.022,99.071
+127,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",1011,0.021,99.092
+128,ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,1007,0.021,99.113
+129,Temperature Over Limit on link card,972,0.021,99.134
+130,8:00000004 9:4e800020 10:3ed4bd98 11:6b26bf88,919,0.019,99.153
+131,ciod: Error opening node map file <*> No such file or directory,912,0.019,99.172
+132,"Node card VPD check: missing <*> node, VPD ecid <*> in processor card slot <*>",879,0.019,99.191
+133,"rts: kernel terminated for reason <*> bad message header: <*> <*> <*> <*> cpu=0, <*> <*>",877,0.019,99.21
+134,<*> ffffffff ffffffff ffffffff,834,0.018,99.228
+135,ciod: LOGIN <*> failed: <*> <*>,816,0.017,99.245
+136,<*> torus sender <*> retransmission error(s) (dcr <*> detected and corrected over <*> seconds,784,0.017,99.262
+137,MidplaneSwitchController performing bit sparing on <*> bit <*>,767,0.016,99.278
+138,Error: unable to mount filesystem,720,0.015,99.293
+139,PrepareForService shutting down <*> <*> <*> <*> <*> <*> as part of Service Action <*>,635,0.013,99.306
+140,rts: bad message header: cpu <*> invalid <*> <*> <*> <*> <*> PSR1=00000000 <*> PIXF=00000007,618,0.013,99.319
+141,Ido chip status changed: <*> <*> <*> <*> status=M <*> <*> <*> <*> <*> 2005,598,0.013,99.332
+142,data <*> plb <*>,592,0.013,99.345
+143,d-cache <*> parity <*>,587,0.012,99.357
+144,CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES,544,0.012,99.369
+145,EndServiceAction is restarting the <*> in midplane <*> as part of Service Action <*>,521,0.011,99.38
+146,ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map: Device or resource busy,512,0.011,99.391
+147,"rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",512,0.011,99.402
+148,"ciod: Error loading /home/glosli/src/ddcMD/ddcMD1.1.14/bin/ddcMDbglV: invalid or missing program image, Exec format error",512,0.011,99.413
+149,ddr: activating redundant bit steering for next allocation: rank=0 <*>,491,0.01,99.423
+150,Missing reverse cable: Cable <*> <*> <*> <*> --> <*> <*> <*> <*> is present BUT the reverse cable <*> <*> <*> <*> --> <*> <*> <*> <*> is missing,472,0.01,99.433
+151,4,458,0.01,99.443
+152,"While initializing <*> card iDo machine with LP of <*> caught java.io.IOException: Could not contact iDo with <*> and <*> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for <*> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",410,0.009,99.452
+153,invalid <*>,407,0.009,99.461
+154,ciod: for node <*> read continuation request but ioState is 0,394,0.008,99.469
+155,ciod: LOGIN <*> failed: Permission denied,360,0.008,99.477
+156,Link PGOOD error latched on link card,349,0.007,99.484
+157,LinkCard power module U58 is not accessible,319,0.007,99.491
+158,job <*> timed out. Block freed.,305,0.006,99.497
+159,ddr: Suppressing further CE interrupts,302,0.006,99.503
+160,i-cache parity error..............0,296,0.006,99.509
+161,instruction plb <*>,291,0.006,99.515
+162,imprecise machine <*>,288,0.006,99.521
+163,capture first <*> <*> error address..0,281,0.006,99.527
+164,<*> torus <*> <*> <*> error(s) (dcr <*> detected and corrected over <*> seconds,264,0.006,99.533
+165,ciod: Unexpected eof at line 8193 of node map file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map,256,0.005,99.538
+166,ciod: Error creating node map from file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map: No child processes,256,0.005,99.543
+167,tlb <*>,251,0.005,99.548
+168,LinkCard is not fully functional,248,0.005,99.553
+169,machine check status register: <*>,245,0.005,99.558
+170,summary...........................1,244,0.005,99.563
+171,0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,240,0.005,99.568
+172,2,239,0.005,99.573
+173,rts: bad message header: index 0 greater than total 0 <*> <*> 00000000 00000000) <*> PSR1=00000000 <*> PIXF=00000007,230,0.005,99.578
+174,NodeCard power module <*> is not accessible,229,0.005,99.583
+175,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,227,0.005,99.588
+176,Bad cable going into LinkCard <*> Jtag <*> Port <*> - <*> bad wires,224,0.005,99.593
+177,round toward <*>,203,0.004,99.597
+178,invalid operation exception <*>,203,0.004,99.601
+179,"NFS Mount failed on <*> slept <*> seconds, retrying (1)",202,0.004,99.605
+180,"While initializing service card iDo with LP of <*> caught java.io.IOException: Could not contact iDo with <*> and <*> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for <*> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",196,0.004,99.609
+181,"ddr: Unable to steer rank=0, <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable error threshold, consider replacing the card",194,0.004,99.613
+182,MidplaneSwitchController performing bit sparing on <*> bit 3,192,0.004,99.617
+183,Power deactivated: <*>,191,0.004,99.621
+184,start <*>,191,0.004,99.625
+185,floating pt ex mode <*> enable......0,189,0.004,99.629
+186,memory manager <*> <*> <*>,187,0.004,99.633
+187,memory manager <*> <*>,187,0.004,99.637
+188,monitor caught java.lang.IllegalStateException: while executing <*> Operation caught java.net.SocketException: Broken pipe and is stopping,186,0.004,99.641
+189,"Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",171,0.004,99.645
+190,MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed,168,0.004,99.649
+191,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> <*> <*> <*>,165,0.004,99.653
+192,EndServiceAction <*> performed upon <*> by <*>,161,0.003,99.656
+193,MidplaneSwitchController::receiveTrain() iap failed: <*> <*> ec000000,160,0.003,99.659
+194,PrepareForService is being done on this Midplane <*> mCardSernum( <*> by <*>,157,0.003,99.662
+195,ciod: In packet from node <*> <*> message code 2 is not 3 or 4294967295 <*> 00030000 00000001 00000000),153,0.003,99.665
+196,floating point instr. <*>,149,0.003,99.668
+197,floating point <*> <*>,146,0.003,99.671
+198,<*> ffffffff 00000000 <*>,145,0.003,99.674
+199,prefetch depth for <*> <*>,142,0.003,99.677
+200,L3 <*> <*> register: <*>,141,0.003,99.68
+201,parity error in read queue <*>,140,0.003,99.683
+202,uncorrectable error detected in <*> <*>,139,0.003,99.686
+203,parity error in <*> <*>,139,0.003,99.689
+204,fraction <*>,135,0.003,99.692
+205,0:00000000 <*> 2:1eeeeeee <*>,135,0.003,99.695
+206,plus <*>,135,0.003,99.698
+207,minus <*>,135,0.003,99.701
+208,max=366,130,0.003,99.704
+209,ciodb has been restarted.,129,0.003,99.707
+210,ciod: X coordinate 8 exceeds physical dimension 8 at line 4097 of node map file /p/gb2/draeger/benchmark/dat16k_062205/map16k_bipartyz,128,0.003,99.71
+211,"ciod: Error loading /bgl/apps/hwstab/RAPTOR/temp/raptor: invalid or missing program image, Permission denied",128,0.003,99.713
+212,"Problem communicating with service card, ido chip: 00000000:00000000:00000000:FFF29F15:1F48000D:60EAE0B7. java.io.IOException: Could not find EthernetSwitch on port:address 1:136",125,0.003,99.716
+213,DCR <*> : <*>,118,0.003,99.719
+214,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. THE 2.5 VOLT RAIL IS NOT OK. THE 1.5 VOLT RAIL IS NOT OK.,116,0.002,99.721
+215,<*> max=366,115,0.002,99.723
+216,ciod: LOGIN chdir(/home/bertsch2/src/bgl_hello) failed: Permission denied,112,0.002,99.725
+217,idoproxydb has been started: $Name: <*> $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1,111,0.002,99.727
+218,0x00000000 <*>,108,0.002,99.729
+219,"While initializing node card iDo machine with LP of <*> caught java.io.IOException: Could not contact iDo with <*> and <*> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for <*> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",107,0.002,99.731
+220,shutdown complete,99,0.002,99.733
+221,rts: bad message header: packet index <*> greater than max 366 <*> <*> <*> <*> <*> PSR1=00000000 <*> PIXF=00000007,97,0.002,99.735
+222,critical input interrupt enable...0,95,0.002,99.737
+223,interrupt threshold...0,94,0.002,99.739
+224,number of correctable errors detected in L3 <*>,93,0.002,99.741
+225,uncorrectable error detected in EDRAM bank <*>,93,0.002,99.743
+226,correctable error detected in EDRAM bank <*>,93,0.002,99.745
+227,correctable error detected in directory <*>,93,0.002,99.747
+228,memory manager <*>,93,0.002,99.749
+229,Power Good signal deactivated: <*> A service action may be required.,93,0.002,99.751
+230,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A <*> <*> <*> <*> <*> <*> <*>,90,0.002,99.753
+231,<*> 13:1eeeeeee 14:ffffffff 15:ffffffff,90,0.002,99.755
+232,<*> <*> 30:0000000e 31:000865b0,89,0.002,99.757
+233,lr:0000d9ac <*> xer:00000002 ctr:0000e248,89,0.002,99.759
+234,<*> 25:0000000e 26:000865b0 27:00089ae0,89,0.002,99.761
+235,<*> 9:00000000 10:00090000 11:0000003c,89,0.002,99.763
+236,20:00008000 21:001e7e94 <*> <*>,89,0.002,99.765
+237,8,88,0.002,99.767
+238,4:0000000e 5:000865b0 <*> <*>,88,0.002,99.769
+239,idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source <*> Function=int <*> <*>,82,0.002,99.771
+240,Hardware monitor caught java.net.SocketException: Broken pipe and is stopping,77,0.002,99.773
+241,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> <*> <*>,74,0.002,99.775
+242,ciod: Unexpected eof at line <*> of node map file <*>,72,0.002,99.777
+243,Starting SystemController,71,0.002,99.779
+244,EndServiceAction <*> performed upon <*> by root,71,0.002,99.781
+245,Running as background command,70,0.001,99.782
+246,General Purpose Registers:,69,0.001,99.783
+247,<*> 00000000 <*> 00000000,69,0.001,99.784
+248,enable invalid operation exceptions......0,68,0.001,99.785
+249,enable overflow exceptions...............0,68,0.001,99.786
+250,enable underflow exceptions..............0,68,0.001,99.787
+251,invalid operation exception (int cnvt)...0,68,0.001,99.788
+252,reserved.................................0,68,0.001,99.789
+253,plus denormalized number.................0,68,0.001,99.79
+254,minus denormalized number................0,68,0.001,99.791
+255,quiet NaN................................0,68,0.001,99.792
+256,Special Purpose Registers:,68,0.001,99.793
+257,Floating Point Registers:,68,0.001,99.794
+258,overflow exception.......................0,68,0.001,99.795
+259,enabled exception summary................0,68,0.001,99.796
+260,round nearest............................0,68,0.001,99.797
+261,enable divide-by-zero exceptions.........0,68,0.001,99.798
+262,enable non-IEEE mode.....................0,68,0.001,99.799
+263,enable inexact exceptions................0,68,0.001,99.8
+264,Machine State Register: <*>,66,0.001,99.801
+265,PrepareForService shutting down Node <*> <*> <*> <*> mType(4)) as part of Service Action <*>,64,0.001,99.802
+266,"ciod: Error loading ../homme/build.Linux/preqx -n 1800: invalid or missing program image, No such file or directory",64,0.001,99.803
+267,Core Configuration Register 0: <*>,64,0.001,99.804
+268,<*> <*> 00000000 00000000,64,0.001,99.805
+269,Floating Point Status and Control Register: <*>,63,0.001,99.806
+270,dbcr0=0x00000000 dbsr=0x00000000 <*>,63,0.001,99.807
+271,exception <*>,63,0.001,99.808
+272,divide-by-zero <*>,63,0.001,99.809
+273,inexact <*>,63,0.001,99.81
+274,plus normalized <*>,63,0.001,99.811
+275,rts: bad message header: expecting type <*> instead of type <*> <*> <*> 00000001 00000000) <*> PSR1=00000000 <*> PIXF=00000007,63,0.001,99.812
+276,NodeCard is not fully functional,60,0.001,99.813
+277,BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y,59,0.001,99.814
+278,machine check interrupt <*> <*> <*> <*> error,59,0.001,99.815
+279,<*> Message=Invalid JtagId = ffffffff,59,0.001,99.816
+280,16:00000000 17:00000000 <*> <*>,58,0.001,99.817
+281,rts: bad message header: expecting type 53 instead of type <*> <*> <*> 00000001 00000000) <*> PSR1=00000000 <*> PIXF=00000007,58,0.001,99.818
+282,"external input interrupt (unit=0x01 bit=0x09): number of corrected SRAM errors has exceeded threshold, suppressing further interrupts of same type",57,0.001,99.819
+283,16:00000000 17:00089b10 18:001e7ea0 19:00000001,55,0.001,99.82
+284,Machine Check Status Register: <*>,53,0.001,99.821
+285,mmcs_db_server has been started: <*> --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all,52,0.001,99.822
+286,<*> IpAddress(0.0.0.0) Status(A),51,0.001,99.823
+287,PrepareForService is being done on this part <*> <*> <*> <*> <*> by <*>,51,0.001,99.824
+288,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C <*> <*> <*> <*> <*>,50,0.001,99.825
+289,Controlling BG/L rows [ 0 1 2 3 4 5 6 7 ],50,0.001,99.826
+290,PrepareForService is being done on this part <*> <*> <*> <*> mType(4)) by <*>,50,0.001,99.827
+291,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD is OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,49,0.001,99.828
+292,machine check interrupt (bit=0x1d): L2 dcache unit data parity error,49,0.001,99.829
+293,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. THE 2.5 VOLT RAIL IS NOT OK. THE 1.5 VOLT RAIL IS NOT OK.,49,0.001,99.83
+294,disable write lines 2:4..................0,48,0.001,99.831
+295,max number of outstanding prefetches.....7,48,0.001,99.832
+296,size of DDR we are caching...............1 (512M),48,0.001,99.833
+297,disable all access to cache directory....0,48,0.001,99.834
+298,size of scratchpad portion of L3.........0 (0M),48,0.001,99.835
+299,close EDRAM pages as soon as possible....0,48,0.001,99.836
+300,disable speculative access...............0,48,0.001,99.837
+301,Missing reverse cable: Cable <*> <*> F <*> --> <*> <*> C <*> is present BUT the reverse cable <*> <*> F <*> --> <*> <*> C <*> is missing,48,0.001,99.838
+302,PrepareForService is being done on this Midplane <*> <*> <*> by <*>,48,0.001,99.839
+303,turn on hidden refreshes.................1,48,0.001,99.84
+304,write buffer commit threshold............2,48,0.001,99.841
+305,state machine....................................0,47,0.001,99.842
+306,memory manager / command manager address parity..0,47,0.001,99.843
+307,regctl scancom interface.........................0,47,0.001,99.844
+308,command manager unit summary.....................0,47,0.001,99.845
+309,memory and bus summary...........................0,47,0.001,99.846
+310,miscompare............0,47,0.001,99.847
+311,address parity error..0,47,0.001,99.848
+312,qw trapped............0,47,0.001,99.849
+313,core configuration register: <*>,47,0.001,99.85
+314,disable flagging of DDR UE's as major internal error.0,47,0.001,99.851
+315,chip select...........0,47,0.001,99.852
+316,uncorrectable <*>,46,0.001,99.853
+317,EndServiceAction is restarting the <*> cards in Midplane <*> as part of Service Action <*>,46,0.001,99.854
+318,correctable <*>,46,0.001,99.855
+319,DDR failing data registers: <*> <*>,45,0.001,99.856
+320,tlb error.........................0,45,0.001,99.857
+321,DDR failing address register: <*> <*>,44,0.001,99.858
+322,capture <*>,44,0.001,99.859
+323,PrepareForService is being done on this Midplane <*> mCardSernum( <*> by root,43,0.001,99.86
+324,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C <*> <*> <*> <*> <*>,42,0.001,99.861
+325,number of lines with parity errors written to L3 EDRAMs...0,42,0.001,99.862
+326,idoproxy communication failure: socket closed,41,0.001,99.863
+327,"Problem communicating with service card, ido chip: <*> java.io.IOException: Could not find EthernetSwitch on port:address 1:136",41,0.001,99.864
+328,"ddr: excessive soft failures, consider replacing the card",41,0.001,99.865
+329,symbol................0,41,0.001,99.866
+330,mask..................0x00,41,0.001,99.867
+331,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> <*> <*> <*> <*>,41,0.001,99.868
+332,DDR machine check register: 0x00000000 <*>,40,0.001,99.869
+333,external input interrupt (unit=0x01 bit=0x09): number of corrected SRAM errors has exceeded threshold,39,0.001,99.87
+334,<*> <*> xer:00000002 ctr:00000000,38,0.001,99.871
+335,minus normalized number..................0,38,0.001,99.872
+336,underflow exception......................0,37,0.001,99.873
+337,ciod: for node <*> incomplete data written to core file <*>,37,0.001,99.874
+338,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout <*>,37,0.001,99.875
+339,"Error getting detailed hw info for node, caught java.io.IOException: Problems with the chip, could not <*> <*> <*>",34,0.001,99.876
+340,"ciod: Error loading /p/gb2/stella/RAPTOR/65641/raptor: invalid or missing program image, No such file or directory",32,0.001,99.877
+341,msr=0x00003000 <*> esr=0x00000000 <*>,32,0.001,99.878
+342,BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties,31,0.001,99.879
+343,<*> 00000000 00000000 <*>,31,0.001,99.88
+344,underflow <*>,31,0.001,99.881
+345,minus normalized <*>,30,0.001,99.882
+346,20:00000009 21:ffffffff 22:00000008 <*>,30,0.001,99.883
+347,<*> 17:00000000 18:001e7ea0 19:ffffffff,30,0.001,99.884
+348,PrepareForService is being done on this part <*> <*> <*> <*> mType(4)) by root,29,0.001,99.885
+349,<*> <*> <*> error(s) (dcr <*> detected and corrected over <*> seconds,29,0.001,99.886
+350,"Found invalid node ecid in processor card slot J02, ecid 0000000000000000000000000000",28,0.001,99.887
+351,fpr16=0xffffffff ffffffff <*> <*>,28,0.001,99.888
+352,fpr15=0xffffffff ffffffff <*> <*>,27,0.001,99.889
+353,"rts: kernel terminated for reason 1002rts: bad message header: too many packets, <*> cpu=0, <*> <*> <*>",27,0.001,99.89
+354,fpr3=0x00000000 00000000 <*> <*>,27,0.001,99.891
+355,DDR failing info register: DDR Fail Info Register: <*>,26,0.001,99.892
+356,28:000894a4 <*> <*> 31:b0000040,26,0.001,99.893
+357,<*> <*> xer=0x20000002 ctr=0x00000000,26,0.001,99.894
+358,r16=0x00000000 r17=0x00000000 r18=0x00000000 r19=0x00000000,25,0.001,99.895
+359,r20=0x00000000 r21=0x00000000 r22=0x00000000 r23=0x00000000,25,0.001,99.896
+360,ciod: Error creating node map from file my_map.txt: No such file or directory,24,0.001,99.897
+361,0:60000000 1:00088690 2:1eeeeeee 3:00088780,24,0.001,99.898
+362,4:00088770 5:00088760 6:00088750 7:000886b0,24,0.001,99.899
+363,8:00088740 9:00088730 10:00088720 11:00088710,24,0.001,99.9
+364,<*> <*> 18:00088804 19:00089b08,24,0.001,99.901
+365,MidplaneSwitchController::sendTrain() port disconnected: R07-M1-L1-U19-E,24,0.001,99.902
+366,24:00000000 <*> 26:00000001 <*>,24,0.001,99.903
+367,"error threshold, consider replacing the card",23,0.0,99.903
+368,<*> <*> xer:20000002 ctr:00000000,23,0.0,99.903
+369,ciodb exited abnormally due to signal: Aborted,23,0.0,99.903
+370,ciod: In packet from node <*> <*> message code 2 is not 3 or 4294967295 <*> <*> 00000001 00000000),22,0.0,99.903
+371,<*> ffffffff 33333333 <*>,22,0.0,99.903
+372,<*> r13=0x1eeeeeee r14=0xffffffff r15=0xffffffff,22,0.0,99.903
+373,this link card is not fully functional,22,0.0,99.903
+374,"rror threshold, consider replacing the card",22,0.0,99.903
+375,PrepareForService is being done on this rack <*> by root,22,0.0,99.903
+376,fpr17=0xffffffff ffffffff <*> <*>,21,0.0,99.903
+377,machine check interrupt <*> L2 dcache unit <*> <*> parity error,21,0.0,99.903
+378,<*> correctable errors exceeds threshold (iar <*> lr <*>,20,0.0,99.903
+379,12:00088700 13:1eeeeeee <*> <*>,20,0.0,99.903
+380,Controlling BG/L rows [ 0 1 2 3 ],20,0.0,99.903
+381,"ddr: Unable to steer rank=0, symbol=0 - rank is already steering symbol 2. Due to multiple symbols being over the correctable e",20,0.0,99.903
+382,r24=0x00000000 r25=0xffffc000 <*> <*>,20,0.0,99.903
+383,fpr18=0xffffffff ffffffff <*> <*>,20,0.0,99.903
+384,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties <*> --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout <*>,20,0.0,99.903
+385,<*> r09=0x00070000 r10=0x000000e0 r11=0x0008885c,19,0.0,99.903
+386,fpr14=0xffffffff ffffffff <*> <*>,19,0.0,99.903
+387,r00=0x00003000 r01=0x00088850 r02=0x1eeeeeee <*>,19,0.0,99.903
+388,r28=0xffffc0c8 <*> <*> r31=0x0008db74,19,0.0,99.903
+389,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120 --shutdown-timeout 240,18,0.0,99.903
+390,fpr27=0xffffffff ffffffff <*> <*>,18,0.0,99.903
+391,fpr20=0xffffffff ffffffff <*> <*>,18,0.0,99.903
+392,kernel panic,18,0.0,99.903
+393,fpr19=0xffffffff ffffffff <*> <*>,18,0.0,99.903
+394,<*> ffffffff d6ab5368 <*>,17,0.0,99.903
+395,fpr1=0x00000000 00000000 <*> <*>,17,0.0,99.903
+396,DDR failing info register: <*>,17,0.0,99.903
+397,fpr11=0x00000000 00000000 <*> <*>,17,0.0,99.903
+398,fpr21=0xffffffff ffffffff <*> <*>,17,0.0,99.903
+399,fpr28=0xffffffff ffffffff <*> <*>,17,0.0,99.903
+400,r00=0x00000000 <*> r02=0x1eeeeeee <*>,17,0.0,99.903
+401,ciod: X coordinate 8 exceeds physical dimension 8 at line <*> of node map file <*>,16,0.0,99.903
+402,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C X+ <*> Y- Z+ Z-,16,0.0,99.903
+403,fpr24=0xffffffff ffffffff <*> <*>,16,0.0,99.903
+404,floating point <*>,16,0.0,99.903
+405,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C <*> <*> <*> <*>,16,0.0,99.903
+406,"ciod: Error loading <*> invalid or missing program image, <*> <*> <*>",16,0.0,99.903
+407,<*> L3 EDRAM error(s) (dcr 0x0157) detected and corrected,16,0.0,99.903
+408,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C <*> <*> <*> Z+ Z-,16,0.0,99.903
+409,fpr2=0x00000000 00000000 <*> <*>,15,0.0,99.903
+410,EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>,15,0.0,99.903
+411,rts: bad message header: packet index <*> greater than max 366 (softheader=00000000 <*> <*> <*> <*> PSR1=00000000 <*> PIXF=00000007,15,0.0,99.903
+412,fpr25=0xffffffff ffffffff <*> <*>,15,0.0,99.903
+413,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 30,15,0.0,99.903
+414,PrepareForService shutting down Node <*> <*> <*> <*> mType(4)) as part of Service Action 581,15,0.0,99.903
+415,0,14,0.0,99.903
+416,no ethernet link,14,0.0,99.903
+417,MailboxMonitor::serviceMailboxes() lib_ido_error: -1033 BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card,14,0.0,99.903
+418,fpr29=0xffffffff ffffffff <*> <*>,14,0.0,99.903
+419,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",13,0.0,99.903
+420,44,13,0.0,99.903
+421,ax=366,13,0.0,99.903
+422,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> Y- Z+ Z-,12,0.0,99.903
+423,fpr26=0xffffffff ffffffff <*> <*>,12,0.0,99.903
+424,24:00000000 <*> <*> 27:00000000,12,0.0,99.903
+425,fpr30=0xffffffff ffffffff <*> <*>,12,0.0,99.903
+426,fpr23=0xffffffff ffffffff <*> <*>,12,0.0,99.903
+427,msr=0x0002f900 <*> esr=0x00000000 <*>,12,0.0,99.903
+428,"Problem communicating with <*> <*> iDo machine with LP of <*> caught java.lang.IllegalStateException: while executing <*> Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 13 and card type <*> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = <*> Actual Sync Reply = -1)",12,0.0,99.903
+429,r04=0xffff3474 <*> <*> r07=0x00030000,12,0.0,99.903
+430,<*> <*> 2:1eeeeeee 3:00000000,12,0.0,99.903
+431,24:00082d90 <*> <*> 27:00040000,11,0.0,99.903
+432,<*> 9:00000028 10:ffffffe8 <*>,11,0.0,99.903
+433,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> <*> Z+ Z-,11,0.0,99.903
+434,<*> L3 EDRAM error(s) (dcr 0x0157) detected and corrected over <*> seconds,11,0.0,99.903
+435,<*> 25:000277ec 26:00000002 <*>,11,0.0,99.903
+436,20,11,0.0,99.903
+437,<*> 00000000 00000000 00000000,11,0.0,99.903
+438,mmcs_server exited abnormally due to signal: Aborted,11,0.0,99.903
+439,PrepareForService shutting down <*> <*> <*> <*> mType(4)) as part of Service Action <*>,11,0.0,99.903
+440,"ddr: Unable to steer rank=0, <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable",11,0.0,99.903
+441,DCR <*> : 0x00000000,11,0.0,99.903
+442,28:ffffc0c8 <*> <*> 31:000894a8,10,0.0,99.903
+443,"ddr: Unable to steer rank=0, <*> - rank is already steering symbol <*> Due to multiple symbols being over the <*>",10,0.0,99.903
+444,MidplaneSwitchController::parityAlignment() pap failed: <*> <*> <*>,10,0.0,99.903
+445,external input interrupt (unit=0x02 bit=0x00): uncorrectable torus error,10,0.0,99.903
+446,Torus non-recoverable error DCRs follow.,10,0.0,99.903
+447,r00=0xfffffff4 r01=0x00085fa0 r02=0x1eeeeeee r03=0x00000000,10,0.0,99.903
+448,r04=0x00000010 r05=0x00000010 r06=0x000865b0 r07=0x00007d41,10,0.0,99.903
+449,r08=0x00009cc4 r09=0x0012c914 r10=0x0028938c r11=0x0009c914,10,0.0,99.903
+450,r24=0x1ffaa670 r25=0x00000008 r26=0x000865b0 r27=0x0008e5c8,10,0.0,99.903
+451,r28=0x00000010 r29=0x00007d41 r30=0x00000000 r31=0x000865b0,10,0.0,99.903
+452,fpr12=0x10055974 7ffff950 30019020 1000d0e4,10,0.0,99.903
+453,NodeCard VPD is corrupt,10,0.0,99.903
+454,fpr10=0x10045620 7ffff940 00000001 00000000,10,0.0,99.903
+455,fpr10=0x00000000 00000000 <*> <*>,9,0.0,99.903
+456,6,9,0.0,99.903
+457,msr=0x0002f900 dear=0x00000000 esr=0x00000000 fpscr=0x86004000,9,0.0,99.903
+458,8:0000e0c0 9:00070000 10:000000e0 11:0008885c,9,0.0,99.903
+459,0:00003000 1:00088850 2:1eeeeeee 3:0000e0c0,9,0.0,99.903
+460,<*> <*> r22=0x1ff8a678 r23=0x1ffaa670,9,0.0,99.903
+461,fpr2=0x00000000 00000001 00340000 <*>,9,0.0,99.903
+462,fpr8=0x7ffff8c0 100cfaf0 00000000 <*>,9,0.0,99.903
+463,<*> 29:000000e3 <*> 31:00000001,9,0.0,99.903
+464,fpr22=0xffffffff ffffffff <*> <*>,9,0.0,99.903
+465,fpr27=0xffffffff ffffffff 211a6973 3eda90b7,9,0.0,99.903
+466,fpr25=0xffffffff ffffffff aa82f4e3 3f36fdae,9,0.0,99.903
+467,fpr17=0xffffffff ffffffff b9c5f097 3feff9db,9,0.0,99.903
+468,<*> <*> 30:00089cd0 31:000894a8,9,0.0,99.903
+469,fpr4=0x10055620 <*> 10055620 10045620,9,0.0,99.903
+470,"Expected 10 active FanModules, but found 9 ( Found J300 J301 J302 J303 J304 <*> <*> <*> <*> ).",9,0.0,99.903
+471,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C <*> <*> Y- Z+ Z-,9,0.0,99.903
+472,fpr18=0xffffffff ffffffff 80000000 c3300000,9,0.0,99.903
+473,fpr24=0xffffffff ffffffff bc6a7efa bf489374,9,0.0,99.903
+474,fpr14=0xffffffff ffffffff c200fd1c 3f5fd606,9,0.0,99.903
+475,VALIDATE_LOAD_IMAGE_CRC_IN_DRAM,8,0.0,99.903
+476,ciod: generated 64 core files for program <*>,8,0.0,99.903
+477,fpr9=0x00000000 00000000 <*> <*>,8,0.0,99.903
+478,mmcs_server exited normally with exit code <*>,8,0.0,99.903
+479,ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map: Permission denied,8,0.0,99.903
+480,r20=0x40000000 r21=0x40000000 r22=0xffffd000 r23=0x0ffea5c8,8,0.0,99.903
+481,While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,8,0.0,99.903
+482,<*> 9:00000001 10:1fe00000 <*>,8,0.0,99.903
+483,While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,8,0.0,99.903
+484,"While initializing node card, ido with LP of <*> caught java.lang.IllegalStateException: while executing <*> Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 13 and card type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = <*> Actual Sync Reply = -1)",8,0.0,99.903
+485,r28=0x004c9870 r29=0xd0001080 r30=0x00000078 r31=0x00000000,8,0.0,99.903
+486,While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,8,0.0,99.903
+487,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C X+ X- Y- Z+ Z-,8,0.0,99.903
+488,While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,8,0.0,99.903
+489,fpr12=0x00000000 00000000 <*> <*>,8,0.0,99.903
+490,16,8,0.0,99.903
+491,r08=0x00ed4920 r09=0x00000000 r10=0x003b0000 r11=0x00ed4920,8,0.0,99.903
+492,"While initializing node card, ido with LP of <*> caught java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",8,0.0,99.903
+493,"ciod: Error loading /home/spelce1/SPPM_VERIFY/sppm/run/sppm: program image too big, 746264160 > 534511616",8,0.0,99.903
+494,ciod: Error creating node map from file <*> <*> <*> <*> <*>,8,0.0,99.903
+495,r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000,8,0.0,99.903
+496,fpr6=0x00000000 <*> 10024348 7ffff930,8,0.0,99.903
+497,While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe,8,0.0,99.903
+498,fpr8=0x00000000 00000000 <*> <*>,7,0.0,99.903
+499,fpr5=0x00000000 00000000 <*> <*>,7,0.0,99.903
+500,fpr6=0x00000000 00000000 <*> <*>,7,0.0,99.903
+501,r12=0x00398958 r13=0x1eeeeeee r14=0x00000000 <*>,7,0.0,99.903
+502,While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,7,0.0,99.903
+503,While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,7,0.0,99.903
+504,<*> 9:00000002 10:0fe00000 <*>,7,0.0,99.903
+505,4:00021328 5:00021494 6:000000b8 <*>,7,0.0,99.903
+506,fpr1=0x10055620 <*> 10045620 <*>,7,0.0,99.903
+507,fpr0=0x10055620 00000000 <*> 7ffff980,7,0.0,99.903
+508,lr=0x0000fa34 <*> xer=0x00000002 ctr=0x00021ecc,7,0.0,99.903
+509,4:ffff45dc <*> 6:0002a828 7:00030000,7,0.0,99.903
+510,lr:0000a4c0 <*> xer:20000002 <*>,7,0.0,99.903
+511,<*> <*> 00000000 c01c0000,7,0.0,99.903
+512,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> <*>,7,0.0,99.903
+513,<*> <*> 00000000 401c0000,7,0.0,99.903
+514,<*> 13:1eeeeeee 14:00000000 <*>,7,0.0,99.903
+515,instruction plb error.............0,7,0.0,99.903
+516,"Node card VPD check: missing <*> node, VPD ecid <*> in processor card slot J18",7,0.0,99.903
+517,PrepareForService is being done on this rack <*> by <*>,7,0.0,99.903
+518,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C <*> <*> Y- Z+ Z-,7,0.0,99.903
+519,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all,7,0.0,99.903
+520,DDR machine check register: 0x00000000 0x00010000,7,0.0,99.903
+521,lr:0000a2f0 <*> xer:20000002 <*>,6,0.0,99.903
+522,0:00000010 <*> 2:1eeeeeee 3:00000050,6,0.0,99.903
+523,24:00000000 25:00000008 <*> <*>,6,0.0,99.903
+524,r04=0x00000000 <*> r06=0x0029fcac <*>,6,0.0,99.903
+525,msr=0x0002f900 dear=0x00000000 esr=0x00000000 <*>,6,0.0,99.903
+526,12:00000000 13:1eeeeeee <*> <*>,6,0.0,99.903
+527,fpr0=0x00000000 00000000 <*> <*>,6,0.0,99.903
+528,fpr31=0xffffffff ffffffff <*> <*>,6,0.0,99.903
+529,<*> 9:00000400 <*> 11:c0018000,6,0.0,99.903
+530,24:1fefff40 <*> 26:000c65b0 <*>,6,0.0,99.903
+531,4:000c5fd8 5:000c65b0 <*> <*>,6,0.0,99.903
+532,No power module U58 found found on link card,6,0.0,99.903
+533,BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init,6,0.0,99.903
+534,8:00088720 9:00088710 10:00088700 11:000886f0,6,0.0,99.903
+535,4:00088750 5:00088740 <*> <*>,6,0.0,99.903
+536,48,6,0.0,99.903
+537,"MidplaneSwitchController::receiveTrain() iap failed: R72-M1-L1-U18-A, status=beeaabff ec000000",6,0.0,99.903
+538,4:00021108 5:00021274 6:000000b8 <*>,6,0.0,99.903
+539,ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to <*> Link has been severed,5,0.0,99.903
+540,20:00000001 21:4c00010d 22:00000800 23:1feaa460,5,0.0,99.903
+541,number of lines with parity errors written to L3 <*>,5,0.0,99.903
+542,While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,5,0.0,99.903
+543,Core Configuration Register 0: 0x00002000,5,0.0,99.903
+544,Floating Point Status and Control Register: 0x00000000,5,0.0,99.903
+545,exception summary........................0,5,0.0,99.903
+546,While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,5,0.0,99.903
+547,inexact exception........................0,5,0.0,99.903
+548,plus normalized number...................0,5,0.0,99.903
+549,<*> 1:00088670 2:1eeeeeee 3:00088760,5,0.0,99.903
+550,divide-by-zero exception.................0,5,0.0,99.903
+551,16:84000000 17:00000000 <*> <*>,5,0.0,99.903
+552,dbcr0=0x00000000 dbsr=0x00000000 ccr0=0x00002000,5,0.0,99.903
+553,L3 correctable errors exceeds threshold (iar <*> lr <*>,5,0.0,99.903
+554,MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3,5,0.0,99.903
+555,gister: machine state register: machine state register: machine state register: machine state register: machine state register:,5,0.0,99.903
+556,state register: machine state register: machine state register: machine state register: machine state register: machine state re,5,0.0,99.903
+557,4:ffffffe0 <*> <*> 7:00000018,5,0.0,99.903
+558,rts: bad message header: index 0 greater than total 0 (softheader=00000002 00000001 00000000 00000000) <*> PSR1=00000000 <*> PIXF=00000007,5,0.0,99.903
+559,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> <*> <*> <*>,5,0.0,99.903
+560,"Error sending packet on tree network, packet at address 00088480 is not aligned",5,0.0,99.903
+561,BglIdoChip table has 2 IDOs with the same IP address <*>,5,0.0,99.903
+562,machine state register: machine state register: machine state register: machine state register: machine state register: machine,5,0.0,99.903
+563,monitor caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe and is stopping,4,0.0,99.903
+564,EndServiceAction is restarting the Node cards in Midplane <*> as part of Service Action <*>,4,0.0,99.903
+565,28:000894a4 29:00000001 30:00088680 31:b0000040,4,0.0,99.903
+566,lr:0000efe8 <*> xer:20000002 <*>,4,0.0,99.903
+567,Hardware monitor caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe and is stopping,4,0.0,99.903
+568,Local PGOOD error latched on link card,4,0.0,99.903
+569,"ciod: Received signal 15, code=0, errno=0, address=0x000001b0",4,0.0,99.903
+570,r12=0x48242488 r13=0x1eeeeeee <*> <*>,4,0.0,99.903
+571,Bad cable going into LinkCard <*> Jtag <*> Port (C) - <*> bad wires,4,0.0,99.903
+572,28:000c8818 29:00070000 30:000c9cd0 31:000c94a8,4,0.0,99.903
+573,instance of a correctable ddr. RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,4,0.0,99.903
+574,ciod: LOGIN chdir(/p/gb2/draeger/benchmark/dat32k_060205) failed: No such file or directory,4,0.0,99.903
+575,Ido chip status changed: <*> <*> <*> t=4 status=M <*> Jun <*> <*> PDT 2005,4,0.0,99.903
+576,mmcs_db_server has been started: <*> --useDatabase BGL --dbproperties <*> --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all,4,0.0,99.903
+577,"Problem communicating with node card, iDo machine with LP of <*> caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 13 and card type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = 32, Actual Sync Reply = -1)",4,0.0,99.903
+578,"Problem communicating with node card, iDo machine with LP of <*> caught java.lang.IllegalStateException: while executing <*> Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 13 and card type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = <*> Actual Sync Reply = -1)",4,0.0,99.903
+579,NodeCard temperature sensor chip <*> is not accessible,4,0.0,99.903
+580,Target=ido://FF:F2:9F:16:E8:1A:00:0D:60:E9:17:E5/JTAG/0 Message=Invalid JtagId = ffffffff,4,0.0,99.903
+581,"Target=ido://FF:F2:9F:16:E6:04:00:0D:60:E9:19:FB/JTAG/0 Message=JtagId All all zeros, power good may be low",4,0.0,99.903
+582,"Problem communicating with service card, ido chip: <*> java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",4,0.0,99.903
+583,"com.ibm.bgldevices.BulkPowerModule with VPD of com.ibm.bgldevices.BulkPowerModule$VpdReply: IBM Part Number: 53P5763, Vendor: Cherokee International, Vendor Serial Number: 4274124, Assembly Revision:  .A, Code Revision: B.1, Manufacture Date: during week 27 of 2004, Manufacture Location: Tustin, CA, USA is usable but not a supported version",4,0.0,99.903
+584,1 torus sender <*> retransmission error(s) (dcr <*> detected and corrected,4,0.0,99.903
+585,PrepareForService is being done on this <*> <*> <*> <*> mType(4)) by root,4,0.0,99.903
+586,fpr13=0x00000000 <*> 00000000 <*>,4,0.0,99.903
+587,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=37122, cpu=16, index=741627986, total=269102320",4,0.0,99.903
+588,lr=0x0029fcac <*> xer=0x20000002 ctr=0x002701f8,4,0.0,99.903
+589,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> Z+ Z-,4,0.0,99.903
+590,<*> 9:ffffffff 10:00000000 11:00000000,4,0.0,99.903
+591,24:1fefff40 <*> 26:1fefff60 <*>,4,0.0,99.903
+592,fpr0=0x00000000 <*> <*> 7fffffff,3,0.0,99.903
+593,<*> 13:1eeeeeee 14:00240000 <*>,3,0.0,99.903
+594,DDR failing info register: DDR Fail Info Register: 0x00000000,3,0.0,99.903
+595,r00=0x00003000 r01=0x00088850 r02=0x1eeeeeee r03=0x0000ef18,3,0.0,99.903
+596,r04=0xffff348c r05=0x33300300 r06=0x0002e924 r07=0x00030000,3,0.0,99.903
+597,r08=0x0000ef18 r09=0x00070000 r10=0x000000e0 r11=0x0008885c,3,0.0,99.903
+598,r12=0x42000024 r13=0x1eeeeeee r14=0xffffffff r15=0xffffffff,3,0.0,99.903
+599,r04=0xffff3470 r05=0x33333300 r06=0x0002ea00 r07=0x00030000,3,0.0,99.903
+600,r24=0x00000000 r25=0xffffc000 r26=0x00000000 r27=0x00000000,3,0.0,99.903
+601,mmcs_server exited abnormally due to signal: Segmentation fault,3,0.0,99.903
+602,r28=0xffffc0c8 r29=0x0000013f r30=0x0000013f r31=0x0008db74,3,0.0,99.903
+603,8:000000c0 9:00000080 10:00000020 11:000000a0,3,0.0,99.903
+604,lr=0x00000474 cr=0x42000024 xer=0x20000002 ctr=0x00000000,3,0.0,99.903
+605,L3 major internal error,3,0.0,99.903
+606,Machine State Register: 0x00003000,3,0.0,99.903
+607,12:00002280 13:1eeeeeee 14:00000018 15:00000016,3,0.0,99.903
+608,fpr1=0x10055620 00000001 10045620 0800081d,3,0.0,99.903
+609,"ddr: Unable to steer rank=0, symbol=5 - rank is already steering symbol 4. Due to multiple symbols being over the correctable error threshold, consider replacing the card",3,0.0,99.903
+610,fpr0=0x10055620 00000000 00094fa5 7ffff980,3,0.0,99.903
+611,lr=0x0000fa34 cr=0x48244488 xer=0x00000002 ctr=0x00021ecc,3,0.0,99.903
+612,rts tree/torus link training failed: wanted: A <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Y- Z+,3,0.0,99.903
+613,rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> C <*> <*> <*> Z+ Z-,3,0.0,99.903
+614,24:000c2d90 <*> 26:fffffff4 27:00055950,3,0.0,99.903
+615,power module status fault detected on node card. status registers are: <*>,3,0.0,99.903
+616,Machine Check Status Register: 0xa0800000,3,0.0,99.903
+617,While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,3,0.0,99.903
+618,<*> 13:1eeeeeee 14:40000000 15:40000000,3,0.0,99.903
+619,0:00000010 1:0fea03f0 2:1eeeeeee 3:00000050,3,0.0,99.903
+620,r12=0x48242484 r13=0x1eeeeeee <*> <*>,3,0.0,99.903
+621,BglIdoChip table has <*> IDOs with the same IP address <*>,3,0.0,99.903
+622,<*> 0x00000000,3,0.0,99.903
+623,Bad cable going into LinkCard <*> Jtag <*> Port (C) - 1 bad wires,3,0.0,99.903
+624,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. THE 1.5 VOLT RAIL IS NOT OK.,3,0.0,99.903
+625,"Problem reading the ethernet arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 9 and card type 2] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = <*> timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = <*> Expected Sync Command = 32, Actual Sync Reply = <*>",3,0.0,99.903
+626,"max time in a cr RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",3,0.0,99.903
+627,While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe,3,0.0,99.903
+628,<*> IpAddress(10.0.0.237) Status(A),3,0.0,99.903
+629,<*> <*> 00000000 80000000,3,0.0,99.903
+630,<*> IpAddress(10.0.1.12) Status(A),3,0.0,99.903
+631,<*> IpAddress(10.0.1.8) Status(A),3,0.0,99.903
+632,20:00000009 21:ffffffff 22:00000008 23:00000000,3,0.0,99.903
+633,8:1feaa410 9:00000040 10:fff9d8b0 11:b1140400,3,0.0,99.903
+634,24:00082d90 25:00000001 26:00089ae0 27:00040000,3,0.0,99.903
+635,28:ffffca68 29:00000000 30:000894a4 31:ffffca68,3,0.0,99.903
+636,<*> 5:00460000 6:00000000 <*>,3,0.0,99.903
+637,4:1feaa3a8 5:00000010 6:00000046 7:00000010,3,0.0,99.903
+638,4:ffff4854 5:80000000 6:00029bf0 7:00030000,3,0.0,99.903
+639,8:1ff00000 9:00000001 10:000d0000 11:000d0000,3,0.0,99.903
+640,Ido chip status changed: <*> <*> <*> t=4 status=M <*> <*> <*> <*> PDT 2005,3,0.0,99.903
+641,4:00085fd8 5:000865b0 <*> <*>,3,0.0,99.903
+642,Exception Syndrome Register: <*>,3,0.0,99.903
+643,<*> <*> xer:20000002 ctr:00000002,3,0.0,99.903
+644,<*> 9:00000002 10:0fe00000 11:00090000,3,0.0,99.903
+645,24:00000001 25:000277ec 26:00000002 27:00006102,3,0.0,99.903
+646,"ddr: Unable to steer rank=0, symbol=12 - rank is already steering symbol 14. Due to multiple symbols being over the correctable",3,0.0,99.903
+647,lr:0015435c cr:44002442 xer:00000002 ctr:00000018,3,0.0,99.903
+648,idoproxydb has been started: $Name: DRV142_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1,3,0.0,99.903
+649,capture valid.........1,3,0.0,99.903
+650,20:00000000 21:00000001 22:00085e70 23:00085fd8,3,0.0,99.903
+651,ciod: sendMsgToDebugger: error sending PROGRAM_EXITED message to debugger.,3,0.0,99.903
+652,msr=0x00003000 dear=0x00000000 esr=0x00000000 fpscr=0x00000000,3,0.0,99.903
+653,<*> 5:00000000 <*> 7:00000000,2,0.0,99.903
+654,rts: bad message header: index 0 greater than total 0 (softheader=00000002 <*> 00000000 00000000) <*> PSR1=00000000 <*> PIXF=00000007,2,0.0,99.903
+655,"critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ wire, suppressing further interrupts of same type",2,0.0,99.903
+656,"ddr: Unable to steer rank=0, <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable e",2,0.0,99.903
+657,24:1fefff40 25:00000004 26:000c65b0 27:00000001,2,0.0,99.903
+658,<*> <*> 00000000 3fe00000,2,0.0,99.903
+659,r20=0x00000000 r21=0x00350000 <*> <*>,2,0.0,99.903
+660,machine check interrupt (bit=0x09): Torus/Tree/GI read error 0,2,0.0,99.903
+661,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --no-reconnect-blocks,2,0.0,99.903
+662,0:00003000 1:00088850 2:1eeeeeee <*>,2,0.0,99.903
+663,<*> 5:33333300 <*> 7:00030000,2,0.0,99.903
+664,<*> 9:00070000 10:000000e0 11:0008885c,2,0.0,99.903
+665,<*> Message=Pll failed to lock,2,0.0,99.903
+666,<*> 1:1fea9d90 2:1eeeeeee <*>,2,0.0,99.903
+667,Target=ido://FF:F2:9F:16:E8:1A:00:0D:60:E9:17:E5/JTAG/0 Message=ScomError,2,0.0,99.903
+668,r04=0xffff3474 r05=0x33303300 r06=0x0002e9cc r07=0x00030000,2,0.0,99.903
+669,0:0000001c <*> 2:1eeeeeee 3:00000060,2,0.0,99.903
+670,72,2,0.0,99.903
+671,247,2,0.0,99.903
+672,idoproxydb hit ASSERT condition: ASSERT expression=!(nMsgLen > 0x10000) Source file=idomarshalerio.cpp Source line=1929 Function=int IdoMarshalerRecvBuffer::ReadBlock(IdoMsg::IdoMsgHdr*&),2,0.0,99.903
+673,ciod: Message code 2 is not 3 or 4294967295,2,0.0,99.903
+674,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ Y- Z+ Z-,2,0.0,99.903
+675,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C X+ X- Y- Z+ Z-,2,0.0,99.903
+676,rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X+ Y- Z+ Z-,2,0.0,99.903
+677,68,2,0.0,99.903
+678,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ Y+ Y- Z+ Z-,2,0.0,99.903
+679,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C X- Y- Z+ Z-,2,0.0,99.903
+680,<*> 13:1eeeeeee 14:2e8ba2e9 <*>,2,0.0,99.903
+681,"MidplaneSwitchController::parityAlignment() pap failed: R22-M0-L0-U22-D, <*> <*>",2,0.0,99.903
+682,"MidplaneSwitchController::parityAlignment() pap failed: R22-M0-L0-U22-D, status=00000000 00000000",2,0.0,99.903
+683,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> <*> <*> Z+ Z-,2,0.0,99.903
+684,8:000c8880 9:00000400 <*> 11:c0010000,2,0.0,99.903
+685,lr:00009f18 <*> xer:20000002 <*>,2,0.0,99.903
+686,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ Y- Z-,2,0.0,99.903
+687,24:000c2d80 25:000d0000 26:00000000 27:00055950,2,0.0,99.903
+688,28:00000000 29:00070000 30:000c94a8 31:00000001,2,0.0,99.903
+689,1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,2,0.0,99.903
+690,r20=0x00000000 <*> r22=0x00000000 <*>,2,0.0,99.903
+691,rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> Y- Z+ Z-,2,0.0,99.903
+692,20:ffffffe0 21:ffffffd0 22:00000060 23:00000050,2,0.0,99.903
+693,24:00000040 25:00000030 26:00000020 27:00000010,2,0.0,99.903
+694,rts assertion failed: `personality->version == BGLPERSONALITY_VERSION' in `void start()' at start.cc:131,2,0.0,99.903
+695,DDR failing address register: 0x00000008 <*>,2,0.0,99.903
+696,symbol................16,2,0.0,99.903
+697,24:00085fdc 25:00000000 26:00000000 <*>,2,0.0,99.903
+698,mask..................0x80,2,0.0,99.903
+699,0x40615575 0x91d60988,2,0.0,99.903
+700,0x405ace5f 0x155e0196,2,0.0,99.903
+701,EndServiceAction <*> was performed upon <*> by <*>,2,0.0,99.903
+702,1 torus <*> <*> <*> error(s) (dcr <*> detected and corrected,2,0.0,99.903
+703,fpr4=0x00000000 00000000 <*> <*>,2,0.0,99.903
+704,lr=0x0029fcac cr=0x24424242 xer=0x20000002 ctr=0x002701f8,2,0.0,99.903
+705,machine check interrupt (bit=0x10): L2 dcache unit read return parity error,2,0.0,99.903
+706,idoproxy communication failure: BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card,2,0.0,99.903
+707,16:00000004 17:fffffff8 18:00000010 19:00000020,2,0.0,99.903
+708,r16=0x00000000 <*> r18=0x00000000 <*>,2,0.0,99.903
+709,<*> <*> 18:00000000 19:0023ff70,2,0.0,99.903
+710,20:00000008 21:00000008 22:00000028 23:ffffff68,2,0.0,99.903
+711,<*> <*> 30:00000008 31:003b7710,2,0.0,99.903
+712,0xc04f5438 0x0b4ac325,2,0.0,99.903
+713,20:0021fa14 <*> 22:00282c30 <*>,2,0.0,99.903
+714,<*> 1:0feea610 2:1eeeeeee <*>,2,0.0,99.903
+715,24:00000000 <*> 26:00000008 <*>,2,0.0,99.903
+716,MidplaneSwitchController::clearPort() bll_clear_port failed: R63-M0-L0-U19-A,2,0.0,99.903
+717,fpr7=0x00000000 00000000 <*> <*>,2,0.0,99.903
+718,DDR failing data registers: 0x00000000 0x00000000,2,0.0,99.903
+719,<*> <*> 00000000 3ff00000,2,0.0,99.903
+720,Target=ido://FF:F2:9F:16:D5:01:00:0D:60:E9:2A:FE/JTAG/0 Message=Invalid JtagId = ffffffff Run environmental monitor to diagnose possible hardware failure.,2,0.0,99.903
+721,0x3ff66666 0x66666666,2,0.0,99.903
+722,<*> cr:20000000 xer:00000002 <*>,2,0.0,99.903
+723,lr:00149100 cr:26404828 xer:20000002 ctr:00148f9c,2,0.0,99.903
+724,msr=0x0002f900 <*> esr=0x08000000 <*>,2,0.0,99.903
+725,r28=0xffffffff r29=0xffffffff r30=0x000007d0 r31=0x00350000,2,0.0,99.903
+726,<*> <*> 30:00000008 31:00378d10,2,0.0,99.903
+727,<*> <*> 26:000865b0 27:00089ae0,2,0.0,99.903
+728,<*> <*> 00000000 bfe00000,2,0.0,99.903
+729,fpr6=0x00000000 00001001 10024348 7ffff930,2,0.0,99.903
+730,<*> <*> xer:20000002 ctr:00148f9c,2,0.0,99.903
+731,lr=0x0029fcac <*> <*> ctr=0x002701f8,2,0.0,99.903
+732,<*> 29:00000000 30:00000000 <*>,2,0.0,99.903
+733,fpr13=0x00000000 00000000 <*> <*>,2,0.0,99.903
+734,x=366,2,0.0,99.903
+735,"Expected 10 active FanModules, but found 9 ( Found J300 J301 J302 J303 J304 J306 J307 J308 J309 ).",2,0.0,99.903
+736,28:1feaa340 <*> <*> 31:1feaa4c0,2,0.0,99.903
+737,0:00151ca8 1:1feaa300 2:1eeeeeee <*>,2,0.0,99.903
+738,lr:0012cd60 cr:200024c4 xer:00000002 ctr:0012cce8,2,0.0,99.903
+739,While inserting monitor info into DB caught java.lang.NullPointerException,2,0.0,99.903
+740,r04=0xffff3470 r05=0x33333300 <*> r07=0x00030000,2,0.0,99.903
+741,8:00210000 9:00000a8a 10:00000000 11:00000075,2,0.0,99.903
+742,Missing reverse cable: Cable R23-M1-L1 1 F (J04) --> R43-M0-L1 1 C (J06) is present BUT the reverse cable R43-M0-L1 4 F (J12) --> R23-M1-L1 4 C (J14) is missing,2,0.0,99.903
+743,"Problem communicating with service card, ido chip: 00000000:00000000:00000000:FFF29F15:1F45000D:60EAE0BA. java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",2,0.0,99.903
+744,28:00000800 29:1feaa4c0 30:1feaa3b0 31:1feaa3a0,2,0.0,99.903
+745,98,2,0.0,99.903
+746,4:1feaa3b0 5:00000800 6:00000000 7:00211638,2,0.0,99.903
+747,fpr12=0x1c8919e6 c08f58dd b022b757 3fc7afbd,1,0.0,99.903
+748,<*> <*> 0ffaa000 bfd98f2f,1,0.0,99.903
+749,fpr10=0xac584f3a bffac6de 00000000 401c0000,1,0.0,99.903
+750,fpr9=0xf3d13f6c c0456c7d 00000000 c01c0000,1,0.0,99.903
+751,fpr8=0xe72ef64a bf93c286 e063712e 3fc004d2,1,0.0,99.903
+752,r12=0x00001cf3 r13=0x1eeeeeee r14=0x004eff08 r15=0x004eff10,1,0.0,99.903
+753,fpr7=0x6aa4f635 400c9dd0 c245a32f c070b279,1,0.0,99.903
+754,fpr6=0x56fae58a 4050ed36 798582f4 bf92e6d9,1,0.0,99.903
+755,fpr5=0x1e29b995 40465fd1 28ec6124 3fd15277,1,0.0,99.903
+756,fpr4=0x00000000 00000000 0ffaa000 bfd98f2f,1,0.0,99.903
+757,fpr2=0x00000000 00000000 83e742ae c09a0207,1,0.0,99.903
+758,r08=0x002b9c5c r09=0xa0000048 r10=0xb1150000 r11=0xb1150000,1,0.0,99.903
+759,fpr1=0x00000000 00000000 6de2d769 40768044,1,0.0,99.903
+760,fpr0=0x8d63692c c02280f9 00000000 40cb7f00,1,0.0,99.903
+761,fpr12=0x00000001 00000028 8c6eda20 3fea245a,1,0.0,99.903
+762,r00=0xb1140000 r01=0x1fffffc0 r02=0x1eeeeeee r03=0x002ba3d4,1,0.0,99.903
+763,r04=0xb1150000 r05=0x0352f5e0 r06=0x002ba3d4 r07=0x00000000,1,0.0,99.903
+764,fpr3=0x00000000 00000000 cb250ef8 4061cf8c,1,0.0,99.903
+765,fpr5=0x1d510b54 c0252d92 dc69a17b 3fa38ba0,1,0.0,99.903
+766,fpr11=0xf2250423 3fd2b2fb f2250422 3fd2b2fb,1,0.0,99.903
+767,fpr12=0x8e7d21fb 3ffb6183 8e7d21fd 3ffb6183,1,0.0,99.903
+768,r00=0x1ff3a108 r01=0x1f407c60 r02=0x1eeeeeee r03=0x0000000b,1,0.0,99.903
+769,r04=0x00000240 r05=0x1f407d34 r06=0x00000048 r07=0x0000a200,1,0.0,99.903
+770,fpr0=0x86969d4b 40141f81 00000000 40cb5480,1,0.0,99.903
+771,r16=0x000000a9 r17=0x0000007e r18=0x000000d6 r19=0x00ed4920,1,0.0,99.903
+772,r08=0x02ea6ff8 r09=0x00000048 r10=0x0000001d r11=0x02ead0b8,1,0.0,99.903
+773,r04=0x00000000 r05=0x24404244 r06=0x0029fcac <*>,1,0.0,99.903
+774,r12=0x1ff40220 r13=0x1eeeeeee r14=0x1fcd0248 r15=0x1f9ed508,1,0.0,99.903
+775,fpr16=0xffffffff ffffffff cda452a3 3f8fdc10,1,0.0,99.903
+776,r20=0x1f427348 r21=0x1f714748 r22=0x1f9f7948 r23=0x00000000,1,0.0,99.903
+777,fpr13=0xe8efc5b0 bf003602 e8ef3019 bf003602,1,0.0,99.903
+778,r24=0x1fcc6750 r25=0x1f9ed750 r26=0x0000a200 r27=0xfffffdc0,1,0.0,99.903
+779,fpr20=0xffffffff ffffffff 00000000 3fd80000,1,0.0,99.903
+780,fpr19=0xffffffff ffffffff d6ab5368 3f553959,1,0.0,99.903
+781,r28=0x0000a200 r29=0x1ff401c8 r30=0x00000288 r31=0x03186110,1,0.0,99.903
+782,lr=0x00211414 cr=0x44424a44 xer=0x20000002 ctr=0x0000003d,1,0.0,99.903
+783,r16=0x00000011 r17=0x0066fa50 r18=0x00657450 r19=0x0352b8d0,1,0.0,99.903
+784,fpr15=0xffffffff ffffffff f91cb30a bf5e09bb,1,0.0,99.903
+785,fpr18=0x00000000 3ff00000 00000000 3ff00000,1,0.0,99.903
+786,fpr13=0x00000000 08f07178 8aa2d785 bf836735,1,0.0,99.903
+787,r16=0x1fcd0708 r17=0x1f700108 r18=0x1ffa9708 r19=0x1fcd0948,1,0.0,99.903
+788,r00=0x00000000 <*> r02=0x1eeeeeee r03=0x00000002,1,0.0,99.903
+789,"ciod: In packet from node 80.0 (R62-M0-NF-C:J15-U01), message still ready for node 48 (softheader=00300050 00020000 00000003 00000000)",1,0.0,99.903
+790,fpr25=0x00000000 3ff00000 696d6573 6c652074,1,0.0,99.903
+791,fpr7=0x0000000f 00000048 8fd87920 bff7d205,1,0.0,99.903
+792,0x20202020 0x20202030,1,0.0,99.903
+793,fpr8=0x91190b3b bfcbd0a0 117324af 3fe184d6,1,0.0,99.903
+794,fpr31=0x5fe164e7 c04702ec 00000000 00000000,1,0.0,99.903
+795,fpr30=0x37b68ba1 403d017a 847b4c03 c02aa133,1,0.0,99.903
+796,fpr29=0x4566cf50 403eb4f0 f6b83afa 400a310e,1,0.0,99.903
+797,fpr9=0x7c98c7a9 40096363 3c10b7f0 3ffe6634,1,0.0,99.903
+798,fpr4=0x00000000 00000000 724b8988 bfdea458,1,0.0,99.903
+799,fpr28=0x3f7283fc c028dd73 9c2f1236 bff963ea,1,0.0,99.903
+800,fpr27=0x72f97924 c04a0154 84c3abc2 403e4042,1,0.0,99.903
+801,fpr26=0xf0664e56 400e19be 30f2742d 4025d58f,1,0.0,99.903
+802,fpr25=0xd6165529 402907c2 99bd0882 c0354a91,1,0.0,99.903
+803,fpr24=0xe1fd22a4 4031fc2a 5c507b46 c047a376,1,0.0,99.903
+804,fpr23=0x04972653 40459160 fe877a91 c026b8ec,1,0.0,99.903
+805,fpr22=0xe77c4d52 4031c448 0930136e bfa9e110,1,0.0,99.903
+806,fpr21=0xa82612b6 4034f4b3 0b0773fd c0243fac,1,0.0,99.903
+807,fpr20=0xd6d60406 c015af9e 66894b45 40337773,1,0.0,99.903
+808,fpr19=0x62dffacb 3fe99f11 2c01fb9a c036f393,1,0.0,99.903
+809,fpr18=0x9d17d9b1 c017d546 a7aba2ea 40241351,1,0.0,99.903
+810,fpr10=0x66666666 3ff66666 66666666 3ff66666,1,0.0,99.903
+811,r20=0x40000000 r21=0x40000000 <*> <*>,1,0.0,99.903
+812,r24=0x00000000 r25=0x00000000 r26=0x00000000 r27=0x000ce5c8,1,0.0,99.903
+813,r28=0x00000005 r29=0xa0000020 r30=0xa00000c0 r31=0x00000028,1,0.0,99.903
+814,fpr22=0x00000000 bff00000 00000000 bff00000,1,0.0,99.903
+815,lr=0x002ba3d4 cr=0x28004422 xer=0x20000002 ctr=0x002b9c5c,1,0.0,99.903
+816,msr=0x0000f000 dear=0x00000000 esr=0x00000000 fpscr=0x00002000,1,0.0,99.903
+817,fpr0=0x00000000 20001cf3 07080000 01000313,1,0.0,99.903
+818,r16=0x000000b1 r17=0x00000013 r18=0x0000006b r19=0x00ed4920,1,0.0,99.903
+819,r12=0x00398958 r13=0x1eeeeeee r14=0x00000000 r15=0x0000006c,1,0.0,99.903
+820,fpr2=0x77ce1048 bfe675e5 b65c522f 40052e40,1,0.0,99.903
+821,r04=0x00009c34 r05=0x00000000 r06=0x0000a3e0 <*>,1,0.0,99.903
+822,fpr3=0x0000000f 00000048 564e8f93 bff74167,1,0.0,99.903
+823,fpr4=0xbb6bd241 bfd7147c 6f2832ff 3fe1a8bc,1,0.0,99.903
+824,fpr5=0x902606e3 3fe7e35a 243d0164 c0152a1b,1,0.0,99.903
+825,fpr24=0x00000000 bff00000 5b487c24 3f827da8,1,0.0,99.903
+826,fpr13=0x00000000 00000000 00000000 00000002,1,0.0,99.903
+827,fpr10=0x00000006 00000005 0003111b 0fdc0000,1,0.0,99.903
+828,msr=0x00003000 <*> esr=0x00000000 fpscr=0x00000000,1,0.0,99.903
+829,r28=0x00040004 r29=0xd0000400 r30=0x00040000 r31=0x00000000,1,0.0,99.903
+830,r24=0x00088790 r25=0x00088430 r26=0x00010000 r27=0x00000000,1,0.0,99.903
+831,fpr6=0x4331eec8 bfe662a7 1129f091 40050650,1,0.0,99.903
+832,r08=0x00009c34 r09=0x00000000 <*> <*>,1,0.0,99.903
+833,r04=0x00000000 r05=0x24404244 r06=0x0029fcac r07=0x00003710,1,0.0,99.903
+834,fpr4=0x00000000 00000000 b6976eae bfdc2100,1,0.0,99.903
+835,fpr0=0x66f90991 c037cc19 00000000 40cb7680,1,0.0,99.903
+836,r16=0x00000063 r17=0x000000bb r18=0x00000018 r19=0x00ed4920,1,0.0,99.903
+837,fpr13=0x00000000 004c8328 ba67e29d bfa72dcc,1,0.0,99.903
+838,fpr12=0xcb9bdb1b c09099f7 f4afcb3f 3fc48629,1,0.0,99.903
+839,<*> <*> 3689c9ed bfd7fba9,1,0.0,99.903
+840,fpr8=0x4f497a3c bff1ab84 43957dee 3fbbe027,1,0.0,99.903
+841,fpr7=0xa4cdf4d7 3fe38584 9bbab824 c0713f53,1,0.0,99.903
+842,fpr6=0x60f54b16 c0270fba 667a10b9 bfb879ba,1,0.0,99.903
+843,fpr5=0xb050813b c0400eed 5069bc5b 3fd16986,1,0.0,99.903
+844,fpr9=0x281fd917 40076db7 a7349330 3ce586f1,1,0.0,99.903
+845,fpr0=0xf675eecb 4035ac82 00000000 40cb8100,1,0.0,99.903
+846,r16=0x000000cc r17=0x0000002b r18=0x00000065 r19=0x00ed4920,1,0.0,99.903
+847,fpr3=0x8e7d21fd 3ffb6183 d3d8596f 4007df0e,1,0.0,99.903
+848,fpr4=0x00000000 3fe2b2e9 6622619a bcf2b08f,1,0.0,99.903
+849,fpr13=0x00000000 0600c742 194784d2 bfa4a99d,1,0.0,99.903
+850,fpr12=0x00000000 00000068 df4abd99 3fc4b539,1,0.0,99.903
+851,<*> <*> 48b0e5c1 bfd7fac0,1,0.0,99.903
+852,fpr8=0x2636a402 bffe7d56 d3a1c84c 3fbd6d43,1,0.0,99.903
+853,r28=0x0034f6c0 r29=0x002f2300 r30=0x0070a290 r31=0x003d94c0,1,0.0,99.903
+854,fpr1=0x6d9f302d 00759b38 c5b18dbd 3fdd0fef,1,0.0,99.903
+855,fpr4=0x00000000 00000000 3689c9ed bfd7fba9,1,0.0,99.903
+856,r16=0x00000055 r17=0x00000058 r18=0x00000047 r19=0x00ed4920,1,0.0,99.903
+857,fpr1=0xf2250423 3fd2b2fb 5573f0e0 bcd2d127,1,0.0,99.903
+858,fpr13=0x027c9302 00060001 f8b6c8fd bf8c32b8,1,0.0,99.903
+859,r20=0x00000001 r21=0x0000001f r22=0x00000004 r23=0x0070a268,1,0.0,99.903
+860,r24=0x0ffea290 r25=0x003d94e8 r26=0x0034f730 r27=0x00000000,1,0.0,99.903
+861,fpr2=0x8935e020 3ca19d8b d3d85973 4007df0e,1,0.0,99.903
+862,fpr12=0xa714a565 408e2ee4 94608dcf 3fa438c4,1,0.0,99.903
+863,<*> <*> 19cd9b6c bfb870b9,1,0.0,99.903
+864,fpr8=0xd891a6b5 bff4781b eca2b489 3fc2b54d,1,0.0,99.903
+865,fpr7=0xe76073a2 3f62ea8c 1cc24a7c c0706e16,1,0.0,99.903
+866,fpr5=0x9d0483d0 40394205 8b053787 3fc2ea5c,1,0.0,99.903
+867,fpr5=0x9983cc65 3faf2d97 e4f577ad 3fdcc0ca,1,0.0,99.903
+868,fpr4=0x00000000 00000000 19cd9b6c bfb870b9,1,0.0,99.903
+869,fpr0=0x9da6d7a9 bfb97649 00000000 40cb7380,1,0.0,99.903
+870,r16=0x00000047 r17=0x00000085 r18=0x000000f9 r19=0x00ed4920,1,0.0,99.903
+871,fpr13=0x02ddca24 00060001 7eb7ee0c bfab96a5,1,0.0,99.903
+872,fpr12=0xd3901919 408c4060 a69e902e 3fcb38fd,1,0.0,99.903
+873,<*> <*> b6976eae bfdc2100,1,0.0,99.903
+874,fpr8=0x3bb78a50 3fb7c30c 0a92e01c 3fb0b354,1,0.0,99.903
+875,fpr7=0x4a2c869f bff1d32e 1623e4b0 c0708b4d,1,0.0,99.903
+876,fpr6=0xf68ae2d6 c048e028 7ad46c19 bfc0e6fa,1,0.0,99.903
+877,fpr6=0xfd58f880 bf52895d df8d76aa 3f928227,1,0.0,99.903
+878,r24=0x0988ce80 r25=0x099b7dc0 r26=0x099bbca0 r27=0x00001449,1,0.0,99.903
+879,r20=0x099bbca0 r21=0x000007db r22=0x099b7dd0 r23=0x099b3ef0,1,0.0,99.903
+880,r16=0x0033492c r17=0x09c4b2b0 r18=0x0988ce80 r19=0x099b7dc0,1,0.0,99.903
+881,r12=0x48404424 r13=0x1eeeeeee r14=0x00334778 r15=0x00fa6df0,1,0.0,99.903
+882,r08=0x0000001c r09=0x0a247050 r10=0x00008000 r11=0x0ffa0520,1,0.0,99.903
+883,r04=0x01086250 r05=0x00000289 r06=0x01086250 r07=0x00000012,1,0.0,99.903
+884,r00=0xffffffff r01=0x0ffa0690 r02=0x1eeeeeee r03=0x010959f0,1,0.0,99.903
+885,fpr13=0x00000000 060006fb 0fdd8d22 3d8357c0,1,0.0,99.903
+886,fpr5=0x8e7d21fd 3ffb6183 cc79128b 3cfecf86,1,0.0,99.903
+887,1347195 double-hummer alignment exceptions,1,0.0,99.903
+888,fpr2=0x00000000 200006fa 1e1b2fae 40080650,1,0.0,99.903
+889,fpr7=0x281fd914 40076db7 00000000 bce00000,1,0.0,99.903
+890,fpr8=0x8e7d21fb 3ffb6183 c4ac2530 bcda6879,1,0.0,99.903
+891,fpr13=0x00000000 08f01338 a05ee3ee bf99fa89,1,0.0,99.903
+892,fpr12=0xa3205913 c08fbc1d 93697062 3fd219f0,1,0.0,99.903
+893,<*> <*> 724b8988 bfdea458,1,0.0,99.903
+894,fpr17=0xaed82c26 c03f1ed2 b368f5a1 4030cbea,1,0.0,99.903
+895,fpr10=0x8e7d21fb 3ffb6183 cc44c335 bce5611e,1,0.0,99.903
+896,fpr8=0x69a6bc29 bff1b01d 399b8aa9 3f961734,1,0.0,99.903
+897,fpr7=0xe508d3f8 bfe0ae17 d4864bce c073268b,1,0.0,99.903
+898,fpr6=0x7465cb32 401eddf7 ae4ee1be bfaf15cf,1,0.0,99.903
+899,fpr6=0x281fd912 40076db7 457d611f 3d01021d,1,0.0,99.903
+900,fpr5=0x6d172905 407497d1 7ae147ae 4011ae14,1,0.0,99.903
+901,fpr6=0xfe1a782a 3fbdc5fe 6b99523a 3fe93231,1,0.0,99.903
+902,fpr7=0xc06a9c27 4006d1dc 4159854d c07033f7,1,0.0,99.903
+903,fpr6=0x7f9cc4ba 402e4ca6 d06a9c52 bfb51f5e,1,0.0,99.903
+904,fpr5=0x341e3d42 c041d767 98ccf536 3fd1ec70,1,0.0,99.903
+905,fpr4=0x00000000 00000000 48b0e5c1 bfd7fac0,1,0.0,99.903
+906,fpr7=0xbd0715ef 3fbdb8a5 9885abca beb8e10b,1,0.0,99.903
+907,fpr0=0xa860d7ad 402ec7d7 00000000 40cb4e00,1,0.0,99.903
+908,<*> <*> 000004dc 3fe00000,1,0.0,99.903
+909,r16=0x00000058 r17=0x00000042 r18=0x0000001a r19=0x00ed4920,1,0.0,99.903
+910,r28=0x01086250 r29=0x00392ed0 r30=0x003aa450 r31=0x010959f0,1,0.0,99.903
+911,fpr10=0x6ea1830b 40749745 74959e58 3de5102b,1,0.0,99.903
+912,fpr12=0x7ff882f3 c07a533b 5c8d52fd 3b448d34,1,0.0,99.903
+913,fpr11=0x00000000 00000000 230dcda2 bb260f96,1,0.0,99.903
+914,fpr11=0xda1a727b 4095618c 58ed155e 3e2f742a,1,0.0,99.903
+915,fpr10=0x00000000 00000000 891c91c2 3b46451d,1,0.0,99.903
+916,fpr9=0x00000000 00000000 13c4972a bb9186a4,1,0.0,99.903
+917,fpr12=0x00000000 000000a0 15464563 3de51692,1,0.0,99.903
+918,fpr8=0x00000000 00000000 755fb243 3ffe5186,1,0.0,99.903
+919,fpr6=0x00000000 00000000 1512e248 c034edea,1,0.0,99.903
+920,fpr5=0x00000000 00000000 80000000 43300000,1,0.0,99.903
+921,fpr9=0x3007c6cb 40944c74 f69f8e08 3fdffffe,1,0.0,99.903
+922,fpr2=0x0f5b9b03 3e458839 d9d7bdbb 3ddb7cdf,1,0.0,99.903
+923,<*> <*> d9d7bdbb 3ddb7cdf,1,0.0,99.903
+924,Power Good signal deactivated: R73-M1-N5. A service action may be required.,1,0.0,99.903
+925,fpr5=0xc63ddf17 3fefabb7 84dc4fe1 3f0e019c,1,0.0,99.903
+926,"PrepareForService shutting down Node card(mLctn(R36-M1-N6), mCardSernum(203231503833343000000000594c31304b3530303730304e), mLp(FF:F2:9F:16:BD:24:00:0D:60:E9:42:DB), mIp(10.3.0.160), mType(4)) as part of Service Action 581",1,0.0,99.903
+927,fpr6=0xf8561d3d c006dde7 84dc4fe1 3fce019c,1,0.0,99.903
+928,fpr1=0xfffffe51 3f4fffff fffffe7a 3f4fffff,1,0.0,99.903
+929,fpr7=0x00000011 00000048 585fa747 3fe6dba1,1,0.0,99.903
+930,fpr8=0x7f03a717 3fc8b161 b605c900 bf718d1a,1,0.0,99.903
+931,fpr0=0xffffffff ffffffff ffffffff ffffffff,1,0.0,99.903
+932,<*> 3ff66666 66666666 3ff66666,1,0.0,99.903
+933,fpr13=0x00000000 06001c94 53eb915a 4088ed0d,1,0.0,99.903
+934,round toward zero........................0,1,0.0,99.903
+935,r00=0xbf8ae0f0 r01=0x0ffea660 r02=0x1eeeeeee r03=0x007523cc,1,0.0,99.903
+936,r04=0x003eaf40 r05=0x00000010 r06=0x0027792c r07=0x00000000,1,0.0,99.903
+937,r08=0x0ffea280 r09=0xedcb9683 r10=0x000003f0 r11=0x00000010,1,0.0,99.903
+938,fpr5=0x25eab79b 3c30a179 00000000 80000000,1,0.0,99.903
+939,<*> 3f4fffff fffffe7a 3f4fffff,1,0.0,99.903
+940,r12=0x00000b21 r13=0x1eeeeeee r14=0x006f02dc r15=0x006f02b8,1,0.0,99.903
+941,r16=0x00000024 r17=0x00443a3c r18=0x00360000 r19=0x004438d0,1,0.0,99.903
+942,r20=0x00443940 r21=0x0044397c r22=0x0034f650 r23=0x00000010,1,0.0,99.903
+943,fpr9=0xbe9ca759 4000efff 3b301df2 bff30219,1,0.0,99.903
+944,8:00089414 9:0001c9a0 10:00090000 11:0001cae0,1,0.0,99.903
+945,0:0000002f 1:00085fd0 2:1eeeeeee 3:ffffffff,1,0.0,99.903
+946,r04=0x00000008 r05=0x00458b50 r06=0x1aa3ad28 r07=0x00000068,1,0.0,99.903
+947,lr:0013d978 cr:44404824 xer:20000002 ctr:00000008,1,0.0,99.903
+948,28:0fee06f4 29:00000033 30:0fea07f0 31:000c65b0,1,0.0,99.903
+949,24:8962a6e0 25:0fee15f4 26:000002d0 27:00545a20,1,0.0,99.903
+950,20:0962a620 21:ffffffff 22:08662220 23:3800000c,1,0.0,99.903
+951,16:000070fc 17:00000007 18:00000006 19:00000005,1,0.0,99.903
+952,12:0fe9fa40 13:1eeeeeee 14:094231c0 15:800000c0,1,0.0,99.903
+953,8:0000002c 9:00000030 <*> <*>,1,0.0,99.903
+954,403136 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected over 43 seconds,1,0.0,99.903
+955,0:0000000c 1:0fe9fa20 2:1eeeeeee 3:000000c0,1,0.0,99.903
+956,r08=0x00000020 r09=0x1fcd1030 r10=0x1f9f8030 r11=0x00000060,1,0.0,99.903
+957,r12=0x0000003f r13=0x1eeeeeee r14=0x006a8a08 r15=0x00d5db00,1,0.0,99.903
+958,r16=0x1f16d030 r17=0x1f71f030 r18=0x00000018 r19=0x1f811290,1,0.0,99.903
+959,r20=0x014067a8 r21=0x00000028 r22=0x01406738 r23=0x1f25f290,1,0.0,99.903
+960,fpr0=0xfffffe51 3fefffff fffffe7a 3fefffff,1,0.0,99.903
+961,EndServiceAction is restarting the Node cards in Midplane R36-M1 as part of Service Action 581,1,0.0,99.903
+962,r24=0x1cb2f5a0 r25=0x1fdbb290 r26=0x1fae2290 r27=0x1f530290,1,0.0,99.903
+963,"ciod: Error reading message prefix on CioStream socket to 172.16.96.116:43572, Link has been severed",1,0.0,99.903
+964,r28=0x1cb2f538 r29=0x000f2268 r30=0x00000006 r31=0x1aa3a8d0,1,0.0,99.903
+965,4:0fee0700 <*> 6:002a0000 <*>,1,0.0,99.903
+966,<*> r25=0x00340000 r26=0x00343454 <*>,1,0.0,99.903
+967,<*> <*> xer=0x00000002 ctr=0x00266f2c,1,0.0,99.903
+968,fpr7=0x0000004e 42c80000 1dea4cc8 3c5e9184,1,0.0,99.903
+969,fpr9=0x9c35f139 40a4e7cf 800e99b1 3fefcf0c,1,0.0,99.903
+970,invalid operation exception summary......0,1,0.0,99.903
+971,fpr10=0xe6721ace 3fe8a2f4 8568391d 3fbbf1b7,1,0.0,99.903
+972,fpr13=0x00000000 0000359d f1e75989 3f2c5b7b,1,0.0,99.903
+973,total of 1 ddr error(s) detected and corrected,1,0.0,99.903
+974,"CE sym 0, at 0x0b8580c0, mask 0x10",1,0.0,99.903
+975,instruction address: 0x0000df30,1,0.0,99.903
+976,fpr12=0x00000000 00000090 ea65a5d2 407275e5,1,0.0,99.903
+977,3450051 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,1,0.0,99.903
+978,machine check status register: 0x81000000,1,0.0,99.903
+979,data read plb error...............0,1,0.0,99.903
+980,d-cache search parity error.......0,1,0.0,99.903
+981,imprecise machine check...........0,1,0.0,99.903
+982,machine state register: 0x0000f000,1,0.0,99.903
+983,"1 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 3",1,0.0,99.903
+984,external input interrupt enable...1,1,0.0,99.903
+985,"problem state (0=sup,1=usr).......1",1,0.0,99.903
+986,generating core.304,1,0.0,99.903
+987,machine check interrupt,1,0.0,99.903
+988,r28=0x00000b60 r29=0x000003f0 r30=0x003eab90 r31=0x00752020,1,0.0,99.903
+989,lr=0x002cde48 cr=0x44488842 xer=0x20000002 ctr=0x002ce28c,1,0.0,99.903
+990,fpr0=0x00000000 20000b21 040c0000 01010300,1,0.0,99.903
+991,fpr11=0x9d20b7c5 408bead8 b363781c 405246f3,1,0.0,99.903
+992,plus zero................................0,1,0.0,99.903
+993,fpr13=0x004ba730 3fc67a74 0024ffd4 fffffffc,1,0.0,99.903
+994,r04=0x00000090 r05=0x00000000 r06=0x00340000 r07=0x00000000,1,0.0,99.903
+995,r08=0x00000420 r09=0x10a95afd r10=0x0030b350 r11=0x0030a508,1,0.0,99.903
+996,fpr4=0x3e57521c bf67d3cb fffffe51 3f4fffff,1,0.0,99.903
+997,r12=0x00000028 r13=0x1eeeeeee r14=0x0092be50 r15=0x0092c000,1,0.0,99.903
+998,invalid (SNAN)...........................0,1,0.0,99.903
+999,r24=0x00000000 <*> <*> r27=0x00000000,1,0.0,99.903
+1000,r28=0x00000058 r29=0x00000000 r30=0x00352640 r31=0x00000000,1,0.0,99.903
+1001,lr=0x002034cc cr=0x82848044 xer=0x00000002 ctr=0x00266f2c,1,0.0,99.903
+1002,minus inf................................0,1,0.0,99.903
+1003,r00=0x00000001 r01=0x0ffea800 r02=0x00000000 r03=0x0000359d,1,0.0,99.903
+1004,r04=0x003bc0f0 r05=0x003bc2f0 r06=0x00000020 r07=0x00000020,1,0.0,99.903
+1005,fraction rounded.........................0,1,0.0,99.903
+1006,<*> r09=0x00000000 <*> r11=0x00280000,1,0.0,99.903
+1007,<*> r13=0x1eeeeeee r14=0x00340000 <*>,1,0.0,99.903
+1008,<*> r17=0x00350000 r18=0x00350000 r19=0x00340000,1,0.0,99.903
+1009,r16=0x00000001 r17=0x00000000 r18=0x00000000 r19=0x00000000,1,0.0,99.903
+1010,"ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41739, Connection timed out",1,0.0,99.903
+1011,r28=0x00022b8e r29=0x0086f8b0 r30=0x00000002 r31=0x00008000,1,0.0,99.903
+1012,MACHINE CHECK PLB write IRQ (mc=1b08x iar 0x00000000 lr 0xc00f837c),1,0.0,99.903
+1013,lr:0016af30 cr:20404882 xer:20000002 ctr:001c1554,1,0.0,99.903
+1014,28:0feea670 29:00000001 30:0000e8b0 31:097b2d30,1,0.0,99.903
+1015,24:00000024 25:0988d050 26:4c00080b 27:00000001,1,0.0,99.903
+1016,20:0a041688 21:40000000 22:003b8f38 23:0feea6d8,1,0.0,99.903
+1017,16:09a0a578 17:0a04b7c8 18:0a047ba8 19:0a0600a8,1,0.0,99.903
+1018,8:ffff8002 9:00000000 10:00000001 11:097b2d3c,1,0.0,99.903
+1019,4:002890a4 5:00000000 6:0feea670 7:00000001,1,0.0,99.903
+1020,12:00fd1f80 13:00000000 14:0003a045 15:0fee0ac0,1,0.0,99.903
+1021,lr:0014b4f4 cr:2a404828 xer:20000002 ctr:0014b34c,1,0.0,99.903
+1022,r20=0x003eab80 r21=0x006487c0 r22=0x006487c0 r23=0x00000000,1,0.0,99.903
+1023,28:01b1b920 29:09b23610 30:00000008 31:003b8cb0,1,0.0,99.903
+1024,24:01e14120 25:0036a010 26:01d7b860 27:09b5dc90,1,0.0,99.903
+1025,20:000000eb 21:00226734 22:09b23610 23:01b1cca0,1,0.0,99.903
+1026,16:0000007d 17:000000e2 18:000000e3 19:0fea0700,1,0.0,99.903
+1027,12:01b1cd90 13:1eeeeeee 14:0000676f 15:0fee10c4,1,0.0,99.903
+1028,<*> <*> xer:00000002 ctr:0014ac7c,1,0.0,99.903
+1029,24:01f29340 25:00368a80 26:01f28980 27:0a362ae0,1,0.0,99.903
+1030,0x78253038 <*>,1,0.0,99.903
+1031,0:0016af30 1:0feea5e0 2:1eeeeeee 3:097b2d30,1,0.0,99.903
+1032,fpr16=0xef07ae9f c0339d46 f4d3334d c0336cf0,1,0.0,99.903
+1033,fpr15=0x42b8bd2f c039e57f 49a050a3 c0472313,1,0.0,99.903
+1034,fpr14=0x28152d55 40315695 f206dd8f c032ba03,1,0.0,99.903
+1035,fpr11=0x695c6701 3e4363aa 77478fd9 3fe0d90f,1,0.0,99.903
+1036,lr=0x0020947c cr=0x84244844 xer=0x00000002 ctr=0x0000001c,1,0.0,99.903
+1037,fpr10=0x00000004 00000004 000011a1 0fdc0000,1,0.0,99.903
+1038,r00=0x00000008 <*> r02=0x1eeeeeee <*>,1,0.0,99.903
+1039,fpr0=0x00000000 00000000 00000000 00000000,1,0.0,99.903
+1040,msr=0x00001000 dear=0x0001776f esr=0x00800000 fpscr=0x00000000,1,0.0,99.903
+1041,r04=0x0030e278 r05=0x00000000 r06=0xfefefeff r07=0x7f7f7f7f,1,0.0,99.903
+1042,0x78253038 0x782e2e30,1,0.0,99.903
+1043,r24=0x000c87b0 r25=0x000c8450 r26=0x00010000 r27=0x00055960,1,0.0,99.903
+1044,r20=0x0000000e r21=0x00000010 r22=0x00000180 r23=0x0020c5e8,1,0.0,99.903
+1045,r16=0x0b94ef60 r17=0x0aa74e90 r18=0x042d4070 r19=0x042d3f70,1,0.0,99.903
+1046,r12=0x000c8520 r13=0x1eeeeeee r14=0x00000018 r15=0x00000016,1,0.0,99.903
+1047,r08=0x00009c34 r09=0x00000000 r10=0x000c8540 r11=0x000c8530,1,0.0,99.903
+1048,r08=0x00808080 r09=0x0ffea9c8 r10=0x80808080 r11=0x00000042,1,0.0,99.903
+1049,r04=0x00009c34 r05=0x00000000 r06=0x0000a3e0 r07=0x00055960,1,0.0,99.903
+1050,r00=0x00000000 r01=0x000c8400 r02=0x1eeeeeee r03=0x00000002,1,0.0,99.903
+1051,r12=0x80808080 r13=0x1eeeeeee r14=0x40000000 r15=0x40000000,1,0.0,99.903
+1052,Exception Syndrome Register: 0x00800000,1,0.0,99.903
+1053,r28=0x0000a3e0 r29=0x000c8450 r30=0xda813f70 r31=0x00055964,1,0.0,99.903
+1054,r04=0x002e3610 r05=0x00350000 r06=0x0000000e r07=0x0000000e,1,0.0,99.903
+1055,r08=0x00000001 r09=0x00000000 r10=0x00000000 r11=0x00280000,1,0.0,99.903
+1056,r12=0x00848044 r13=0x1eeeeeee r14=0x00340000 r15=0x0035224c,1,0.0,99.903
+1057,r16=0x84884044 r17=0x00350000 r18=0x00350000 r19=0x00340000,1,0.0,99.903
+1058,r20=0x00000000 r21=0x00350000 r22=0x00340000 r23=0x00340000,1,0.0,99.903
+1059,r24=0x00007530 r25=0x00340000 r26=0x00343454 r27=0x003523c8,1,0.0,99.903
+1060,monitor caught java.lang.IllegalStateException: while executing CONTROL Operation caught java.io.EOFException and is stopping,1,0.0,99.903
+1061,r16=0x0ffe6b60 r17=0x0ffe4490 r18=0xffffffe8 r19=0xfffff770,1,0.0,99.903
+1062,r20=0x000022a0 r21=0x000015a0 r22=0x07b62090 r23=0x07b62098,1,0.0,99.903
+1063,r24=0x006ef70c r25=0x00000003 r26=0x00000001 r27=0x00000003,1,0.0,99.903
+1064,20:000003b6 21:0022536c 22:0a363e60 23:01f17f00,1,0.0,99.903
+1065,r24=0x0ffe9f48 r25=0x00000020 r26=0x00000040 r27=0x0ffe5040,1,0.0,99.903
+1066,0x400617d0 0xe413abe8,1,0.0,99.903
+1067,r28=0x0ffe41b0 r29=0x00000000 r30=0x0ffe9290 r31=0x0ffe89f0,1,0.0,99.903
+1068,lr=0x0020bf90 cr=0x24244844 xer=0x00000002 ctr=0x00000012,1,0.0,99.903
+1069,r00=0x00000070 r01=0x1aa3a690 r02=0x1eeeeeee r03=0x00413a50,1,0.0,99.903
+1070,1 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over <*> seconds,1,0.0,99.903
+1071,28:00553df0 29:002a0000 30:00080000 31:000865b0,1,0.0,99.903
+1072,24:00002d38 25:00000008 26:000865b0 27:00089cd0,1,0.0,99.903
+1073,<*> 21:0022536c 22:0fee0700 23:0fea86f8,1,0.0,99.903
+1074,<*> 17:00000031 18:00000032 <*>,1,0.0,99.903
+1075,lr=0x00205034 cr=0x22848044 xer=0x00000002 ctr=0x000057ea,1,0.0,99.903
+1076,16:0000001b 17:0000002e 18:0000002f 19:0fea0700,1,0.0,99.903
+1077,12:01f18060 13:1eeeeeee 14:0000cccd 15:0fee091c,1,0.0,99.903
+1078,28:0b8d2510 29:0029b6b0 30:0189a800 31:0189a790,1,0.0,99.903
+1079,16:00001de7 17:00000be2 18:000008e6 19:0021fa20,1,0.0,99.903
+1080,4:000017e7 5:0afdb950 6:00057980 7:000015e7,1,0.0,99.903
+1081,<*> <*> xer:20000002 ctr:0014ac7c,1,0.0,99.903
+1082,r00=0x00000080 r01=0x0ffe41b0 r02=0x1eeeeeee r03=0x0ffe8cf0,1,0.0,99.903
+1083,r04=0x095c5188 r05=0x00000010 r06=0x095c4e78 r07=0x0ffe66e8,1,0.0,99.903
+1084,24:01e73000 25:00368a80 26:01c4dc00 27:0a1ab840,1,0.0,99.903
+1085,20:0000012a 21:0022536c 22:0a175ec0 23:01bb80c0,1,0.0,99.903
+1086,fpr11=0x9042fc36 bf114ab6 bfec5137 bee2ba98,1,0.0,99.903
+1087,12:01bb81c8 13:1eeeeeee 14:0000fff3 15:0fee1024,1,0.0,99.903
+1088,r24=0x00000000 r25=0x006487c0 r26=0x0045c9c0 r27=0x00000310,1,0.0,99.903
+1089,r28=0x0030e270 r29=0x00000000 r30=0x00000310 r31=0x00759a50,1,0.0,99.903
+1090,fpr0=0x00000000 00030000 04000000 00000000,1,0.0,99.903
+1091,fpr1=0x3571892b bf216810 e50a1cb9 3f34ce3d,1,0.0,99.903
+1092,fpr2=0x00000000 07000607 00042076 00016207,1,0.0,99.903
+1093,fpr5=0x68d637f6 befb1101 ff902ae7 3f439972,1,0.0,99.903
+1094,fpr6=0xe8863bb6 3f503043 58a9662d 3f2dfdac,1,0.0,99.903
+1095,r08=0x0ffe9f58 r09=0x0050bf58 r10=0x0ffe8e18 r11=0x0ffe9b30,1,0.0,99.903
+1096,<*> bf216810 e50a1cb9 3f34ce3d,1,0.0,99.903
+1097,r12=0x0050bb30 r13=0x1eeeeeee r14=0x0ffe89d0 r15=0x0ffe6fb0,1,0.0,99.903
+1098,16:00000075 17:000000c1 18:000000c2 19:0fea0700,1,0.0,99.903
+1099,fpr14=0xbfa8b580 3f0a7e2e 8cd6e69b bef44493,1,0.0,99.903
+1100,fpr15=0x66f0f9db bef438e3 cee686d4 3f0a805e,1,0.0,99.903
+1101,fpr7=0x00000000 00000000 f8a7525c 3c717212,1,0.0,99.903
+1102,fpr2=0x57f64e25 bfcb272d e3cdf295 3fcab7f6,1,0.0,99.903
+1103,fpr11=0x8f11a495 bc3c7f18 88881ecc 40155787,1,0.0,99.903
+1104,fpr1=0x7b467ada bfbaf6fe b59cf788 bfc09d6c,1,0.0,99.903
+1105,fpr0=0xaa997f63 bfb0a518 a9aa63ac bfc740f6,1,0.0,99.903
+1106,fpr13=0x00000000 00000000 b5c70566 3ec270d2,1,0.0,99.903
+1107,fpr30=0x3540f79e 40a05c7e 00000000 3fe00000,1,0.0,99.903
+1108,fpr31=0x3f18f565 3fc86306 78d4fdf3 4043a6e9,1,0.0,99.903
+1109,fpr6=0x5de6be3a 404f5793 594d4931 bf8ea01b,1,0.0,99.903
+1110,r00=0x00000008 r01=0x0ffe9ef0 r02=0x1eeeeeee r03=0xa0000000,1,0.0,99.903
+1111,r04=0xa0040000 r05=0x00360000 r06=0x00000010 r07=0x00000000,1,0.0,99.903
+1112,fpr10=0x86515229 3c4bb730 3e575172 c007d3cb,1,0.0,99.903
+1113,r08=0x0aae6ad0 r09=0x08000000 r10=0xfff2ba7c r11=0x00000000,1,0.0,99.903
+1114,fpr16=0x6faa41b3 3f0a8231 3d4cc357 3f0a8020,1,0.0,99.903
+1115,fpr17=0xde6e80ad bef44517 a3a961c9 3f0a7e2b,1,0.0,99.903
+1116,fpr18=0x5986d427 bef4396c d5790b0e bf106097,1,0.0,99.903
+1117,lr=0x0020c48c cr=0x84084044 xer=0x00000002 ctr=0x00000014,1,0.0,99.903
+1118,r28=0x00000060 r29=0x000000c0 r30=0x04f29300 r31=0x00000002,1,0.0,99.903
+1119,r24=0x00000003 r25=0x16de0000 r26=0x16630000 r27=0x00000200,1,0.0,99.903
+1120,"rts assertion failed: `vaddr % PAGE_SIZE_1M == 0' in `int initializeAppMemory(int, TLBEntry&, unsigned int, unsigned int)' at mmu.cc:540",1,0.0,99.903
+1121,fpr13=0x9041e5fe 3924ec31 88881e97 40155787,1,0.0,99.903
+1122,fpr12=0x16743d95 bdf69e9c bd76be8c 3dff5972,1,0.0,99.903
+1123,fpr12=0x8523c684 3c498626 3e575151 c007d3cb,1,0.0,99.903
+1124,r24=0x00000001 r25=0x00000370 r26=0x00000374 r27=0x00000000,1,0.0,99.903
+1125,fpr16=0x75d6e2d6 4021f361 4a4cf3ec 4016ad57,1,0.0,99.903
+1126,fpr13=0xe17c77f3 bf106090 49cff16a 3f0a8264,1,0.0,99.903
+1127,r28=0x00000049 r29=0x00000000 r30=0x00352140 r31=0x00000001,1,0.0,99.903
+1128,fpr15=0x65ca935a 4017ab30 de2b215b 402defe6,1,0.0,99.903
+1129,fpr14=0x101a5a39 bff6fdf9 665dcd85 bffc2f3a,1,0.0,99.903
+1130,fpr13=0xaf37302b 40250b22 9c0f76af 40218bdb,1,0.0,99.903
+1131,fpr3=0x89b8f327 bfa0c49c 9991a9e0 3fc5695e,1,0.0,99.903
+1132,lr=0x002033fc cr=0x82848844 xer=0x00000002 ctr=0x00266bd4,1,0.0,99.903
+1133,fpr11=0xc8cdfbab c031a8d1 61672fb5 c0322a53,1,0.0,99.903
+1134,msr=0x0002f900 dear=0x0000005d esr=0x08000000 fpscr=0x82020000,1,0.0,99.903
+1135,fpr10=0xc9a4c09d c01cdf54 343c21a0 bfcefc09,1,0.0,99.903
+1136,fpr9=0xc510b509 40239652 4afb1558 4016863a,1,0.0,99.903
+1137,fpr8=0x631610da c0262820 2caf34ac c01b0573,1,0.0,99.903
+1138,fpr7=0x7193139e bfb74002 3710328b bfcb7ed6,1,0.0,99.903
+1139,fpr6=0x0c1ecd0a 3fd03ed8 46d01014 bfc80ca1,1,0.0,99.903
+1140,fpr5=0xba8551a2 3fe13b82 93c3f2c1 3fbcbeb6,1,0.0,99.903
+1141,fpr4=0x5c260bb7 3fd8426b 977893e5 3fba466d,1,0.0,99.903
+1142,fpr12=0xc7a5252a c02cf64e 81891421 c032cd62,1,0.0,99.903
+1143,fpr2=0xdb90f4c7 3ff2872e f626568a 3fd6cb5c,1,0.0,99.903
+1144,fpr3=0x13885582 3ff34da9 191b32e7 400c7b99,1,0.0,99.903
+1145,fpr13=0x000c9000 408fffff fffffffe fffffffc,1,0.0,99.903
+1146,fpr12=0x00000000 00d50900 00062480 0342e8b0,1,0.0,99.903
+1147,fpr4=0x5bd1be23 bfd9119c 92636fd5 bfb270e7,1,0.0,99.903
+1148,fpr5=0xfed78206 40045d5a 06be1146 3ff482f0,1,0.0,99.903
+1149,fpr6=0x9c990d1b 40021c6f a8f77056 3ff733af,1,0.0,99.903
+1150,fpr7=0x0191b842 bfe5f5c1 8ee86893 3fe7d594,1,0.0,99.903
+1151,fpr6=0x3e5753a1 c007d3cb 3e5753a1 c007d3cb,1,0.0,99.903
+1152,fpr8=0xad4de1a7 4024fd26 de5ba6e6 400b1ea2,1,0.0,99.903
+1153,<*> r21=0x00000010 r22=0x00000180 <*>,1,0.0,99.903
+1154,fpr3=0x33333337 3fe33333 33333337 3fe33333,1,0.0,99.903
+1155,fpr9=0x2ce686d5 3fe99e42 8fb815f2 400afc39,1,0.0,99.903
+1156,fpr2=0x00000000 0300aa06 0814a6d6 00002206,1,0.0,99.903
+1157,fpr1=0x00000000 0000aa06 00000005 0342e6f0,1,0.0,99.903
+1158,<*> <*> 92636fd5 bfb270e7,1,0.0,99.903
+1159,lr=0x00010644 cr=0x84042242 xer=0x00000002 ctr=0x00000093,1,0.0,99.903
+1160,r28=0x0302e660 r29=0x1ff9e2a0 r30=0x00085fc8 r31=0x00000001,1,0.0,99.903
+1161,<*> r25=0x00000008 r26=0x000865b0 r27=0x0008e5c8,1,0.0,99.903
+1162,r20=0x0048eb74 r21=0x0048eb70 r22=0x0048eb68 r23=0x1ff9e1c0,1,0.0,99.903
+1163,r16=0x0048eb9c r17=0x0048eba0 r18=0x0048eb6c r19=0x0048eb64,1,0.0,99.903
+1164,fpr22=0x63721200 3e3ddd71 e70b65ae 3e460d37,1,0.0,99.903
+1165,r16=0x16df1610 r17=0x166333d0 r18=0x04f3a5f0 r19=0x04f3a4f0,1,0.0,99.903
+1166,<*> r13=0x1eeeeeee r14=0x00000018 r15=0x00000016,1,0.0,99.903
+1167,r08=0x16df1400 r09=0x00011400 r10=0x04f3a500 r11=0x00002280,1,0.0,99.903
+1168,r04=0x16632ff0 r05=0x04f29100 r06=0x16df0800 r07=0x00002100,1,0.0,99.903
+1169,r00=0x00010800 r01=0x1ffa9d80 r02=0x1eeeeeee r03=0x16de0000,1,0.0,99.903
+1170,r12=0x00000002 r13=0x1eeeeeee r14=0x0000fa00 r15=0x00475be0,1,0.0,99.903
+1171,r16=0xfffffffe r17=0x4c00081f r18=0x44000000 r19=0x085f9780,1,0.0,99.903
+1172,r20=0x085f19d0 r21=0x40000000 r22=0x0ffe9f00 r23=0x00000001,1,0.0,99.903
+1173,r24=0x00000000 r25=0x0aab7434 r26=0x0aab7350 r27=0x00000000,1,0.0,99.903
+1174,r28=0xa003e820 r29=0x00000000 r30=0x84004444 r31=0x0aab54f0,1,0.0,99.903
+1175,instruction TLB error interrupt,1,0.0,99.903
+1176,fpr20=0x5ae889cf be43c53c 9b194704 be3beda6,1,0.0,99.903
+1177,fpr21=0x248a7549 3e0fde1c 660fee85 be494bcf,1,0.0,99.903
+1178,lr=0x0025bd1c cr=0x84004444 xer=0x00000002 ctr=0x00289c24,1,0.0,99.903
+1179,ddr: activating redundant bit steering: rank=0 symbol=0,1,0.0,99.903
+1180,fpr0=0x5bd1be25 bfd9119c 0c643dc2 400c7cc8,1,0.0,99.903
+1181,"Kernel detected <*> integer alignment exceptions <*> iar 0x0023f108, dear 0x1feaa260 <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*>",1,0.0,99.903
+1182,"Kernel detected 50855390 integer alignment exceptions (50855383) iar 0x0023f108, dear 0x1feaa260 (50855384) iar 0x00265564, dear 0x1feaa1c0 (50855385) iar 0x00265574, dear 0x1feaa1e0 (50855386) iar 0x00265578, dear 0x1feaa200 (50855387) iar 0x00265588, dear 0x1feaa220 (50855388) iar 0x0026558c, dear 0x1feaa240 (50855389) iar 0x00265594, dear 0x1feaa260 (50855390) iar 0x00265598, dear 0x1feaa280",1,0.0,99.903
+1183,r08=0x0a069000 r09=0x05096000 r10=0x078e6d40 r11=0x0b4d9e80,1,0.0,99.903
+1184,r04=0x09600ff0 r05=0x06900ff0 r06=0x0a069000 r07=0x05096000,1,0.0,99.903
+1185,fpr1=0x2a8205b2 3fe83bcb f6265688 3fd6cb5c,1,0.0,99.903
+1186,r00=0x0000f000 r01=0x0000f000 r02=0x1eeeeeee r03=0x2ddddddd,1,0.0,99.903
+1187,fpr19=0xe1a261f5 3e3e02f8 4e0ebb83 3e468e58,1,0.0,99.903
+1188,r08=0x00055800 r09=0x00055800 r10=0x01349d58 r11=0x00000002,1,0.0,99.903
+1189,r12=0x00a1c2a0 r13=0x1eeeeeee r14=0x00e60000 r15=0x00000006,1,0.0,99.903
+1190,r16=0x00d4e260 r17=0xfffead80 r18=0x00000072 r19=0x00c8e140,1,0.0,99.903
+1191,r20=0x00dde3b0 r21=0x00d8fd70 r22=0x01344e10 r23=0x00000001,1,0.0,99.903
+1192,lr=0x00486ad8 cr=0x48422224 xer=0x20000002 ctr=0x00000305,1,0.0,99.903
+1193,r12=0xffffcb62 r13=0x1eeeeeee r14=0x01855c80 r15=0x01054a30,1,0.0,99.903
+1194,r24=0x00d913d0 r25=0x0002a000 r26=0x00000000 r27=0x00001500,1,0.0,99.903
+1195,r08=0x022177e8 r09=0x02217468 r10=0x02217628 r11=0x00237ed8,1,0.0,99.903
+1196,r04=0x0fea04b8 r05=0x00000000 r06=0x02217468 r07=0x02217628,1,0.0,99.903
+1197,fpr9=0x263a3565 bdecab74 fd2656c6 3df3ddff,1,0.0,99.903
+1198,r16=0x00000000 r17=0x00000000 r18=0x00000000 <*>,1,0.0,99.903
+1199,r28=0x00a1bed0 r29=0x007f9c08 r30=0x00000380 r31=0x00d945b8,1,0.0,99.903
+1200,lr=0x004d1ea4 cr=0x42000820 xer=0x20000002 ctr=0x00000002,1,0.0,99.903
+1201,fpr30=0xfa73c196 3ce14312 25eab70e 3cd0a179,1,0.0,99.903
+1202,fpr29=0x37c91ba9 3a127157 72505e30 bcd08103,1,0.0,99.903
+1203,fpr0=0xf7b9a788 0001827f 3f6a8c91 3ec756aa,1,0.0,99.903
+1204,fpr28=0x88881f52 40155787 00000087 3ff00000,1,0.0,99.903
+1205,fpr10=0x1e79b384 bde0e370 1f19656a 3e014040,1,0.0,99.903
+1206,fpr1=0x01077800 8ff2ff96 d0e7aef3 3eca2702,1,0.0,99.903
+1207,r24=0x00000000 r25=0x00000003 r26=0x000047e0 r27=0x00000010,1,0.0,99.903
+1208,fpr11=0x54e63dec 3e02751d e8e91307 3e035909,1,0.0,99.903
+1209,r28=0x000047d8 r29=0xffffb7e8 r30=0x00000000 r31=0x00004800,1,0.0,99.903
+1210,r16=0x09b9cca0 r17=0x01899740 r18=0x09bfd410 r19=0x09c0d550,1,0.0,99.903
+1211,fpr7=0xb99dc94d bdd567fe c4b827fb 3df5dd71,1,0.0,99.903
+1212,r20=0x00000f99 r21=0x000681c0 r22=0x0000ba8c r23=0x0a1a5b2c,1,0.0,99.903
+1213,r24=0x0a1a5b28 r25=0x00270000 r26=0x000001aa r27=0x00000000,1,0.0,99.903
+1214,fpr6=0x9fde29b5 3ff006ec 1e52ceb1 bff006d9,1,0.0,99.903
+1215,r28=0x00002012 r29=0x00000001 r30=0x09feab50 r31=0x02217470,1,0.0,99.903
+1216,fpr5=0xd08e4982 3fe3cf2b 4c96bfaa 3f06e1a5,1,0.0,99.903
+1217,lr=0x001429a8 cr=0x44404222 xer=0x20000002 ctr=0x001428d0,1,0.0,99.903
+1218,fpr0=0x00000000 00000000 2e94c9c3 3fc2fc7b,1,0.0,99.903
+1219,fpr5=0xa7b6e52a 4025a18f a1482c21 3f6ce353,1,0.0,99.903
+1220,fpr1=0x85345237 3fd4fef8 8e61c0de bfeb7ad4,1,0.0,99.903
+1221,fpr4=0x90e9623b bfe3cfc7 9b8fa1d0 bfe3cf99,1,0.0,99.903
+1222,fpr3=0xe81b7f34 bfd4d41e 0882e006 bfd4d50f,1,0.0,99.903
+1223,fpr7=0x798fced5 40113b1d 88d927d4 3fc8881c,1,0.0,99.903
+1224,fpr8=0x718f59ca 401ed07d 000004dc 3fe00000,1,0.0,99.903
+1225,fpr11=0x4dad5304 bfb5b613 00000000 bc8bfd32,1,0.0,99.903
+1226,fpr12=0x2c4463e5 40286de8 5fbb49ec 3fee65b1,1,0.0,99.903
+1227,"Error receiving packet on tree network, <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",1,0.0,99.903
+1228,r00=0x00000001 r01=0x1ffa9410 r02=0x1eeeeeee r03=0x000006f8,1,0.0,99.903
+1229,fpr8=0x2a9a4417 3df764ed 3dc40043 3df885ce,1,0.0,99.903
+1230,fpr2=0x98ad50cc 3ff0fbd9 4c14decd bfeb7b2e,1,0.0,99.903
+1231,r04=0x000006f0 r05=0x0194adb8 r06=0x0194adb0 r07=0x056a2a20,1,0.0,99.903
+1232,fpr6=0x4c6769f9 402953b1 b72f6516 3f946f0b,1,0.0,99.903
+1233,fpr30=0x2f308db2 c01cd896 05613382 4020705d,1,0.0,99.903
+1234,fpr29=0xdcef816f 3fdf36fa 659f7cfe 40150883,1,0.0,99.903
+1235,fpr28=0xfa1099a0 402752a9 4879f9cc 4013ec5c,1,0.0,99.903
+1236,fpr12=0x09f3a000 727ebf3e 00010c81 aaecab24,1,0.0,99.903
+1237,fpr27=0xb54328aa 3ff925d0 5f32e549 c000af8c,1,0.0,99.903
+1238,fpr26=0x3280142a c016ecfe 225d3696 402e6ee0,1,0.0,99.903
+1239,fpr25=0xa5ddb768 bfc22b5d 07cbfb97 c023a3bc,1,0.0,99.903
+1240,fpr24=0x3ce58ec9 4012c016 8c8da6e4 4019dcc5,1,0.0,99.903
+1241,fpr23=0x2dac6a53 c0061a9c c2f8a41a c008d371,1,0.0,99.903
+1242,fpr13=0x6127af00 e00cb387 0001cd23 f8bde000,1,0.0,99.903
+1243,fpr2=0x00017ba6 00000000 a858080e 3f9e315a,1,0.0,99.903
+1244,r00=0x00000000 r01=0x0ffea660 r02=0x00000000 r03=0x00b5aa10,1,0.0,99.903
+1245,fpr22=0xaf97827d c01d47fb 83d918e1 402309b8,1,0.0,99.903
+1246,fpr21=0x0412cb3b 4004d51e 9c5139cd c0261f66,1,0.0,99.903
+1247,fpr20=0x9649fc51 40146071 a82b8ace 4015122e,1,0.0,99.903
+1248,fpr19=0xae6eed33 4013a210 dfa708d6 c032176d,1,0.0,99.903
+1249,r04=0x000003f0 r05=0x00000870 r06=0x00340000 r07=0x00000004,1,0.0,99.903
+1250,fpr18=0xa7b9b409 c01bc613 ee00caaa 3ff73af6,1,0.0,99.903
+1251,fpr17=0x69972dc1 c014873d 8aef55ff c027ac72,1,0.0,99.903
+1252,r08=0x0000036c r09=0x389cc625 r10=0x0030ae90 r11=0x00310000,1,0.0,99.903
+1253,r12=0x0000005b r13=0x1eeeeeee r14=0x00b5ae00 r15=0x00b5b280,1,0.0,99.903
+1254,fpr15=0x86c1fcaf bc4f7014 000000bc 3ff00000,1,0.0,99.903
+1255,fpr3=0x00000000 8f2c2960 90140eab 3fa24e17,1,0.0,99.903
+1256,fpr4=0xfc4b6390 00000000 84450a5a 3f2d7422,1,0.0,99.903
+1257,fpr5=0x00000000 1b9d1880 dfd4314f 3f24878b,1,0.0,99.903
+1258,r20=0x0b5c7c30 r21=0x086d7610 r22=0x080db700 r23=0x080db6d0,1,0.0,99.903
+1259,fpr6=0xfcd34daf 00000000 36e7473e bfa04bd3,1,0.0,99.903
+1260,fpr21=0x000000c1 3f500000 48ae126b 3d0ad4cc,1,0.0,99.903
+1261,fpr20=0xf386e5ad bc7d4360 89decd90 3cb90ddb,1,0.0,99.903
+1262,r16=0x0000071a r17=0x00000009 r18=0x00000000 r19=0x00000719,1,0.0,99.903
+1263,r12=0x080db530 r13=0x1eeeeeee r14=0x0000000a r15=0x0000000c,1,0.0,99.903
+1264,fpr7=0x00000000 fd937100 fcc3d8f4 00000000,1,0.0,99.903
+1265,fpr11=0x1cb67000 fdd17678 00000000 213e0940,1,0.0,99.903
+1266,r08=0x48422224 r09=0x086bee00 r10=0x00000000 r11=0x00016800,1,0.0,99.903
+1267,r04=0x0b42fc70 r05=0xffffb7e8 r06=0x00000900 r07=0x28422224,1,0.0,99.903
+1268,0xbff02716 0x68ec8538,1,0.0,99.903
+1269,0x3fe3f579 0xc15c9073,1,0.0,99.903
+1270,fpr8=0x02a6a7af 00000000 720a8300 fdbdf4a6,1,0.0,99.903
+1271,fpr9=0x00000000 bb8462e0 fcd63593 00000000,1,0.0,99.903
+1272,fpr18=0xfffffebc 408fffff 3e575140 c007d3cb,1,0.0,99.903
+1273,0xbf070f8c 0xf7a4ac9f,1,0.0,99.903
+1274,fpr10=0x2895e900 fdd2470d 00000000 30f18240,1,0.0,99.903
+1275,fpr17=0xb1d0411a bc57872f d1030d25 3fbca20d,1,0.0,99.903
+1276,fpr31=0xc5bef4b8 c008806c e06ca8f9 c02f96a0,1,0.0,99.903
+1277,fpr19=0x36fe4f63 bc5955b8 fa73c196 3ce14312,1,0.0,99.903
+1278,lr=0x0029f078 cr=0x44844420 xer=0x00000002 ctr=0x00000000,1,0.0,99.903
+1279,r00=0x0000001c r01=0x0ffe40e0 r02=0x1eeeeeee r03=0x00000064,1,0.0,99.903
+1280,fpr31=0x00000000 00000000 28f5c28f 40128f5c,1,0.0,99.903
+1281,r00=0x00000279 r01=0x0ffea1c0 r02=0x1eeeeeee r03=0x000013c8,1,0.0,99.903
+1282,r04=0x085a6ae0 r05=0x000003fe r06=0x000fff68 r07=0x3fefff68,1,0.0,99.903
+1283,r04=0x095c4e78 r05=0x06002490 r06=0x06002498 r07=0x060024a0,1,0.0,99.903
+1284,r08=0x089d85a0 r09=0x028fb5c0 r10=0x00a25be0 r11=0x00000004,1,0.0,99.903
+1285,r08=0x060024a8 r09=0x060024b0 r10=0x0ffe8924 r11=0x0ffe422c,1,0.0,99.903
+1286,<*> r13=0x1eeeeeee <*> r15=0x0000000c,1,0.0,99.903
+1287,r16=0x01edfc00 r17=0x01e0b150 r18=0x02089160 r19=0x01fb46b0,1,0.0,99.903
+1288,r12=0xa0006470 r13=0x1eeeeeee r14=0x00000004 r15=0x0048eb90,1,0.0,99.903
+1289,<*> r13=0x1eeeeeee r14=0x00000000 <*>,1,0.0,99.903
+1290,r16=0x08499870 r17=0xffffff60 r18=0x0839b228 r19=0x00000064,1,0.0,99.903
+1291,<*> ffffffff 33333333 c0221333,1,0.0,99.903
+1292,r16=0x0000046d r17=0x00a35a08 r18=0x0292b038 r19=0x089f79a0,1,0.0,99.903
+1293,fpr23=0xffffffff ffffffff 33333333 c0221333,1,0.0,99.903
+1294,fpr21=0xffffffff ffffffff a84f58c5 3fb5c796,1,0.0,99.903
+1295,fpr20=0xffffffff ffffffff 29b04a00 3fae237e,1,0.0,99.903
+1296,fpr19=0xffffffff ffffffff 6a1b1500 bfa1bf08,1,0.0,99.903
+1297,r20=0x00000002 r21=0x0000000c r22=0x00000085 r23=0x005cf7c8,1,0.0,99.903
+1298,r24=0x005e1ec8 r25=0xe22bbe98 r26=0x085a5718 r27=0x0858dd18,1,0.0,99.903
+1299,r12=0x0000001c r13=0x1eeeeeee r14=0x00000082 r15=0x083de8e0,1,0.0,99.903
+1300,r00=0x00000030 r01=0x0ffe9d50 r02=0x00000000 r03=0x0b592b40,1,0.0,99.903
+1301,fpr28=0xffffffff ffffffff 872e5448 3ffddaff,1,0.0,99.903
+1302,fpr26=0xffffffff ffffffff 0e4cadc0 bffb54b8,1,0.0,99.903
+1303,r04=0x0b3a4200 r05=0x0000000c r06=0x0000000c r07=0x7ffffff2,1,0.0,99.903
+1304,r08=0x0000029e r09=0x00000000 r10=0x00000004 r11=0x0ffe9c9d,1,0.0,99.903
+1305,r16=0x000004c6 r17=0x80000a4e r18=0xfffffe6c r19=0x0000065c,1,0.0,99.903
+1306,r12=0x44844480 r13=0x1eeeeeee r14=0x00000010 r15=0x08adcc70,1,0.0,99.903
+1307,r16=0x00000001 r17=0x00e12310 r18=0x0ffea010 r19=0x00000008,1,0.0,99.903
+1308,r20=0x0b3a49ff r21=0x0b3a2a04 r22=0x0035e908 r23=0x80000003,1,0.0,99.903
+1309,r24=0x80000001 r25=0x003c1920 r26=0x0b60e860 r27=0x0000000c,1,0.0,99.903
+1310,fpr29=0xffffffff ffffffff e5edda58 c0520e91,1,0.0,99.903
+1311,"dear 0x01fc5640 (543 RAS KERNEL INFO Kernel detected 5438714 integer alignment exceptions (5438707) iar 0x00544ea8, dear 0x01fc5620 (5438708) iar 0x00544eb8, dear 0x01fc5640 (5438709) iar 0x00544ea8, dear 0x01fc5660 (5438710) iar 0x00544eb8, dear 0x01fc5680 (5438711) iar 0x00544ee0, dear 0x01fc56a0 (5438712) iar 0x00544ef0, dear 0x01fc56c0 (5438713) iar 0x00544ee0, dear 0x01fc56e0 (5438714) iar 0x00544ef0, dear 0x01fc5700",1,0.0,99.903
+1312,r12=0x48242484 r13=0x1eeeeeee r14=0x01c1937c r15=0x00000009,1,0.0,99.903
+1313,"dear <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",1,0.0,99.903
+1314,fpr23=0xffffffff ffffffff 49780800 3f66ccd6,1,0.0,99.903
+1315,fpr22=0xffffffff ffffffff c1d7fc00 bf8a15e8,1,0.0,99.903
+1316,fpr8=0x3e575215 bf67d3cb 007f850f 3d05f9cf,1,0.0,99.903
+1317,0x32470000 0x31470000,1,0.0,99.903
+1318,r16=0x01edd5c8 r17=0x01e08b18 r18=0x02086b28 r19=0x01fb2078,1,0.0,99.903
+1319,r28=0x0b592b40 r29=0x0000000c r30=0x0b3a420c r31=0x0b592b4c,1,0.0,99.903
+1320,fpr30=0xffffffff ffffffff 29a6face bf8d2fed,1,0.0,99.903
+1321,r16=0x00001c28 r17=0x00003850 r18=0x00000002 r19=0x00000001,1,0.0,99.903
+1322,fpr13=0x08eb9f90 004c8328 5a2c1ba2 bf62a945,1,0.0,99.903
+1323,r04=0x40000000 r05=0x00000000 r06=0x43380000 r07=0x00000001,1,0.0,99.903
+1324,<*> <*> c1d36c4c 3f627cf5,1,0.0,99.903
+1325,fpr8=0x400f56b3 c0009a39 002233d1 3f5c7ae7,1,0.0,99.903
+1326,fpr7=0x9a9eac35 bfe2e13e 6723211a c025f045,1,0.0,99.903
+1327,fpr6=0xc65ab5cd c028c3ec 7787f21a bf687c08,1,0.0,99.903
+1328,fpr5=0x06baa278 c01fbab1 72ffae7b 3f6276d1,1,0.0,99.903
+1329,fpr4=0x00000000 00000000 c1d36c4c 3f627cf5,1,0.0,99.903
+1330,fpr0=0xf119ef02 bff38ab0 00000000 408c1800,1,0.0,99.903
+1331,r16=0x00000038 r17=0x000000de r18=0x00000044 r19=0x00ed4920,1,0.0,99.903
+1332,r28=0x003b6368 r29=0x0033a570 r30=0x0047eba0 r31=0x0a86c380,1,0.0,99.903
+1333,fpr12=0x00000000 00000000 2d21ac5c bf8048e3,1,0.0,99.903
+1334,<*> <*> 98ea8be4 3f5e6e65,1,0.0,99.903
+1335,r08=0x0031a180 r09=0x00320000 r10=0x0031b7c0 r11=0x0031cb30,1,0.0,99.903
+1336,fpr8=0x9d744186 3ff0e303 006296a7 bf75cb0b,1,0.0,99.903
+1337,r12=0xffff0b37 r13=0x1eeeeeee r14=0x00360000 r15=0x007500b0,1,0.0,99.903
+1338,fpr7=0x1eec0496 bfe0bbc0 6fc1328a c0255f17,1,0.0,99.903
+1339,r16=0x005cb3f8 r17=0x005cb358 r18=0x005ca830 r19=0x005ca830,1,0.0,99.903
+1340,fpr5=0xef67cb49 c02c2f8c 1c22e9ce bf732a29,1,0.0,99.903
+1341,fpr4=0x00000000 00000000 98ea8be4 3f5e6e65,1,0.0,99.903
+1342,fpr0=0x03b304c3 40459fb2 00000000 408b7000,1,0.0,99.903
+1343,fpr13=0x08ea8b50 08ea4ee8 1174aee6 3f5a3b49,1,0.0,99.903
+1344,<*> <*> xer=0x00000002 ctr=0x00000000,1,0.0,99.903
+1345,fpr0=0x00000000 0100011f 8cb2b750 4024093f,1,0.0,99.903
+1346,fpr3=0x00000000 408f4000 3740a5e9 4026f8d5,1,0.0,99.903
+1347,fpr8=0x7ffff8c0 100cfaf0 00000000 00000004,1,0.0,99.903
+1348,fpr4=0x00000000 3ff00000 843ea599 3f0804f2,1,0.0,99.903
+1349,r20=0x0ffe4260 r21=0x083de348 r22=0x083df8c8 r23=0x08325930,1,0.0,99.903
+1350,fpr5=0x10010000 00000000 00000000 7ffff9c0,1,0.0,99.903
+1351,fpr4=0x10055620 0000000d 10055620 10045620,1,0.0,99.903
+1352,fpr2=0x00000000 00000001 00340000 002101e1,1,0.0,99.903
+1353,fpr6=0x00000000 41601224 533cc265 3f088fd3,1,0.0,99.903
+1354,<*> r01=0x0ffea1c0 r02=0x1eeeeeee <*>,1,0.0,99.903
+1355,fpr8=0x3883a497 bfe016b5 8da3311e 3f06d5a7,1,0.0,99.903
+1356,fpr9=0x00000000 40914400 7f72ea93 c073763e,1,0.0,99.903
+1357,fpr10=0x00000000 3ff00000 33333333 40873333,1,0.0,99.903
+1358,fpr11=0x648fbb1c bfd80aa1 b64fc1d3 4074e425,1,0.0,99.903
+1359,r20=0x022951b8 r21=0x000004a8 r22=0x1ff8a678 r23=0x1ffaa670,1,0.0,99.903
+1360,r16=0x00004610 r17=0x00008c20 r18=0x00000000 r19=0x00000003,1,0.0,99.903
+1361,r24=0x083e0e68 r25=0x0ffe891c r26=0x0ffe4230 r27=0x0ffe8914,1,0.0,99.903
+1362,r28=0x0ffe54c0 r29=0x0ffe890c r30=0x0000006c r31=0x0ffe8920,1,0.0,99.903
+1363,r12=0x48242488 r13=0x1eeeeeee r14=0x01c19768 r15=0x0000000c,1,0.0,99.903
+1364,<*> <*> 33333333 40873333,1,0.0,99.903
+1365,fpr13=0x00000000 0000011f 984983e1 c0756f84,1,0.0,99.903
+1366,fpr7=0x5789d180 bfdc2b71 88e368f1 3ef4f8b5,1,0.0,99.903
+1367,fpr23=0xb3bf84fd bfea213f 0fdbbf61 bffcbf8a,1,0.0,99.903
+1368,fpr22=0xbfaeb521 bff940d7 632f9637 4007c039,1,0.0,99.903
+1369,fpr21=0x17910f57 4000c7d7 49d67fe2 c0055ebf,1,0.0,99.903
+1370,fpr20=0x0fc9ed91 c00c51ea 1a28d8a0 c01b7a04,1,0.0,99.903
+1371,fpr19=0x2884bf88 bff19563 18fb6c17 3ff8ddaf,1,0.0,99.903
+1372,fpr18=0xc24c0e36 c0243a30 534e39ab c012546c,1,0.0,99.903
+1373,fpr17=0xa0e1b0de c00f074c 767c4303 402b07a4,1,0.0,99.903
+1374,fpr16=0x732e7918 3ffd3453 71e8d5cb c021177e,1,0.0,99.903
+1375,fpr27=0x8f8c41d8 3ec1002d fea4549a 3edb858b,1,0.0,99.903
+1376,fpr15=0xc9b11547 bff434ab 02c6bc5e c00d254b,1,0.0,99.903
+1377,r16=0x000035d0 r17=0x00006ba0 r18=0x00000003 r19=0x00000001,1,0.0,99.903
+1378,fpr12=0x131b8806 bfe64237 ef5ae7a2 bffee1ae,1,0.0,99.903
+1379,fpr11=0x76e7d7e9 bff675e4 4a3f4c02 4010e161,1,0.0,99.903
+1380,fpr10=0xf370d535 4006d4e7 2985ff69 4004af29,1,0.0,99.903
+1381,fpr9=0x4ff0f498 4011f6fa bc21a47f bfec1331,1,0.0,99.903
+1382,fpr8=0x9b304dfb 40109413 c35008a0 4008f430,1,0.0,99.903
+1383,fpr7=0x8fbf7dad c010cb2d 4a8d6dd5 c0032aec,1,0.0,99.903
+1384,fpr6=0x83b642cf 3ff0cd25 c73b917d c00e173d,1,0.0,99.903
+1385,fpr28=0xe857a307 3edb905e 1a50628e 3edb81bd,1,0.0,99.903
+1386,fpr5=0xa9291e53 3fdc6564 131c98ab bfec670f,1,0.0,99.903
+1387,fpr4=0x1ae25d53 bfed0fde 9d1bbc14 3fe7397f,1,0.0,99.903
+1388,fpr14=0x5d9dc39b 4010aaba 98dc1a71 40321afc,1,0.0,99.903
+1389,<*> r09=0x00000400 <*> r11=0xc0010000,1,0.0,99.903
+1390,r04=0x00085fc8 r05=0x00085fcc r06=0x88888889 r07=0x00000000,1,0.0,99.903
+1391,ciod: In packet from node <*> <*> message still ready for node <*> <*> 00020000 00000003 00000000),1,0.0,99.903
+1392,fpr11=0x8e34592b 3ff9f5b7 ed86f0f0 40090740,1,0.0,99.903
+1393,fpr12=0xa577c879 3f766531 0ea28f87 bf8303c4,1,0.0,99.903
+1394,fpr13=0xfcffd0ad 40238ba4 45816108 c01df19c,1,0.0,99.903
+1395,"max time in a cr RAS KERNEL INFO 10760 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",1,0.0,99.903
+1396,fpr30=0x155deeca 408a1465 00000000 bfe00000,1,0.0,99.903
+1397,"<*> ddr errors(s) detected and corrected on rank 0, symbol 0, bit <*>",1,0.0,99.903
+1398,fpr23=0xca246a4b be43bc84 bd5ac63d be3ba3ec,1,0.0,99.903
+1399,fpr24=0xa2e3fa84 c01b330e ff88bf26 4019e2c6,1,0.0,99.903
+1400,r00=0x00000003 r01=0x0ffe9ed0 r02=0x1eeeeeee r03=0x00000002,1,0.0,99.903
+1401,r04=0x00482b18 r05=0x00482ae8 r06=0x02a4ef70 r07=0x0047ebd0,1,0.0,99.903
+1402,fpr24=0x833634c9 3e164570 9b11c7cc be48368d,1,0.0,99.903
+1403,fpr30=0xca091b98 bfff7911 7629b09f c004556a,1,0.0,99.903
+1404,fpr25=0x7007a404 bed648f8 b8089fb0 3edb8e89,1,0.0,99.903
+1405,fpr29=0x3b246bd5 40148be6 1ac3b737 402538d8,1,0.0,99.903
+1406,fpr26=0xa546862f 3ec10355 044a0507 bed64e42,1,0.0,99.903
+1407,fpr28=0x19d46239 c0102368 f342ccd5 c020dfcf,1,0.0,99.903
+1408,fpr27=0xbf656dd3 3ff960a9 5da4ea47 4020b0c6,1,0.0,99.903
+1409,fpr26=0x6ef466d7 40229ff9 c25641f4 40077488,1,0.0,99.903
+1410,fpr25=0xf75b5ed7 bff2dec1 6e8b6df5 c00b111b,1,0.0,99.903
+1411,"10732 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",1,0.0,99.903
+1412,r28=0xfffffff4 r29=0x0000013f r30=0x00040000 r31=0x00040240,1,0.0,99.903
+1413,r08=0x00482b18 r09=0x00482b18 r10=0x00000002 r11=0x00482b28,1,0.0,99.903
+1414,r08=0x1fe00000 r09=0x00000001 r10=0x00090000 r11=0x03166a2e,1,0.0,99.903
+1415,r04=0x00088430 r05=0x00200000 r06=0x20000000 r07=0x00040000,1,0.0,99.903
+1416,r12=0x00482ae0 r13=0x1eeeeeee r14=0x08626be8 r15=0x08626bf0,1,0.0,99.903
+1417,mask..................0x50,1,0.0,99.903
+1418,symbol................18,1,0.0,99.903
+1419,r16=0x08626bf8 r17=0x005cf7b0 r18=0x0858dd18 r19=0x00482b30,1,0.0,99.903
+1420,r20=0x00482ae8 r21=0x08814b68 r22=0x00000000 r23=0x00002b20,1,0.0,99.903
+1421,r24=0x0057d5e8 r25=0x08743320 r26=0x00595bf0 r27=0x087023c0,1,0.0,99.903
+1422,fpr3=0x041628f0 c011219b 299ec4c5 bff81ed8,1,0.0,99.903
+1423,r28=0x086d23c0 r29=0x00482ad0 r30=0x0033a570 r31=0x0047eba0,1,0.0,99.903
+1424,fpr4=0x00000000 00000000 cf9aacc6 bf82a1d3,1,0.0,99.903
+1425,fpr30=0x155b0551 3ec11f84 d6dbe0ae bed64319,1,0.0,99.903
+1426,r16=0x002c9f80 r17=0x003491e0 r18=0x00335960 r19=0x002d3bbc,1,0.0,99.903
+1427,fpr31=0xffffffff ffffffff ff8fa800 bf970b7a,1,0.0,99.903
+1428,r16=0x002c9d8c r17=0x00348df8 r18=0x00335578 r19=0x002d39c8,1,0.0,99.903
+1429,r16=0x000001c9 r17=0x01d25330 r18=0xffffff6b r19=0x01d25818,1,0.0,99.903
+1430,fpr12=0x00000000 00000028 18940624 bf455129,1,0.0,99.903
+1431,fpr13=0x00000000 060008a5 4ea20105 3fc1d2c5,1,0.0,99.903
+1432,r16=0x022972e0 r17=0x022981e0 r18=0x022990e0 r19=0x01c05d88,1,0.0,99.903
+1433,fpr29=0xf4034cc1 bed65055 9ec00cf7 3ec10067,1,0.0,99.903
+1434,fpr2=0x736f2419 bfdab5ea f57d3fc0 bff983e7,1,0.0,99.903
+1435,fpr0=0x00000000 20006fcd 00004000 7fffffff,1,0.0,99.903
+1436,lr=0x000105a4 cr=0x80000024 xer=0x20000002 ctr=0x00000084,1,0.0,99.903
+1437,r28=0xa00011c0 r29=0xa0001160 r30=0x000c5fc8 r31=0x00000001,1,0.0,99.903
+1438,r24=0x005fade0 r25=0x00000008 r26=0x000c65b0 r27=0x000ce5c8,1,0.0,99.903
+1439,r08=0x000c8880 r09=0x00000400 r10=0xc0006fa0 r11=0xc0010000,1,0.0,99.903
+1440,r04=0x000c5fc8 r05=0x000c5fcc r06=0x0025c370 r07=0xb1140000,1,0.0,99.903
+1441,fpr13=0x1004179c 7ffff570 00000000 00000001,1,0.0,99.903
+1442,fpr12=0x30017538 7ffff590 0ff00940 0ffc5cc8,1,0.0,99.903
+1443,fpr11=0x00000004 7ffff5d0 0ff674f0 7ffff5b0,1,0.0,99.903
+1444,lr=0x0000acfc cr=0x42000024 xer=0x20000002 ctr=0x1ce995d2,1,0.0,99.903
+1445,fpr10=0x100cd204 0ffb3160 0ff67564 7ffff590,1,0.0,99.903
+1446,<*> 0ffcb46c 00000009 7ffff720,1,0.0,99.903
+1447,fpr8=0x7ffff550 0ffcb46c 00000009 7ffff720,1,0.0,99.903
+1448,fpr7=0x00000000 0ffb3160 0ff676b8 7ffff570,1,0.0,99.903
+1449,fpr6=0x00000027 100cd1f8 0ff66a94 7ffff5f0,1,0.0,99.903
+1450,fpr5=0x00000000 00000027 100cd1f8 100455a0,1,0.0,99.903
+1451,fpr4=0xffffffff 0000001a 0002d000 0fd6a8a0,1,0.0,99.903
+1452,fpr3=0x7ffff5f0 7ffff680 3000b4f8 0ff66adc,1,0.0,99.903
+1453,<*> 7ffff640 <*> 7ffff620,1,0.0,99.903
+1454,fpr1=0xffffffff 7ffff640 0002d000 7ffff620,1,0.0,99.903
+1455,fpr0=0x7ffff690 7ffff620 3000b810 0ff71674,1,0.0,99.903
+1456,fpr9=0xfffffef0 408fffff b4e362e2 3cf17e94,1,0.0,99.903
+1457,24:0347ed40 25:01b00000 26:0442eda0 27:00000060,1,0.0,99.903
+1458,20:01c02c00 21:01e60000 22:00360000 23:00000900,1,0.0,99.903
+1459,16:01c03500 17:035818e0 18:00000900 19:00000060,1,0.0,99.903
+1460,12:40008424 13:1eeeeeee 14:03582120 15:01c033e0,1,0.0,99.903
+1461,8:1fea443c 9:ba1cfa4f 10:003e98e0 11:00000000,1,0.0,99.903
+1462,4:03582180 5:00000000 6:00000060 7:7fffff97,1,0.0,99.903
+1463,New ido chip inserted into the database: <*> <*> v=13 t=4,1,0.0,99.903
+1464,ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:56214: Link has been severed,1,0.0,99.903
+1465,0:02000a8a 1:1feaa370 2:1eeeeeee <*>,1,0.0,99.903
+1466,0:02000a8a 1:1feaa370 2:1eeeeeee 3:00211650,1,0.0,99.903
+1467,28:1feaa340 29:00212b90 30:00212bf0 31:1feaa4c0,1,0.0,99.903
+1468,16:84000000 17:00000000 18:00088804 19:00487320,1,0.0,99.903
+1469,0:00151ca8 1:1feaa300 2:1eeeeeee 3:01137307,1,0.0,99.903
+1470,16:09a6dfe8 17:09bcc138 18:09f0b638 19:09f0d5a8,1,0.0,99.903
+1471,24:0efe7938 25:01f80fd8 26:01f80fa0 27:01f80be0,1,0.0,99.903
+1472,20:01980b98 21:0efe7d38 22:0efe7cf8 23:0efe7900,1,0.0,99.903
+1473,16:01f80f68 17:01980fd8 18:01980f98 19:01980bd8,1,0.0,99.903
+1474,12:00000008 13:1eeeeeee <*> <*>,1,0.0,99.903
+1475,8:0e7e7900 9:0e7e7940 10:0e7e7d00 11:00000008,1,0.0,99.903
+1476,4:00000008 5:0f7e7940 6:0f7e7d00 7:0f7e7d40,1,0.0,99.903
+1477,<*> 1:0d8e7c40 2:1eeeeeee <*>,1,0.0,99.903
+1478,28:01fab9a0 29:0e812b40 30:00000008 31:00000008,1,0.0,99.903
+1479,24:0f012738 25:01fabdd8 26:01fabda0 27:01fab9e0,1,0.0,99.903
+1480,20:019ab998 21:0f012b38 22:0f012af8 23:0f012700,1,0.0,99.903
+1481,16:01fabd68 17:019abdd8 18:019abd98 19:019ab9d8,1,0.0,99.903
+1482,12:00000008 13:1eeeeeee 14:019ab968 15:019abd68,1,0.0,99.903
+1483,8:0e812700 9:0e812740 10:0e812b00 11:00000008,1,0.0,99.903
+1484,4:00000008 5:0f812740 6:0f812b00 7:0f812b40,1,0.0,99.903
+1485,<*> <*> 30:00000008 31:00000008,1,0.0,99.903
+1486,lr:0013d378 cr:46004842 xer:00000002 ctr:001454dc,1,0.0,99.903
+1487,28:008d6640 29:045dbc80 30:045364c0 31:04661440,1,0.0,99.903
+1488,24:00f9ce00 25:0032b690 26:01abdb40 27:04661100,1,0.0,99.903
+1489,20:0fea0740 21:00000091 22:045dbc80 23:008d86c0,1,0.0,99.903
+1490,16:000000a5 17:000016a8 18:00000121 19:00000122,1,0.0,99.903
+1491,12:008d7190 13:1eeeeeee 14:0002b4f4 15:0fee1424,1,0.0,99.903
+1492,8:008d7320 9:00000028 10:ffffffe8 11:001454dc,1,0.0,99.903
+1493,4:045364c0 5:045dbc80 6:04661100 7:0032b690,1,0.0,99.903
+1494,0:00000003 1:0fea0620 2:1eeeeeee 3:04661100,1,0.0,99.903
+1495,lr:0011e990 cr:48084444 xer:20000002 ctr:00000124,1,0.0,99.903
+1496,28:087c4f30 29:000001f7 30:08789380 31:087886d0,1,0.0,99.903
+1497,24:08b18f00 25:08b1e690 26:08c207a0 27:08d0b4a0,1,0.0,99.903
+1498,20:08b146a8 21:00000000 22:08b146b0 23:08bd8a20,1,0.0,99.903
+1499,28:043b2184 29:00000000 30:03582180 31:043b21e4,1,0.0,99.903
+1500,12:fffffefa 13:1eeeeeee 14:00252d68 15:08d1aec0,1,0.0,99.903
+1501,8:0022af90 9:00230000 10:0022c5d0 11:0022d570,1,0.0,99.903
+1502,4:d2f1a9fc 5:00000000 6:08b19588 7:08bd90a8,1,0.0,99.903
+1503,0:0011e990 1:0feea7e0 2:1eeeeeee 3:08b14d30,1,0.0,99.903
+1504,lr:0011ab5c cr:28004828 xer:20000002 ctr:0013b2f8,1,0.0,99.903
+1505,28:00260000 29:087d1e00 30:00265110 31:00264560,1,0.0,99.903
+1506,24:0fee072c 25:00000035 26:0fea8738 27:087d2350,1,0.0,99.903
+1507,20:0fea0740 21:000001cb 22:0000a774 23:0fee0740,1,0.0,99.903
+1508,16:00000003 17:00000050 18:00000003 19:00000004,1,0.0,99.903
+1509,12:0fe9fa90 13:1eeeeeee 14:0fee0768 15:0fee0768,1,0.0,99.903
+1510,8:00000000 9:00370000 10:0000063a 11:00000000,1,0.0,99.903
+1511,4:5d93e823 5:001f0000 6:5d93e823 7:013b5ca8,1,0.0,99.903
+1512,0:00000bb0 1:0fea0680 2:1eeeeeee 3:00260000,1,0.0,99.903
+1513,lr:004c0670 cr:20002424 xer:20000002 ctr:004c076c,1,0.0,99.903
+1514,16:08d14ff0 17:08d079a0 18:08b18ef8 19:08bd8a18,1,0.0,99.903
+1515,parity error.......0,1,0.0,99.903
+1516,"Problem reading the ethernet arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [FF:F2:9F:15:1F:36:00:0D:60:EA:E0:C9@/10.0.0.203:0 with image version 9 and card type 2] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 8888, Reply Sequence Number = 9890, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = 2, Expected Sync Command = 32, Actual Sync Reply = 32)",1,0.0,99.903
+1517,Power deactivated: R05-M0-N4,1,0.0,99.903
+1518,12:000b2ee0 13:1eeeeeee 14:0000419b 15:001066c0,1,0.0,99.903
+1519,8:00107662 9:00000002 10:0fe00000 11:00090000,1,0.0,99.903
+1520,4:000b2f60 5:000b2f50 6:0000911c 7:000b2f30,1,0.0,99.903
+1521,28:14045658 29:141faf38 30:140d62e8 31:14166e28,1,0.0,99.903
+1522,24:06f4b0b8 25:140d6198 26:141f7818 27:14166cd8,1,0.0,99.903
+1523,20:140d9790 21:1416a2d0 22:141f7840 23:14166d00,1,0.0,99.903
+1524,16:140d6070 17:14166bb0 18:141fae10 19:14048c50,1,0.0,99.903
+1525,12:140d98b8 13:1eeeeeee 14:14045530 15:141f76f0,1,0.0,99.903
+1526,8:1416a3f8 9:140457a8 10:141f7968 11:141fb088,1,0.0,99.903
+1527,4:14048d78 5:1416a548 6:140d9a08 7:14048ec8,1,0.0,99.903
+1528,0:01fab9a8 1:0d8e7c40 2:1eeeeeee 3:0f812700,1,0.0,99.903
+1529,lr:0000efe8 cr:84402444 xer:00000002 ctr:00000277,1,0.0,99.903
+1530,20:00001c80 21:00002260 22:40000000 23:1fea8ce0,1,0.0,99.903
+1531,16:00002260 17:11245250 18:00000001 19:11c6aa60,1,0.0,99.903
+1532,8:000c8880 9:00000400 10:c0004200 11:c0010000,1,0.0,99.903
+1533,lr:0000efe8 cr:88000022 xer:20000002 ctr:000000e1,1,0.0,99.903
+1534,4:000c5fd8 5:000c65b0 6:00029bf0 7:000c9414,1,0.0,99.903
+1535,"ciod: In packet from node 495.0 (R02-M1-N0-C:J02-U11), message code 2 is not 3 or 4294967295 (softheader=002f01ef 00030000 00000001 00000000)",1,0.0,99.903
+1536,fpr6=0x3145c070 00000003 40000000 3fe6c3eb,1,0.0,99.903
+1537,PrepareForService is being done on this rack (R07) by root,1,0.0,99.903
+1538,"PrepareForService is being done on this Midplane (mLctn(R07-M1), mCardSernum( 203937503631353900000000594c31304b34323635303343)) by root",1,0.0,99.903
+1539,lr:004799e4 cr:4040c4e2 xer:00000002 ctr:00481f5c,1,0.0,99.903
+1540,28:005cd234 29:009e8340 30:00000000 31:0000001f,1,0.0,99.903
+1541,24:00000000 25:005cd1ec 26:00000008 27:005cd110,1,0.0,99.903
+1542,20:00000000 21:ffffffff <*> <*>,1,0.0,99.903
+1543,0:00000150 1:1fea95b0 2:1eeeeeee 3:0c7672d8,1,0.0,99.903
+1544,ciodb exited normally with exit code 0,1,0.0,99.903
+1545,12:00088700 13:1eeeeeee 14:0fee0a48 15:0fee0a5c,1,0.0,99.903
+1546,0:9c687620 1:00088670 2:1eeeeeee 3:00088760,1,0.0,99.903
+1547,1,1,0.0,99.903
+1548,lr:00360fa4 cr:24402442 xer:00000002 ctr:0037a8c4,1,0.0,99.903
+1549,28:0f4ca300 29:00000000 30:0691eb40 31:1fea8d40,1,0.0,99.903
+1550,20:00001280 21:00001130 22:00000000 23:071430c8,1,0.0,99.903
+1551,16:00001130 17:0d856240 18:00000001 19:0714ba48,1,0.0,99.903
+1552,8:0691eb70 9:b1140400 10:fff1f0dc 11:b1140400,1,0.0,99.903
+1553,28:1fea8b60 29:00000003 30:00000000 31:09470eb0,1,0.0,99.903
+1554,24:00000000 25:1fea8d6c 26:00000001 27:00000002,1,0.0,99.903
+1555,20:0000000a 21:00000009 22:000002d7 23:00000006,1,0.0,99.903
+1556,16:00000a43 17:00001434 18:00000a43 19:00000000,1,0.0,99.903
+1557,machine state register:,1,0.0,99.903
+1558,8:00000003 9:fb033ecf 10:00950000 11:003a03e4,1,0.0,99.903
+1559,4:0000012c 5:0831a460 6:0831a460 7:00000e66,1,0.0,99.903
+1560,0:0000085d 1:1fea89d0 2:1eeeeeee 3:09470ef4,1,0.0,99.903
+1561,12:00072d50 13:1eeeeeee 14:005f2130 15:00000040,1,0.0,99.903
+1562,4:00072d60 5:00000000 6:0000911c 7:00000000,1,0.0,99.903
+1563,fpr5=0x0000002d 42c80000 40000000 3fd31b6b,1,0.0,99.903
+1564,MailboxMonitor::serviceMailboxes() lib_ido_error: -1114 unexpected socket error: Broken pipe,1,0.0,99.903
+1565,28:30005230 29:300052e0 30:00000000 31:300051d0,1,0.0,99.903
+1566,8:08836a60 9:b1151400 10:fff1f0dc 11:b1151400,1,0.0,99.903
+1567,366,1,0.0,99.903
+1568,DCR 0x2DC : 0x00000000,1,0.0,99.903
+1569,"04, max=366",1,0.0,99.903
+1570,"rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=0, cpu=0, index=32768, total=22302, max=36",1,0.0,99.903
+1571,New ido chip inserted into the database: FF:F2:9F:16:EE:CF:00:0D:60:E9:11:30 ip=10.0.0.59 v=13 t=4,1,0.0,99.903
+1572,12:00842448 13:1eeeeeee 14:00000004 15:00007938,1,0.0,99.903
+1573,r12=0x00348fa8 r13=0x1eeeeeee r14=0x00350000 r15=0x00006a83,1,0.0,99.903
+1574,Lustre mount FAILED : bglio118 : point /p/gb1,1,0.0,99.903
+1575,"NFS Mount failed on <*> slept 19 seconds, retrying (1)",1,0.0,99.903
+1576,"NFS Mount failed on bglio848, slept 19 seconds, retrying (1)",1,0.0,99.903
+1577,SerialNumber(000000000000000000000000fff29f16e8ba000d60e91745) IpAddress(0.0.0.0) Status(A),1,0.0,99.903
+1578,iar 003a90fc dear 00c07208,1,0.0,99.903
+1579,28:00220400 29:00220480 30:00000010 31:00220450,1,0.0,99.903
+1580,24:00000000 25:00220aa0 26:00004c42 27:0feea1b0,1,0.0,99.903
+1581,20:00000001 21:4c00010d <*> <*>,1,0.0,99.903
+1582,12:b1140400 13:1eeeeeee 14:00000030 15:00000002,1,0.0,99.903
+1583,8:00000000 9:00000100 10:b1140400 11:00000060,1,0.0,99.903
+1584,4:0feea2b0 5:00000000 6:00000010 7:0feea2a0,1,0.0,99.903
+1585,0:00158e00 1:0feea1a0 2:1eeeeeee 3:00e4bc60,1,0.0,99.903
+1586,4:00000f0d 5:02e05990 6:00003c34 7:00000000,1,0.0,99.903
+1587,lr:0000a2d0 cr:40004024 xer:20000002 <*>,1,0.0,99.903
+1588,4:000210f8 5:00021264 <*> 7:000c8550,1,0.0,99.903
+1589,r24=0x00350000 r25=0x00350000 r26=0x00340000 r27=0x00350000,1,0.0,99.903
+1590,external input interrupt (unit=0x05 bit=0x06): 1M tree receiver 2 in resynch mode,1,0.0,99.903
+1591,rts: bad message header: packet index <*> greater than max 366 (softheader=00000000 7ffffc40 <*> <*> <*> PSR1=00000000 <*> PIXF=00000007,1,0.0,99.903
+1592,rts: bad message header: expecting type 53 instead of type 1238 (softheader=000bb273 003604d6 00000001 00000000) PSR0=00000101 PSR1=00000000 PRXF=00020002 PIXF=00000007,1,0.0,99.903
+1593,rts: bad message header: index 0 greater than total 0 (softheader=00000002 00000001 00000000 00000000) PSR0=00000f00 PSR1=00000000 PRXF=00000002 PIXF=00000007,1,0.0,99.903
+1594,rts: bad message header: packet index 4283373868 greater than max 366 (softheader=00000000 7ffffc40 7db7c4fe ff4f192c) PSR0=00000100 PSR1=00000000 PRXF=0002000a PIXF=00000007,1,0.0,99.903
+1595,rts: bad message header: cpu 127 invalid (softheader=7ffffc00 10022d68 00000000 00000000) PSR0=00000100 PSR1=00000000 PRXF=0002000a PIXF=00000007,1,0.0,99.903
+1596,lr=0x002203e4 cr=0x44000044 xer=0x20000002 ctr=0x00006452,1,0.0,99.903
+1597,rts: kernel terminated for reason 1001,1,0.0,99.903
+1598,lr:0010c3e4 cr:84084242 xer:00000002 ctr:00000005,1,0.0,99.903
+1599,28:00000060 29:00000120 30:13ec5d80 31:00000001,1,0.0,99.903
+1600,24:00000003 25:17c5a000 26:167f0000 27:00000200,1,0.0,99.903
+1601,4:ffff45d8 5:33333300 6:0002a838 7:00030000,1,0.0,99.903
+1602,20:0111ba70 21:0101ba60 22:00100000 23:0feea350,1,0.0,99.903
+1603,16:00000000 17:00016937 18:ffffffff 19:0feea7a0,1,0.0,99.903
+1604,4:00000040 5:001d0000 6:00000010 <*>,1,0.0,99.903
+1605,<*> 29:00000001 30:00089cd0 31:000894a8,1,0.0,99.903
+1606,lr:001283a0 cr:80000442 xer:00000002 ctr:0000fe31,1,0.0,99.903
+1607,28:0023abd4 29:00010000 30:1feaa4f0 31:88000000,1,0.0,99.903
+1608,24:00000000 25:1feaa4f0 26:0023abd4 27:00000001,1,0.0,99.903
+1609,8:008e4f90 9:008e6c8c 10:00000001 11:00000002,1,0.0,99.903
+1610,4:1feaa4f0 5:00000001 6:1feaa4ec 7:ff00ff00,1,0.0,99.903
+1611,EndServiceAction <*> was performed upon R63-M0-L2 by <*>,1,0.0,99.903
+1612,lr:0014b240 cr:480042e4 xer:00000002 ctr:001658c0,1,0.0,99.903
+1613,28:0081a2f0 29:00000000 30:0feea380 31:009ec660,1,0.0,99.903
+1614,24:00000001 25:001ea6fc 26:0feea380 27:00212cd0,1,0.0,99.903
+1615,4:18707ff0 5:10105280 6:1b3ac800 7:00002100,1,0.0,99.903
+1616,4:00000040 5:001d0000 6:00000010 7:009ec650,1,0.0,99.903
+1617,0:0000001c 1:0feea240 2:1eeeeeee 3:00000060,1,0.0,99.903
+1618,lr:0000a4c0 cr:40002202 xer:20000002 ctr:1fdfa09e,1,0.0,99.903
+1619,28:00201af0 29:00000001 30:00089cd0 31:000894a8,1,0.0,99.903
+1620,4:00021328 5:00021494 6:000000b8 7:00040000,1,0.0,99.903
+1621,EndServiceAction 410 was performed upon R63-M0-L2 by root,1,0.0,99.903
+1622,28:001f9c00 29:00023600 30:001f9280 31:0021d200,1,0.0,99.903
+1623,24:00000007 25:00000002 26:000008d9 27:00000000,1,0.0,99.903
+1624,20:ffffffff 21:40000000 22:001f8320 23:0feea440,1,0.0,99.903
+1625,8:1feaa5a4 9:0000000d 10:00000000 11:000008d8,1,0.0,99.903
+1626,4:0021d210 5:1feaa59c 6:1feaa5a0 7:1feaa5a4,1,0.0,99.903
+1627,0:0000e208 1:1feaa590 2:1eeeeeee 3:001f9280,1,0.0,99.903
+1628,16:1b3acb30 17:18709e10 18:10115c70 19:10115b70,1,0.0,99.903
+1629,8:1b3ac800 9:00010800 10:10115a80 11:00002100,1,0.0,99.903
+1630,20:00000000 21:40000000 22:009eb540 23:0feea370,1,0.0,99.903
+1631,Added 8 subnets and 409600 addresses to DB,1,0.0,99.903
+1632,DeclareServiceNetworkCharacteristics has been run with the force option but the DB is not empty,1,0.0,99.903
+1633,DeclareServiceNetworkCharacteristics has been run but the DB is not empty,1,0.0,99.903
+1634,"Node card VPD check: missing U01 node, VPD ecid 04C881D4DE2FFFFF020C1C6052EB in processor card slot J18",1,0.0,99.903
+1635,monitor caught java.lang.UnsupportedOperationException: power module U69 not present and is stopping,1,0.0,99.903
+1636,lr:0018c994 cr:44004444 xer:20000002 ctr:0000ff35,1,0.0,99.903
+1637,28:004b5940 29:08d89710 30:00000000 31:00166848,1,0.0,99.903
+1638,24:00000000 25:00000001 26:00000000 27:0feaa4e0,1,0.0,99.903
+1639,20:000001f4 21:0000000c 22:0036b7d8 23:30000000,1,0.0,99.903
+1640,16:09277d28 17:09293a68 18:096c9368 19:09707a38,1,0.0,99.903
+1641,12:08d89760 13:1eeeeeee 14:00000000 15:009736f0,1,0.0,99.903
+1642,8:00400000 9:00000040 10:004b5950 11:13140000,1,0.0,99.903
+1643,4:50976980 5:00000010 6:00000050 7:00000070,1,0.0,99.903
+1644,20:0000000d 21:00000010 22:00000180 23:001439d8,1,0.0,99.903
+1645,lr:001aa670 cr:44002242 xer:20000002 ctr:001aaabc,1,0.0,99.903
+1646,28:00005c30 29:00002130 30:002398a0 31:01dbf2a0,1,0.0,99.903
+1647,20:0000000a 21:00a9cb80 22:00000005 23:ffffffff,1,0.0,99.903
+1648,16:0000b3db 17:000001d0 18:00000030 19:0038adf0,1,0.0,99.903
+1649,<*> 13:1eeeeeee <*> 15:00230000,1,0.0,99.903
+1650,8:0fee9760 9:2325a000 10:00002130 11:00000010,1,0.0,99.903
+1651,4:0023b550 5:00000120 6:0101031b 7:00000000,1,0.0,99.903
+1652,0:bfee7466 1:0fee9b40 2:1eeeeeee 3:01dc0f4c,1,0.0,99.903
+1653,28:0038b380 29:00238b70 30:00238df8 31:00238e20,1,0.0,99.903
+1654,24:00238df0 25:00238ac8 26:0038b360 27:0038fe30,1,0.0,99.903
+1655,20:00238a30 21:00238ce0 22:00238aa0 23:00000008,1,0.0,99.903
+1656,16:00238bb8 17:00238e68 18:00240000 19:00238e50,1,0.0,99.903
+1657,12:00240000 13:1eeeeeee 14:00240000 15:00240000,1,0.0,99.903
+1658,8:00d74050 9:00240000 10:00240000 11:00240000,1,0.0,99.903
+1659,0:0018c928 1:0feaa2e0 2:1eeeeeee 3:00976950,1,0.0,99.903
+1660,16:17c64550 17:167f7260 18:13ecf870 19:13ecf770,1,0.0,99.903
+1661,8:17c63c00 9:00009c00 10:13ecf780 11:00001380,1,0.0,99.903
+1662,4:167f5ff0 5:13ec5b80 6:17c63000 7:00001200,1,0.0,99.903
+1663,0:00009000 1:1fea9d90 2:1eeeeeee 3:17c5a000,1,0.0,99.903
+1664,lr:0000a2d0 cr:40004024 xer:20000002 ctr:1fdfae1e,1,0.0,99.903
+1665,4:000210f8 5:00021264 6:000000b9 7:000c8550,1,0.0,99.903
+1666,rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X+ <*> <*>,1,0.0,99.903
+1667,rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X+ Y+ <*>,1,0.0,99.903
+1668,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C X- Y+ Z+,1,0.0,99.903
+1669,rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X+ Y+ Z+,1,0.0,99.903
+1670,rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C <*> <*> <*> <*> <*>,1,0.0,99.903
+1671,rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X+ X- Y+ Y- Z+,1,0.0,99.903
+1672,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C X- Y- Z+,1,0.0,99.903
+1673,"While initializing service card iDo with LP of FF:F2:9F:15:1F:45:00:0D:60:EA:E0:BA caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:15:1F:45:00:0D:60:EA:E0:BA and IP=/10.0.0.81 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:15:1F:45:00:0D:60:EA:E0:BA@/10.0.0.81:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",1,0.0,99.903
+1674,rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ <*> Y- Z+ Z-,1,0.0,99.903
+1675,rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X+ X- Y- Z+ Z-,1,0.0,99.903
+1676,<*> <*> 78d4fdf3 4043a6e9,1,0.0,99.903
+1677,ciod: Error reading message prefix after <*> on CioStream socket to <*> Link has been severed,1,0.0,99.903
+1678,idoproxydb hit ASSERT condition: ASSERT expression=!(RecvMsgHdr.ulLen > 0x10000) Source file=idomarshalerio.cpp Source line=387 Function=virtual int IdoMarshalerIo::RunRecv(),1,0.0,99.903
+1679,"Problem communicating with service card, ido chip: <*> java.lang.IllegalStateException: while executing CONTROL Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 9 and card type 2] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = <*> timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = <*> Expected Sync Command = 8, Actual Sync Reply = <*>",1,0.0,99.903
+1680,"Problem communicating with service card, ido chip: 00000000:00000000:00000000:FFF29F15:1F2C000D:60EAE0D3. java.lang.IllegalStateException: while executing CONTROL Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [FF:F2:9F:15:1F:2C:00:0D:60:EA:E0:D3@/10.1.1.135:0 with image version 9 and card type 2] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 2477, Reply Sequence Number = 9222, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = 2, Expected Sync Command = 8, Actual Sync Reply = 32)",1,0.0,99.903
+1681,28:ffffc0c8 29:000001ff 30:000001ff 31:000894a8,1,0.0,99.903
+1682,4:ffff45dc 5:33333300 6:0002a828 7:00030000,1,0.0,99.903
+1683,fpr4=0x9999999a 3fe99999 a0000000 40037e17,1,0.0,99.903
+1684,Lustre mount FAILED : bglio11 : block_id : location,1,0.0,99.903
+1685,Bad cable going into LinkCard (203937503438383700000000594C31314B34333237303248) Jtag (0) Port (C) - 1 bad wires,1,0.0,99.903
+1686,ciodb exited normally with exit code <*>,1,0.0,99.903
+1687,idoproxy exited normally with exit code 0,1,0.0,99.903
+1688,rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> <*> Y- Z+ Z-,1,0.0,99.903
+1689,4:00085fd8 5:000865b0 6:00000000 7:00089400,1,0.0,99.903
+1690,lr:0000b20c cr:40002424 xer:00000002 ctr:000095e0,1,0.0,99.903
+1691,28:00000000 29:03384ef0 30:00040000 31:00040220,1,0.0,99.903
+1692,24:00085fdc 25:00000000 26:00000000 27:00015630,1,0.0,99.903
+1693,16:0002b500 17:00080000 18:00000000 19:00000000,1,0.0,99.903
+1694,12:000558a0 13:1eeeeeee 14:0178fa90 15:0002ac00,1,0.0,99.903
+1695,8:00015630 9:00045142 10:03389d21 11:000107fd,1,0.0,99.903
+1696,4:00055920 5:00055910 6:00009338 7:00000000,1,0.0,99.903
+1697,fpr5=0xbc3685a2 40903797 00000000 bfd40000,1,0.0,99.903
+1698,Node card VPD check: <*> node in processor card slot J14 do not match. VPD ecid <*> found <*>,1,0.0,99.903
+1699,"Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 04DD8074DF2FFFFF020B1A911ECE, found 07521035D02FFFFF10071C0090EC",1,0.0,99.903
+1700,fpr6=0xdb0d1713 40623f66 00000000 3fd80000,1,0.0,99.903
+1701,fpr11=0xb57c92bf 40625637 4fcf28c8 406162a6,1,0.0,99.903
+1702,16:00a29bb0 17:00000065 18:009e7d30 19:009e7b20,1,0.0,99.903
+1703,EndServiceAction 219 performed upon R33-M1-ND by root,1,0.0,99.903
+1704,EndServiceAction is restarting the NodeCards in midplane R33-M1 as part of Service Action 219,1,0.0,99.903
+1705,"PrepareForService shutting down NodeCard(mLctn(R33-M1-ND), mCardSernum(203231503833343000000000594c31304b35303034303232), mLp(FF:F2:9F:16:BF:44:00:0D:60:E9:40:BB), mIp(10.3.0.80), mType(4)) as part of Service Action 219",1,0.0,99.903
+1706,"PrepareForService is being done on this card(mLctn(R33-M1-ND), mCardSernum(203231503833343000000000594c31304b35303034303232), mLp(FF:F2:9F:16:BF:44:00:0D:60:E9:40:BB), mIp(10.3.0.80), mType(4)) by root",1,0.0,99.903
+1707,lr:0000846c cr:48004242 xer:00000002 ctr:029ad752,1,0.0,99.903
+1708,28:00040000 29:00000000 30:00090000 31:00000000,1,0.0,99.903
+1709,24:00000007 25:ffffffff 26:00089ae0 27:000894a4,1,0.0,99.903
+1710,20:fffffff4 21:00000008 <*> <*>,1,0.0,99.903
+1711,16:00558630 17:00089b10 18:00089b08 19:000887fc,1,0.0,99.903
+1712,8:1d5528ae 9:00000001 10:1fe00000 11:00090000,1,0.0,99.903
+1713,4:00000000 5:00000000 6:00008e3c 7:00083f40,1,0.0,99.903
+1714,DDR failing address register: 0x00000008 0x0d552040,1,0.0,99.903
+1715,0x00000000 0x00000000,1,0.0,99.903
+1716,correctable error.....1,1,0.0,99.903
+1717,ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:33399,1,0.0,99.903
+1718,0:00002000 1:1fea8b60 2:1eeeeeee 3:006af8d0,1,0.0,99.903
+1719,lr:00115504 cr:84848448 xer:20000002 ctr:00000002,1,0.0,99.903
+1720,28:0da3a530 29:059674c0 30:0dfc8338 31:0e110530,1,0.0,99.903
+1721,24:0f6e9850 25:0daa7b30 26:0f66c850 27:0df5ad38,1,0.0,99.903
+1722,20:0deed738 21:0d9ccf30 22:0f5ef850 23:0f572850,1,0.0,99.903
+1723,16:069df3b0 17:06b563b0 18:066ccbc0 19:004d8f30,1,0.0,99.903
+1724,12:0daa7b28 13:1eeeeeee 14:ffa94800 15:00000007,1,0.0,99.903
+1725,8:0006d600 9:00591040 10:00591040 11:0dfc8330,1,0.0,99.903
+1726,4:00000fc5 5:0007d000 6:fffa8840 7:0006d600,1,0.0,99.903
+1727,0:0007d000 1:1fea8670 2:1eeeeeee 3:00439130,1,0.0,99.903
+1728,L3 correctable errors exceeds threshold (iar 0xf003da3c lr 0xf003de50),1,0.0,99.903
+1729,1 torus sender y- retransmission error(s) (dcr 0x02f7) detected and corrected,1,0.0,99.903
+1730,lr:00118244 cr:42424844 xer:20000002 ctr:00000001,1,0.0,99.903
+1731,8:00088880 9:00000400 10:c000b6a0 11:c0018000,1,0.0,99.903
+1732,24:09218840 25:00000001 26:004e0000 27:0a154900,1,0.0,99.903
+1733,20:004d96ac 21:0d6323c0 22:07bd4840 23:0567a810,1,0.0,99.903
+1734,16:00364380 17:00440000 18:05fb0d70 19:05f6da60,1,0.0,99.903
+1735,12:0d7007b8 13:1eeeeeee 14:00000015 15:fe9bc000,1,0.0,99.903
+1736,8:0f4c4108 9:0d563fc0 10:0d7679b8 11:05681130,1,0.0,99.903
+1737,4:00439430 5:ffff96e0 6:fffbccf0 7:0f554c48,1,0.0,99.903
+1738,0:00000002 1:1fea8640 2:1eeeeeee 3:fe9bc000,1,0.0,99.903
+1739,fpr1=0x007e33f0 3fd0da8e 00000000 40368000,1,0.0,99.903
+1740,fpr2=0x00000000 20001c84 8e38e38e 403b38e3,1,0.0,99.903
+1741,lr:0000ea38 cr:84404442 xer:00000002 ctr:0000024b,1,0.0,99.903
+1742,28:4c00080b 29:000000e3 30:00085fd8 31:00000001,1,0.0,99.903
+1743,20:000012c0 21:0000055f 22:00000000 23:04ecf0a0,1,0.0,99.903
+1744,16:0000055f 17:0c5cc1e0 18:00000001 19:04ed1b98,1,0.0,99.903
+1745,12:44402442 13:1eeeeeee 14:2e8ba2e9 15:04ecf0a0,1,0.0,99.903
+1746,28:0007d000 29:0b798900 30:00067200 31:00090b40,1,0.0,99.903
+1747,4:00088750 5:00088740 6:00009994 7:00000001,1,0.0,99.903
+1748,0:00015828 1:00072d70 2:1eeeeeee 3:00000000,1,0.0,99.903
+1749,ciod: cpu 0 at treeaddr 926 sent unrecognized message 0xffffffff,1,0.0,99.903
+1750,"ciod: for node 42, read continuation request but ioState is 0",1,0.0,99.903
+1751,floating pt ex mode 0 enable......0,1,0.0,99.903
+1752,16:1fe12838 17:00000000 18:001e7ea0 19:ffffffff,1,0.0,99.903
+1753,12:48000828 13:1eeeeeee 14:001e9284 15:00000001,1,0.0,99.903
+1754,lr:0000d9ac cr:48000828 xer:00000002 ctr:0000e248,1,0.0,99.903
+1755,28:48000828 29:00000000 30:0000000e 31:000865b0,1,0.0,99.903
+1756,24:00000000 25:0000000e 26:000865b0 27:00089ae0,1,0.0,99.903
+1757,20:00008000 21:001e7e94 22:1feaa230 23:00000026,1,0.0,99.903
+1758,8:4bffffa4 9:00000000 10:00090000 11:0000003c,1,0.0,99.903
+1759,4:0000000e 5:000865b0 <*> 7:0008943c,1,0.0,99.903
+1760,uncorrectable error...0,1,0.0,99.903
+1761,guaranteed instruction cache block touch.0,1,0.0,99.903
+1762,data address: 0x4bffffa4,1,0.0,99.903
+1763,1 tree receiver <*> in re-synch state event(s) (dcr <*> detected,1,0.0,99.903
+1764,17 torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,1,0.0,99.903
+1765,lr:003625f0 cr:20000000 xer:00000002 ctr:0037f084,1,0.0,99.903
+1766,28:30001460 29:30001510 30:00000000 31:30001400,1,0.0,99.903
+1767,24:1fefff40 25:0000000a 26:1fefff60 27:009741e0,1,0.0,99.903
+1768,20:00000000 21:00000000 22:00000000 23:1fefff40,1,0.0,99.903
+1769,16:00000000 17:00000000 18:00000000 19:00000000,1,0.0,99.903
+1770,12:0045fd88 13:1eeeeeee 14:ffffffff 15:ffffffff,1,0.0,99.903
+1771,8:009f7120 9:00002670 10:009741e0 11:00000000,1,0.0,99.903
+1772,4:0037f084 5:00460000 6:00000000 7:00000000,1,0.0,99.903
+1773,0:00000000 1:1fefff30 2:1eeeeeee 3:00000000,1,0.0,99.903
+1774,icache prefetch depth....................0,1,0.0,99.903
+1775,4:0000000e 5:000865b0 6:1feaa238 7:0008943c,1,0.0,99.903
+1776,mask..................0x40,1,0.0,99.903
+1777,symbol................15,1,0.0,99.903
+1778,DDR failing info register: 0x8f401000,1,0.0,99.903
+1779,memory manager miscompare........................0,1,0.0,99.903
+1780,memory manager address parity error..............0,1,0.0,99.903
+1781,memory manager uncorrectable error...............1,1,0.0,99.903
+1782,number of correctable errors detected in L3 directories...0,1,0.0,99.903
+1783,parity error in read queue 0...................0,1,0.0,99.903
+1784,parity error in bank <*>,1,0.0,99.903
+1785,parity error in bank 0.........................0,1,0.0,99.903
+1786,uncorrectable error detected in EDRAM bank 0...0,1,0.0,99.903
+1787,correctable error detected in EDRAM bank 0.....0,1,0.0,99.903
+1788,uncorrectable error detected in directory <*>,1,0.0,99.903
+1789,8:00106810 9:0000146b 10:0ff00000 11:00088780,1,0.0,99.903
+1790,correctable error detected in directory 0......0,1,0.0,99.903
+1791,capture first directory <*> error address..0,1,0.0,99.903
+1792,capture first directory correctable error address..0,1,0.0,99.903
+1793,L3 <*> control register: <*>,1,0.0,99.903
+1794,prefetch depth for core <*>,1,0.0,99.903
+1795,prefetch depth for core 0................1,1,0.0,99.903
+1796,start initialization.....................0,1,0.0,99.903
+1797,L3 global control register: 0x001249f0,1,0.0,99.903
+1798,machine check interrupt (bit=0x06): L3 major internal error,1,0.0,99.903
+1799,lr:00009f44 cr:84000024 xer:00000002 ctr:00000000,1,0.0,99.903
+1800,28:00040000 29:00000070 30:00082d78 31:00106720,1,0.0,99.903
+1801,24:00082d70 25:00082d78 26:00000000 27:00082d78,1,0.0,99.903
+1802,20:fffffff4 21:00000008 22:00000000 23:00000000,1,0.0,99.903
+1803,16:00000000 17:00089b10 <*> <*>,1,0.0,99.903
+1804,uncorrectable error detected in directory 0....0,1,0.0,99.903
+1805,Ido chip status changed: <*> <*> v=13 t=4 status=M <*> Jun <*> <*> PDT 2005,1,0.0,99.903
+1806,"PrepareForService is being done on this part (mLctn(R36-M1-NE), mCardSernum(203231503833343000000000594c31304b3433343231544b), mLp(FF:F2:9F:16:C9:63:00:0D:60:E9:36:9C), mIp(10.3.1.147), mType(4)) by root",1,0.0,99.903
+1807,lr:0014fe50 cr:24042424 xer:00000002 ctr:00060a92,1,0.0,99.903
+1808,28:00788f60 29:00005afc 30:0d476760 31:0d6ebda0,1,0.0,99.903
+1809,24:00000000 25:00016bf0 26:004364d8 27:00000000,1,0.0,99.903
+1810,20:1fea9a28 21:000e3760 22:00016bf0 23:0000000b,1,0.0,99.903
+1811,16:1fea9a60 17:00000002 18:00000003 19:004c0000,1,0.0,99.903
+1812,<*> 13:1eeeeeee <*> 15:00000001,1,0.0,99.903
+1813,8:00000000 9:00000001 10:00550000 11:006ae8a0,1,0.0,99.903
+1814,4:00000000 5:00000000 <*> <*>,1,0.0,99.903
+1815,0:08958fe0 1:1fea9330 2:1eeeeeee 3:08958fd0,1,0.0,99.903
+1816,0x3f7afa52 0x07a0dee5,1,0.0,99.903
+1817,0x3f7af84f 0x70bc91d9,1,0.0,99.903
+1818,4:00001f82 5:b1144000 6:06412ce0 7:0cdc1fe0,1,0.0,99.903
+1819,mask..................0x10,1,0.0,99.903
+1820,symbol................7,1,0.0,99.903
+1821,lr:00009f18 cr:40242442 xer:20000002 ctr:1fdf819e,1,0.0,99.903
+1822,16:0028c638 17:1feaa880 18:00088804 19:00089b08,1,0.0,99.903
+1823,12:00088510 13:1eeeeeee 14:0028c64c 15:1feaa850,1,0.0,99.903
+1824,<*> 9:00000001 10:1fe00000 11:00090000,1,0.0,99.903
+1825,4:00088590 5:00088580 6:0000911c 7:00088560,1,0.0,99.903
+1826,"While initializing node card, ido with LP of FF:F2:9F:16:E8:42:00:0D:60:E9:17:BD caught java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",1,0.0,99.903
+1827,"While initializing node card iDo machine with LP of FF:F2:9F:16:E8:42:00:0D:60:E9:17:BD caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:16:E8:42:00:0D:60:E9:17:BD and IP=/10.0.0.237 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:16:E8:42:00:0D:60:E9:17:BD@/10.0.0.237:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",1,0.0,99.903
+1828,SerialNumber(000000000000000000000000fff29f16eb68000d60e91497) IpAddress(10.0.1.8) Status(A),1,0.0,99.903
+1829,SerialNumber(000000000000000000000000fff29f16ebb3000d60e9144c) IpAddress(10.0.1.12) Status(A),1,0.0,99.903
+1830,SerialNumber(000000000000000000000000fff29f16e842000d60e917bd) IpAddress(10.0.0.237) Status(A),1,0.0,99.903
+1831,BglIdoChip table has 2 IDOs with the same IP address (10.0.0.237),1,0.0,99.903
+1832,lr:00128084 cr:42000444 xer:00000002 ctr:00201390,1,0.0,99.903
+1833,0x3f7af6a9 0xb9d48c16,1,0.0,99.903
+1834,12:4040c4e2 13:1eeeeeee 14:009e7f40 15:009a9a20,1,0.0,99.903
+1835,8:009e8730 9:00000068 10:009e8730 11:00006c00,1,0.0,99.903
+1836,4:b1144000 5:b1144000 6:009e7f40 7:00a29bb0,1,0.0,99.903
+1837,0:020031c0 1:199670d0 2:1eeeeeee 3:009e8390,1,0.0,99.903
+1838,"e error threshold, consider replacing the card",1,0.0,99.903
+1839,fpr7=0x799e790a 40b11ceb 40000000 3fe04888,1,0.0,99.903
+1840,mmcs_server exited normally with exit code 13,1,0.0,99.903
+1841,Target=ido://FF:F2:9F:16:E6:86:00:0D:60:E9:19:79/JTAG/14 Message=Pll failed to lock,1,0.0,99.903
+1842,"Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. TEMPERATURE MASK IS ACTIVE. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",1,0.0,99.903
+1843,"While initializing node card, ido with LP of FF:F2:9F:16:E6:86:00:0D:60:E9:19:79 caught java.lang.NullPointerException",1,0.0,99.903
+1844,NodeCard VPD chip is not accessible,1,0.0,99.903
+1845,NodeCard power module U67 is not accessible,1,0.0,99.903
+1846,NodeCard temperature sensor chip U52 is not accessible,1,0.0,99.903
+1847,critical input interrupt (unit=0x0b bit=0x17): warning for tree C1 wire,1,0.0,99.903
+1848,"While initializing node card, ido with LP of FF:F2:9F:16:EB:B3:00:0D:60:E9:14:4C caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [FF:F2:9F:16:EB:B3:00:0D:60:E9:14:4C@/10.0.1.90:0 with image version 13 and card type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 1610, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = 32, Actual Sync Reply = -1)",1,0.0,99.903
+1849,"Problem communicating with node card, iDo machine with LP of FF:F2:9F:16:E9:93:00:0D:60:E9:16:6C caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [FF:F2:9F:16:E9:93:00:0D:60:E9:16:6C@/10.0.1.94:0 with image version 13 and card type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 1503, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = 32, Actual Sync Reply = -1)",1,0.0,99.903
+1850,<*> cr:20000020 xer:00000002 <*>,1,0.0,99.903
+1851,<*> 29:00000000 <*> 31:1fefff60,1,0.0,99.903
+1852,8:05bd2790 9:b1151000 10:fff09d8c 11:b1151000,1,0.0,99.903
+1853,4:0043e7e4 5:00530000 6:00000000 7:00000010,1,0.0,99.903
+1854,fpr8=0x9c76db36 3ff36523 e0000000 3fba0da6,1,0.0,99.903
+1855,3 floating point alignment exceptions,1,0.0,99.903
+1856,28:40000022 29:30000020 30:0047ac10 31:1feffff0,1,0.0,99.903
+1857,24:1fefff40 25:00000004 26:000c65b0 <*>,1,0.0,99.903
+1858,0:0000f000 1:1feffff0 2:1eeeeeee 3:30000020,1,0.0,99.903
+1859,<*> 29:00000000 30:30000020 31:1feffff0,1,0.0,99.903
+1860,28:40000020 29:00000000 30:30000020 31:1feffff0,1,0.0,99.903
+1861,job 20251 timed out. Block freed.,1,0.0,99.903
+1862,"While initializing node card, ido with LP of <*> caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version 13 and card type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = -1, Expected Sync Command = 32, Actual Sync Reply = -1)",1,0.0,99.903
+1863,4:00000bd5 5:071c9ae0 6:00002f54 7:00000000,1,0.0,99.903
+1864,0x0000040c 0x00000000,1,0.0,99.903
+1865,fpr13=0x0000008c 00006a83 29ee437c 3feb932c,1,0.0,99.903
+1866,external input interrupt (unit=0x02 bit=0x0b): torus sender y+ retransmission error was corrected,1,0.0,99.903
+1867,28:00008000 29:006af8d0 30:0000000b 31:00540000,1,0.0,99.903
+1868,24:00000000 25:1fea98c0 26:0000000e 27:006af8d0,1,0.0,99.903
+1869,20:00000000 21:ffffffff 22:00000004 <*>,1,0.0,99.903
+1870,16:029fa5f0 17:00000065 18:066aa9b0 19:066a29a0,1,0.0,99.903
+1871,12:0045b788 13:1eeeeeee 14:009823a0 15:02a02600,1,0.0,99.903
+1872,8:00007390 9:00000182 10:fff1f174 11:00000004,1,0.0,99.903
+1873,4:1fea96f0 5:00000004 6:02a02600 7:0098a3b0,1,0.0,99.903
+1874,0:0035fd54 1:1fea9830 2:1eeeeeee 3:007c2130,1,0.0,99.903
+1875,"ciod: for node 29, incomplete data written to core file core.18677",1,0.0,99.903
+1876,28:06a55c20 29:06a55c1c 30:00000000 31:1feaa420,1,0.0,99.903
+1877,r08=0x00774a8c r09=0x0077e710 r10=0x00f3af08 r11=0x00000000,1,0.0,99.903
+1878,r12=0x00000005 r13=0x1eeeeeee r14=0x00774a8c r15=0x00774a10,1,0.0,99.903
+1879,r16=0x00001c84 r17=0x00443a38 r18=0x00001ca4 r19=0x0044388c,1,0.0,99.903
+1880,r20=0x004438fc r21=0x00443964 r22=0x0034f5a4 r23=0x00000003,1,0.0,99.903
+1881,r24=0x007914b8 r25=0x00000004 r26=0x00000000 r27=0x00000001,1,0.0,99.903
+1882,r28=0x00000004 r29=0x00000005 r30=0x00000001 r31=0x0000000b,1,0.0,99.903
+1883,lr=0x0021a824 cr=0x42488884 xer=0x20000002 ctr=0x002208ac,1,0.0,99.903
+1884,lr:00368da8 cr:84404448 xer:00000002 ctr:00368610,1,0.0,99.903
+1885,28:006af9f4 29:007c1fb0 30:00007e08 31:007c2000,1,0.0,99.903
+1886,24:b1144000 25:00002000 26:00000008 27:006af8d0,1,0.0,99.903
+1887,20:00000000 21:ffffffff 22:00000004 23:008e56b0,1,0.0,99.903
+1888,16:0cdc1fe0 17:00000065 18:009e7400 19:1fea8b80,1,0.0,99.903
+1889,12:00000300 13:1eeeeeee 14:06412ce0 15:00c19490,1,0.0,99.903
+1890,8:00a2104c 9:0007e080 10:06412ce0 11:00000000,1,0.0,99.903
+1891,r04=0x00443a38 r05=0x00000012 r06=0x0077e728 r07=0x00000000,1,0.0,99.903
+1892,24:00004000 25:00000313 26:00000001 27:004bb280,1,0.0,99.903
+1893,20:00000000 21:000133e0 22:00004cf8 23:66666667,1,0.0,99.903
+1894,16:108ec3b4 17:00000000 18:00000000 19:000c06c0,1,0.0,99.903
+1895,12:00000000 13:1eeeeeee 14:108e17d0 15:00000000,1,0.0,99.903
+1896,8:000003ff 9:0000003f 10:0000003f 11:00000000,1,0.0,99.903
+1897,4:0000c000 5:0000c000 6:00000600 7:1fea9f64,1,0.0,99.903
+1898,0:000180d8 1:1fea9fc0 2:1eeeeeee 3:09087880,1,0.0,99.903
+1899,lr:0035e0cc cr:20000020 xer:00000002 ctr:0037a884,1,0.0,99.903
+1900,28:300015d0 29:00000000 30:05ff6f90 31:1fefff60,1,0.0,99.903
+1901,8:05ff6fc0 9:b1150800 10:fff1f0fc 11:b1150800,1,0.0,99.903
+1902,lr:0013f290 cr:24404888 xer:20000002 ctr:0013f0d8,1,0.0,99.903
+1903,28:00c80d48 29:00f97c30 30:00926dc0 31:00b0f6b0,1,0.0,99.903
+1904,24:00c7a218 25:003223e0 26:00c7a368 27:01d56830,1,0.0,99.903
+1905,20:0fea0700 21:000000ff 22:0000000d 23:00c80d80,1,0.0,99.903
+1906,8:02fdead0 9:00230000 10:00230000 11:00230000,1,0.0,99.903
+1907,12:000001ff 13:1eeeeeee 14:0fee0b88 15:0000003a,1,0.0,99.903
+1908,8:01360ec8 9:01300fc8 10:000001ff 11:00000006,1,0.0,99.903
+1909,4:01360ef0 5:01360ef0 6:00323350 7:00323648,1,0.0,99.903
+1910,0:01360ec8 1:0fea05d0 2:1eeeeeee 3:01300fc8,1,0.0,99.903
+1911,28:30008e90 29:30008f40 30:00000000 31:30008e30,1,0.0,99.903
+1912,8:10cae050 9:b1150400 10:fff1f0fc 11:b1150400,1,0.0,99.903
+1913,<*> 5:00460000 6:00000000 7:00000000,1,0.0,99.903
+1914,Ido chip status changed: FF:F2:9F:16:E7:14:00:0D:60:E9:18:EB ip=10.1.1.75 v=13 t=4 status=M Fri Jun 17 07:25:00 PDT 2005,1,0.0,99.903
+1915,lr:00114148 cr:88002824 xer:20000002 ctr:00000000,1,0.0,99.903
+1916,28:00388c70 29:00236460 30:002366e8 31:00236710,1,0.0,99.903
+1917,24:002366e0 25:002363b8 26:00388c50 27:0038d720,1,0.0,99.903
+1918,20:00236320 21:002365d0 22:00236390 23:00000008,1,0.0,99.903
+1919,16:002364a8 17:00236758 18:00230000 19:00236740,1,0.0,99.903
+1920,12:00230000 13:1eeeeeee 14:00230000 15:00230000,1,0.0,99.903
+1921,16:0fee0b9c 17:00000848 18:00000069 19:0000006a,1,0.0,99.903
+1922,28:00b86558 29:00230000 30:00000001 31:00aa3f70,1,0.0,99.903
+1923,24:00000001 25:00b86730 26:00b86588 27:00240000,1,0.0,99.903
+1924,20:00000008 21:00000028 <*> <*>,1,0.0,99.903
+1925,8:00000002 9:00000003 10:0000001a 11:00126890,1,0.0,99.903
+1926,4:00aa31f8 5:00000002 6:0000001b 7:00000004,1,0.0,99.903
+1927,0:0000001a 1:0fee9b20 2:1eeeeeee 3:0000001b,1,0.0,99.903
+1928,ddr: activating redundant bit steering for next allocation: rank=0 symbol=33,1,0.0,99.903
+1929,lr:001269b0 cr:44002842 xer:20000002 ctr:001268b0,1,0.0,99.903
+1930,28:00b101a0 29:00230000 30:00000004 31:00aa3bd0,1,0.0,99.903
+1931,24:00b10758 25:00b10378 26:00b101d0 27:00240000,1,0.0,99.903
+1932,20:00000008 21:00000028 22:00000000 23:00000006,1,0.0,99.903
+1933,8:43300000 9:001d8660 10:7ff310ca 11:001db728,1,0.0,99.903
+1934,4:8000054b 5:001d7050 6:00d3f6c0 7:001d0000,1,0.0,99.903
+1935,28:00210df0 29:00000000 30:0feea390 31:0111ef00,1,0.0,99.903
+1936,lr:00146ef4 cr:4a404244 xer:20000002 ctr:00146df4,1,0.0,99.903
+1937,28:09f913d0 29:09ff3c50 30:09ff3cd0 31:09f91410,1,0.0,99.903
+1938,24:01cdf820 25:01cde9e0 26:027d6500 27:00336700,1,0.0,99.903
+1939,20:00000070 21:0fee0710 22:09de9dd0 23:027d6c20,1,0.0,99.903
+1940,16:0fea0390 17:00000115 18:00000010 19:0fea0710,1,0.0,99.903
+1941,12:002580c0 13:1eeeeeee 14:00036f34 15:0fee0fbc,1,0.0,99.903
+1942,8:ffffffc0 9:00000001 10:ffffffff 11:00146df4,1,0.0,99.903
+1943,4:00338570 5:01cdf9e0 6:09ff3c70 7:00338560,1,0.0,99.903
+1944,0:00338570 1:0fea0390 2:1eeeeeee 3:027d6c20,1,0.0,99.903
+1945,0x63656976 0x65722078,1,0.0,99.903
+1946,0x746f7275 0x73207265,1,0.0,99.903
+1947,0x93c10028 0x7c7e1b78,1,0.0,99.903
+1948,<*> <*> xer:20000002 ctr:00009c70,1,0.0,99.903
+1949,28:c2a385eb 29:c2a67df3 30:c2a9cc0d 31:c2ad4d2b,1,0.0,99.903
+1950,0:00002a58 1:0fee9ae0 2:1eeeeeee 3:00d58078,1,0.0,99.903
+1951,<*> <*> 26:00240000 27:00230000,1,0.0,99.903
+1952,16:00000000 17:00000008 18:fffffff8 19:00aaa200,1,0.0,99.903
+1953,12:0fee9b10 13:1eeeeeee 14:00aa3580 15:00000020,1,0.0,99.903
+1954,8:43300000 9:001d8680 10:800d2fd0 11:001db450,1,0.0,99.903
+1955,4:00000000 5:0000001c 6:00ea3b20 7:001d0000,1,0.0,99.903
+1956,0:0000001d 1:0fee9ac0 2:1eeeeeee 3:00aa6e30,1,0.0,99.903
+1957,28:0b252b10 29:0029bdd0 30:00f6b300 31:00f6b290,1,0.0,99.903
+1958,20:00220144 21:001cc130 22:00283360 23:0001cc13,1,0.0,99.903
+1959,16:00002349 17:00000901 18:000008cb 19:00220150,1,0.0,99.903
+1960,4:00004808 5:0ae672c0 6:0006d240 7:00001b4a,1,0.0,99.903
+1961,0:0b45c0d0 1:0feea600 2:1eeeeeee 3:00004658,1,0.0,99.903
+1962,lr:0011a634 cr:24004428 xer:20000002 ctr:00000184,1,0.0,99.903
+1963,28:059ae8d8 29:0597db98 30:05964e60 31:05984e60,1,0.0,99.903
+1964,lr:0010b414 cr:84002842 xer:20000002 ctr:00126890,1,0.0,99.903
+1965,20:059e4e60 21:014ecaf8 22:00009c40 23:002d8a78,1,0.0,99.903
+1966,16:00000000 17:00000001 18:029f78a8 19:05954e60,1,0.0,99.903
+1967,12:0596b4a0 13:1eeeeeee 14:0598b4a0 15:059841d8,1,0.0,99.903
+1968,8:018bcb38 9:05755228 10:015011c0 11:0595b4a0,1,0.0,99.903
+1969,4:018bcb08 5:018b8b08 6:0150b738 7:018b0b38,1,0.0,99.903
+1970,0:00000cc8 1:1feaa2a0 2:1eeeeeee 3:0000018b,1,0.0,99.903
+1971,<*> cr:44002842 xer:20000002 <*>,1,0.0,99.903
+1972,28:00000002 29:00fa4710 30:00aa3490 31:00aa3f90,1,0.0,99.903
+1973,24:00adb1b8 25:00000015 26:00240000 27:00230000,1,0.0,99.903
+1974,20:00000008 21:00000000 22:fffffff8 23:00000028,1,0.0,99.903
+1975,<*> 17:000001d0 18:00000030 <*>,1,0.0,99.903
+1976,8:e76566b9 9:001d8640 10:7ffd8b18 11:001dbc40,1,0.0,99.903
+1977,4:00000000 5:3ffd8b18 6:e76566b9 7:3ffd8b18,1,0.0,99.903
+1978,0:3ff00000 1:0fee9af0 2:1eeeeeee 3:3ff00000,1,0.0,99.903
+1979,24:0556f1f0 25:02fa98ac 26:059d4e60 27:059c2158,1,0.0,99.903
+1980,28:00e6e8e0 29:00580000 30:000002d0 31:0bda71a0,1,0.0,99.903
+1981,24:00000000 25:0bda71a0 26:0cf13630 27:0bda71a8,1,0.0,99.903
+1982,20:00e6f630 21:0cd67b50 22:03a182f0 23:000000f0,1,0.0,99.903
+1983,16:00e6ee10 17:00e6e480 18:00000000 19:00005b46,1,0.0,99.903
+1984,<*> 13:1eeeeeee <*> 15:00000065,1,0.0,99.903
+1985,8:000002f8 9:000000be 10:fff5f8f8 11:b1141000,1,0.0,99.903
+1986,4:004791c4 5:00520000 6:00e6ee10 7:0061e5b0,1,0.0,99.903
+1987,0:000000be 1:0bda6f60 2:1eeeeeee 3:0bf0005f,1,0.0,99.903
+1988,lr:0014aa84 cr:26404842 xer:00000002 ctr:0014a8f4,1,0.0,99.903
+1989,28:00f4ddf0 29:08f6c840 30:00000008 31:00f4eb80,1,0.0,99.903
+1990,24:01003df0 25:003682a0 26:00f71030 27:08f7a800,1,0.0,99.903
+1991,20:00000040 21:0fee06f0 22:08f6c840 23:00f4eaf0,1,0.0,99.903
+1992,16:00000026 17:0000008e 18:0000008f 19:0fea06f0,1,0.0,99.903
+1993,24:005a8a10 25:00085e80 26:00010000 27:00000000,1,0.0,99.903
+1994,4:00000000 5:01003ec0 6:08f6c860 7:0fea0520,1,0.0,99.903
+1995,lr:00125fbc cr:44842484 xer:00000002 ctr:0000000c,1,0.0,99.903
+1996,28:0000000c 29:000000c0 30:03f2e5a0 31:1f7e9dd0,1,0.0,99.903
+1997,24:03f2ed80 25:00000006 26:03f2ea20 27:00000008,1,0.0,99.903
+1998,20:04d80df8 21:03f2e900 22:03f2ed20 23:03f2e8a0,1,0.0,99.903
+1999,16:000004e8 17:04d80918 18:04d80978 19:04d80d98,1,0.0,99.903
+2000,12:04d80678 13:1eeeeeee 14:03f2ea80 15:03f2e600,1,0.0,99.903
+2001,8:04d80980 9:04d80920 10:04d80e00 11:04d80da0,1,0.0,99.903
+2002,4:03f2f208 5:03f2ed90 6:03f2f268 7:03f2edf0,1,0.0,99.903
+2003,<*> <*> 2:1eeeeeee 3:00000004,1,0.0,99.903
+2004,lr:0000bd44 cr:40002424 xer:20000002 ctr:00009c70,1,0.0,99.903
+2005,28:000558c0 29:038edb80 30:00040000 31:00040230,1,0.0,99.903
+2006,12:000558b0 13:1eeeeeee 14:01d78220 15:000fffc0,1,0.0,99.903
+2007,8:00015630 9:0004c5a2 10:038f9e01 11:000093ad,1,0.0,99.903
+2008,12:01003f80 13:1eeeeeee 14:00001415 15:0fee09e8,1,0.0,99.903
+2009,20:00000090 21:005561a0 22:00100000 23:00000004,1,0.0,99.903
+2010,16:20202020 17:00587ae0 18:00000001 19:00000023,1,0.0,99.903
+2011,12:00084fa0 13:1eeeeeee 14:1f0995a0 15:004c2450,1,0.0,99.903
+2012,8:000099c8 9:00000000 10:00084fc0 11:00084fb0,1,0.0,99.903
+2013,4:000099c8 5:00000000 6:00009c70 7:00040000,1,0.0,99.903
+2014,lr:00192ba8 cr:44404444 xer:20000002 ctr:0001fef0,1,0.0,99.903
+2015,28:003c79b0 29:09786d40 30:00270000 31:0016ae7c,1,0.0,99.903
+2016,24:00000000 25:00000000 <*> <*>,1,0.0,99.903
+2017,20:09f0c498 21:0037b488 22:30000000 23:00000001,1,0.0,99.903
+2018,8:00800000 9:00000070 10:003c79c0 11:0b020000,1,0.0,99.903
+2019,<*> 5:00000010 6:00000050 7:00000070,1,0.0,99.903
+2020,0:00192a24 1:0fe69fc0 2:1eeeeeee 3:00f88210,1,0.0,99.903
+2021,lr:0014aa3c cr:46404828 xer:20000002 ctr:0014a8f4,1,0.0,99.903
+2022,lr:00466454 cr:28c44222 xer:00000002 ctr:004791c4,1,0.0,99.903
+2023,24:01103420 25:003682a0 26:010ee8a0 27:08ee7dd0,1,0.0,99.903
+2024,20:0000002f 21:0fee06f0 22:08efcd90 23:00ff3120,1,0.0,99.903
+2025,16:00000040 17:000000ab 18:000000ac 19:0fea06f0,1,0.0,99.903
+2026,12:ffff3b5a 13:1eeeeeee 14:00004b6a 15:0fee0bf0,1,0.0,99.903
+2027,8:00ff19c8 9:00ff1900 10:00ff1838 11:0014a8f4,1,0.0,99.903
+2028,4:003b6f38 5:00ff1768 6:08ee7e30 7:00000005,1,0.0,99.903
+2029,0:003b6ea0 1:0fea0540 2:1eeeeeee 3:010ee8a0,1,0.0,99.903
+2030,28:00000040 29:0feea0f0 30:00000040 31:08dadf10,1,0.0,99.903
+2031,20:00000001 21:8c000005 22:00000001 23:0feea0a0,1,0.0,99.903
+2032,16:44000000 17:09593098 18:0a3f0308 19:009c2360,1,0.0,99.903
+2033,12:0024710c 13:1eeeeeee 14:00000e38 15:00038e00,1,0.0,99.903
+2034,8:00000000 9:ffffffff 10:8c000005 11:00000002,1,0.0,99.903
+2035,<*> 5:00000000 6:00000010 <*>,1,0.0,99.903
+2036,0:0016b348 1:0fee9f20 2:1eeeeeee 3:009f3360,1,0.0,99.903
+2037,28:00ff1720 29:08efcd90 30:08efb550 31:08ee7e10,1,0.0,99.903
+2038,24:013dc480 25:00368a80 26:013dc7c0 27:0a133fe0,1,0.0,99.903
+2039,20:00000208 21:0022536c 22:0a0cb320 23:013e8ac0,1,0.0,99.903
+2040,16:00000010 17:00000046 18:00000047 19:0fea0700,1,0.0,99.903
+2041,12:013e8c20 13:1eeeeeee 14:0001b7dc 15:0fee0840,1,0.0,99.903
+2042,lr:0020e208 cr:84404422 xer:00000002 ctr:00143838,1,0.0,99.903
+2043,28:0fea04c8 29:00368af0 30:0fea04d0 31:0036a3a0,1,0.0,99.903
+2044,24:0915d5a8 25:002a0000 26:00000198 27:00000000,1,0.0,99.903
+2045,20:000007c6 21:000a0c00 22:0000b2ac 23:0915d5ac,1,0.0,99.903
+2046,16:0022533c 17:09b191b8 18:00e93868 19:09139198,1,0.0,99.903
+2047,12:00014b2b 13:1eeeeeee 14:00225188 15:00dc4aa0,1,0.0,99.903
+2048,8:0025fee0 9:00260000 10:00261520 11:002627d0,1,0.0,99.903
+2049,4:3fe00000 5:00000000 6:4337ffff 7:ffffffff,1,0.0,99.903
+2050,0:00001570 1:0fea0410 2:1eeeeeee 3:bfd7a9d5,1,0.0,99.903
+2051,28:00000010 29:001d6f20 30:00aa3260 31:00aa3580,1,0.0,99.903
+2052,28:00003aa8 29:0a025dcc 30:0a025dc4 31:0a025dc8,1,0.0,99.903
+2053,24:00002c18 25:000247e2 26:00000eaa 27:000247b4,1,0.0,99.903
+2054,20:00000656 21:0022536c 22:0fee0700 23:0fea86f8,1,0.0,99.903
+2055,16:0000002a 17:0000002a 18:0000002b 19:0fea0700,1,0.0,99.903
+2056,12:00247e20 13:1eeeeeee 14:00034a8d 15:0fee0a34,1,0.0,99.903
+2057,8:0000002c 9:00000030 10:009c94f0 11:0fe9fb40,1,0.0,99.903
+2058,4:0fee0700 5:0fea0700 6:002a0000 7:00000016,1,0.0,99.903
+2059,<*> cr:26404842 xer:00000002 <*>,1,0.0,99.903
+2060,28:01575fc0 29:0a0c8ea0 30:00000008 31:015766d0,1,0.0,99.903
+2061,24:01bb0500 25:00368a80 26:01fd0900 27:0a1438a0,1,0.0,99.903
+2062,20:0000023e 21:0022536c 22:0a0c8ea0 23:01576640,1,0.0,99.903
+2063,16:00000078 17:000000ae 18:000000af 19:0fea0700,1,0.0,99.903
+2064,12:01bb0670 13:1eeeeeee 14:00036103 15:0fee1060,1,0.0,99.903
+2065,4:00000000 5:01bb05d0 6:0a0c8ec0 7:00000018,1,0.0,99.903
+2066,lr:0013d978 cr:48404822 xer:00000002 ctr:001c0e84,1,0.0,99.903
+2067,lr:0000fb68 cr:84422222 xer:20000002 ctr:000002c2,1,0.0,99.903
+2068,20:000001b2 21:0a5e3800 22:000001b2 23:00000000,1,0.0,99.903
+2069,16:0001f403 17:0000000d 18:00000004 19:011171a4,1,0.0,99.903
+2070,<*> cr:2a404888 xer:20000002 ctr:0014ac7c,1,0.0,99.903
+2071,28:00000010 29:0bfea6c0 30:0bfea4c0 31:0bfa19c0,1,0.0,99.903
+2072,24:00000008 25:00000008 <*> <*>,1,0.0,99.903
+2073,16:003b7678 17:003b78a0 18:00000102 19:00000010,1,0.0,99.903
+2074,12:00a0cd30 13:1eeeeeee 14:00659978 15:00a0cf40,1,0.0,99.903
+2075,4:003b0000 5:003b0000 <*> <*>,1,0.0,99.903
+2076,1 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 13 seconds,1,0.0,99.903
+2077,fpr13=0x4bcd5d38 4000c8d0 128cfca0 3fa0a96f,1,0.0,99.903
+2078,r04=0x008bc0c4 r05=0x002e0000 r06=0x00348fc0 r07=0x00039cf0,1,0.0,99.903
+2079,<*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected over 389 seconds,1,0.0,99.903
+2080,28:013e8100 29:0a134ea0 30:00000008 31:003b7710,1,0.0,99.903
+2081,"1 ddr error(s) detected and corrected on rank 0, symbol 33 over 389 seconds",1,0.0,99.903
+2082,8 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected over 389 seconds,1,0.0,99.903
+2083,2 tree receiver 0 in re-synch state event(s) (dcr 0x01bc) detected over 388 seconds,1,0.0,99.903
+2084,lr:0019235c cr:44002844 xer:00000002 ctr:001922cc,1,0.0,99.903
+2085,28:003ba04c 29:0043a8e0 30:b1145000 31:08df3480,1,0.0,99.903
+2086,20:00e00660 21:00dc4aa0 22:40000000 23:0feea0a0,1,0.0,99.903
+2087,16:0021e750 17:0021e744 18:0021e738 19:00000000,1,0.0,99.903
+2088,8:00000010 9:afffffff 10:00001e10 11:0a2486b0,1,0.0,99.903
+2089,4:08df35a0 5:0a24a4c0 6:0a24a4d0 7:0a24a520,1,0.0,99.903
+2090,<*> <*> 2:1eeeeeee 3:b1145000,1,0.0,99.903
+2091,28:0912f6d0 29:0029b6b0 30:00eb3e40 31:00eb3dd0,1,0.0,99.903
+2092,16:000059c3 17:000008e8 18:0000089e 19:0021fa20,1,0.0,99.903
+2093,4:00004740 5:09b330e0 6:001470c0 7:000051c4,1,0.0,99.903
+2094,lr:0014ae24 cr:2a404888 xer:20000002 ctr:0014ac7c,1,0.0,99.903
+2095,total of 1 ddr error(s) detected and corrected over 389 seconds,1,0.0,99.903
+2096,20:00240190 <*> 22:00005c30 23:0fee9770,1,0.0,99.903
+2097,8:00000010 9:000000e0 10:00002b20 11:012c19c0,1,0.0,99.903
+2098,4:00398800 5:00398820 6:012c44e0 7:012c4580,1,0.0,99.903
+2099,0:afffffff 1:0fee9630 2:1eeeeeee 3:b1145000,1,0.0,99.903
+2100,lr:0014adec cr:26404244 xer:00000002 ctr:0014ac7c,1,0.0,99.903
+2101,28:00000010 29:090d22d0 30:0911d3d0 31:0916b110,1,0.0,99.903
+2102,24:00000008 25:00000008 26:01468040 27:0916aed0,1,0.0,99.903
+2103,16:003b7740 17:003b7800 18:000000f3 19:00000010,1,0.0,99.903
+2104,12:014681d0 13:1eeeeeee 14:010744c0 15:01468100,1,0.0,99.903
+2105,8:003b7760 9:003b0000 10:ffffffe8 11:01468290,1,0.0,99.903
+2106,4:003b0000 5:003b0000 6:010743f8 7:0fea0520,1,0.0,99.903
+2107,28:4c00010d 29:00398530 30:00000000 31:00398530,1,0.0,99.903
+2108,24:0000b6ac 25:00000000 26:00231c68 27:4c00010d,1,0.0,99.903
+2109,28:000c8430 29:000094dc 30:00000020 31:00055954,1,0.0,99.903
+2110,8:00000000 9:02000003 10:00000060 11:0000b6ae,1,0.0,99.903
+2111,0:0014d50c 1:0fee9a60 2:1eeeeeee 3:00231c68,1,0.0,99.903
+2112,lr:001758f8 cr:24002842 xer:00000002 ctr:0018fc24,1,0.0,99.903
+2113,28:00399110 29:00000000 30:001758f8 31:0fee9780,1,0.0,99.903
+2114,24:00000001 25:00000000 26:0fee9780 27:0039a570,1,0.0,99.903
+2115,20:00240190 21:00adcb88 22:00005c30 23:0fee9770,1,0.0,99.903
+2116,16:00003b38 17:00003b3a 18:00000000 19:0023ff70,1,0.0,99.903
+2117,8:00241bc0 9:b1140000 10:fff81b00 11:b1140000,1,0.0,99.903
+2118,<*> <*> 6:00000000 7:00000010,1,0.0,99.903
+2119,lr:0000bd54 cr:48000044 xer:20000002 ctr:00009c80,1,0.0,99.903
+2120,<*> <*> 30:00040000 31:00040230,1,0.0,99.903
+2121,8:00015630 9:00043892 10:014f9ba1 11:000120bd,1,0.0,99.903
+2122,<*> 5:00055920 6:00055910 <*>,1,0.0,99.903
+2123,lr:00127374 cr:44402842 xer:20000002 ctr:00127110,1,0.0,99.903
+2124,20:00240190 21:01ac5a40 22:00000060 23:00000060,1,0.0,99.903
+2125,24:000c8790 25:000c8430 26:00010000 27:00055950,1,0.0,99.903
+2126,8:00007814 9:05cc8e85 10:00070000 11:ffffca74,1,0.0,99.903
+2127,<*> 5:80000000 <*> 7:00030000,1,0.0,99.903
+2128,lr:0014706c cr:46404422 xer:20000002 ctr:00146f24,1,0.0,99.903
+2129,28:01d4fae0 29:09dd6e60 30:09fc7560 31:0a00c6a0,1,0.0,99.903
+2130,24:0fea0580 25:01d4f5b0 26:01d4f770 27:01d4f930,1,0.0,99.903
+2131,20:00000040 21:0a00c6c0 22:0a00c6c8 23:0a00c6d0,1,0.0,99.903
+2132,<*> <*> 18:00000010 19:00000000,1,0.0,99.903
+2133,12:0000363b 13:1eeeeeee 14:02500180 15:0033da30,1,0.0,99.903
+2134,8:00340000 9:00270000 10:00146f24 11:00270000,1,0.0,99.903
+2135,4:0033d880 5:01d4f430 6:0a00c6c0 7:024fffc0,1,0.0,99.903
+2136,0:01d4fa60 1:0fea0530 2:1eeeeeee 3:024fffd0,1,0.0,99.903
+2137,L1 DCACHE summary averages: #ofDirtyLines: 457 out of 1024 #ofDirtyDblWord: 1632 out of 4096,1,0.0,99.903
+2138,lr:0011a0a8 cr:44008222 xer:20000002 ctr:00000069,1,0.0,99.903
+2139,24:00000002 25:0039a64c 26:00000008 27:0039a570,1,0.0,99.903
+2140,24:06fc2ba0 25:03fe032c 26:074dc810 27:07e5c53c,1,0.0,99.903
+2141,20:07505548 21:066add90 22:061add88 23:ffff63c8,1,0.0,99.903
+2142,16:07511b28 17:0750a860 18:074e1b28 19:01caf580,1,0.0,99.903
+2143,12:074f1b28 13:1eeeeeee 14:00000a63 15:000001f2,1,0.0,99.903
+2144,8:07243b28 9:021b8508 10:021c0508 11:01cb85b8,1,0.0,99.903
+2145,4:00000007 5:021bf5b8 6:021b75b8 7:01cbad08,1,0.0,99.903
+2146,0:00000001 1:0feea2d0 2:1eeeeeee 3:0000025a,1,0.0,99.903
+2147,28:09245580 29:0029b6b0 30:00e9a7a0 31:00e9a730,1,0.0,99.903
+2148,20:0021fa14 21:0017e860 22:00282c30 23:00017e86,1,0.0,99.903
+2149,16:000028c8 17:000007d2 18:00000740 19:0021fa20,1,0.0,99.903
+2150,4:090a5e00 5:09022c00 6:00083200 7:000020c9,1,0.0,99.903
+2151,0:097a3f50 1:0feea610 2:1eeeeeee 3:00003a00,1,0.0,99.903
+2152,lr:0017a538 cr:44002842 xer:00000002 ctr:0017a3dc,1,0.0,99.903
+2153,28:0039a65c 29:00425270 30:b1145000 31:003986f0,1,0.0,99.903
+2154,28:0756c810 29:0755c810 30:0750c810 31:00a6c9f0,1,0.0,99.903
+2155,12:0fea04c8 13:1eeeeeee 14:05cdb550 15:01cdb5c0,1,0.0,99.903
+2156,8:05ce2cd0 9:00000000 10:0033ba1c 11:0014704c,1,0.0,99.903
+2157,4:01cdb4e0 5:01cdadc0 6:0a013960 7:05cdb3d0,1,0.0,99.903
+2158,0:001470b8 1:0fea03b0 2:1eeeeeee 3:05cdb3e0,1,0.0,99.903
+2159,lr:00109c30 cr:44484820 xer:20000002 ctr:00113b58,1,0.0,99.903
+2160,28:017ffcd0 29:00257080 30:017ffc60 31:00f83ea0,1,0.0,99.903
+2161,24:097c6b0c 25:00000001 26:00000117 27:00000000,1,0.0,99.903
+2162,20:097c6b08 21:00000009 22:097a4ad0 23:00000004,1,0.0,99.903
+2163,16:00000570 17:097c6f64 18:00000024 19:00000024,1,0.0,99.903
+2164,12:00000053 13:1eeeeeee 14:09a35090 15:000015c0,1,0.0,99.903
+2165,8:00026100 9:00000000 10:00000000 11:00000009,1,0.0,99.903
+2166,4:0feea490 5:0feea498 6:00400000 7:09a0ef90,1,0.0,99.903
+2167,0:00010500 1:0feea460 2:1eeeeeee 3:0feea488,1,0.0,99.903
+2168,4:000099c8 5:00055920 6:00055910 7:00095110,1,0.0,99.903
+2169,24:0bdf73e0 25:089ed1fc 26:00228ed0 27:00000008,1,0.0,99.903
+2170,20:00000001 21:00000015 22:039f2328 23:039f2324,1,0.0,99.903
+2171,16:0422afa0 17:03e5efa0 18:03a92fa0 19:00000006,1,0.0,99.903
+2172,8:00000001 9:0bde0038 10:03a92320 11:03a92f70,1,0.0,99.903
+2173,4:0bde3578 5:0001b588 6:00003540 7:800006a7,1,0.0,99.903
+2174,0:800006a7 1:0feea300 2:1eeeeeee 3:0bdfa920,1,0.0,99.903
+2175,lr:00174114 cr:84004244 xer:00000002 ctr:00102d20,1,0.0,99.903
+2176,28:00005651 29:0fee97f8 30:0fee94f0 31:074ac9e4,1,0.0,99.903
+2177,24:00001a3b 25:0000000b 26:00000000 27:00000000,1,0.0,99.903
+2178,20:00020000 21:00000000 22:00000002 23:006bf5b8,1,0.0,99.903
+2179,8:00000014 9:000002c4 10:00000114 11:00102d20,1,0.0,99.903
+2180,4:01a86cd4 5:000000af 6:0fee93b0 7:01a86cdc,1,0.0,99.903
+2181,0:00174114 1:0fee9320 2:1eeeeeee 3:0fee93a0,1,0.0,99.903
+2182,monitor caught java.lang.UnsupportedOperationException: power module <*> not present and is stopping,1,0.0,99.903
+2183,28:00000006 29:00000004 30:00000001 31:039f2320,1,0.0,99.903
+2184,lr:00132230 cr:44202424 xer:20000002 ctr:00000003,1,0.0,99.903
+2185,28:00312c00 29:00000010 30:1fea9bd4 31:1fea9c40,1,0.0,99.903
+2186,24:00000000 25:fffffff8 26:00000080 27:00003000,1,0.0,99.903
+2187,20:00000030 21:1fea9bfc 22:00000080 23:00001800,1,0.0,99.903
+2188,16:0028e750 17:1fea9d00 18:00c80230 19:00180000,1,0.0,99.903
+2189,12:000025f8 13:1eeeeeee 14:05b1f6a0 15:02a00078,1,0.0,99.903
+2190,8:00000000 9:000017f8 10:0131f690 11:00000014,1,0.0,99.903
+2191,4:01321ca8 5:00000078 6:00000004 7:00000080,1,0.0,99.903
+2192,0:00002fff 1:1fea89f0 2:1eeeeeee 3:0851f718,1,0.0,99.903
+2193,28:00fdf6f0 29:0900c3f0 30:00000008 31:00378d10,1,0.0,99.903
+2194,24:0153e2f0 25:0033b2a0 26:010afa30 27:090a1df0,1,0.0,99.903
+2195,20:00000068 21:0fee0710 22:0900c3f0 23:00fdcff0,1,0.0,99.903
+2196,16:000000a9 17:000000de 18:000000df 19:0fea0710,1,0.0,99.903
+2197,16:0fea04f0 17:ffffff50 18:00000010 19:00000000,1,0.0,99.903
+2198,4:ffffffe0 5:010afb00 6:09091d50 7:00000018,1,0.0,99.903
+2199,lr:0017df64 cr:40402824 xer:20000002 ctr:000000d6,1,0.0,99.903
+2200,28:0feea610 29:00000003 30:0000015e 31:0000015e,1,0.0,99.903
+2201,24:01803f98 25:0a4bac80 26:00000008 27:00000002,1,0.0,99.903
+2202,20:00000000 21:000020d0 22:00000008 23:00000003,1,0.0,99.903
+2203,16:0017b5e8 17:0017b030 18:0017afcc 19:0feea640,1,0.0,99.903
+2204,12:80404824 13:1eeeeeee 14:0feea610 15:0017b3a0,1,0.0,99.903
+2205,8:00000000 9:0a5b2910 10:0feea610 11:0000000c,1,0.0,99.903
+2206,4:09baae88 5:0000015e 6:01803f98 7:4c00080b,1,0.0,99.903
+2207,0:00000008 1:0feea530 2:1eeeeeee 3:0feea58c,1,0.0,99.903
+2208,lr:001470d4 cr:42404822 xer:20000002 ctr:0014704c,1,0.0,99.903
+2209,28:0fea0680 29:0a013cc0 30:0a013940 31:09d31300,1,0.0,99.903
+2210,24:0fee06fc 25:01cdb4e0 26:05cdb3e0 27:01cdadc0,1,0.0,99.903
+2211,20:00000040 21:0fee0710 22:0fea8708 23:00005f00,1,0.0,99.903
+2212,12:010afb78 13:1eeeeeee 14:00000661 15:0fee1444,1,0.0,99.903
+2213,16:00000bb8 17:00000bb8 18:002b09b0 19:094c4df0,1,0.0,99.903
+2214,12:28082202 13:1eeeeeee 14:00000020 15:002b09e0,1,0.0,99.903
+2215,lr:0013dd88 cr:84444422 xer:20000002 ctr:001bf7fc,1,0.0,99.903
+2216,28:00270000 29:00272b10 30:008c7560 31:001fd2f8,1,0.0,99.903
+2217,24:00293808 25:002cf5e0 26:0030b3b8 27:00274fb0,1,0.0,99.903
+2218,20:0971cdf8 21:000000f4 22:58000003 23:00000080,1,0.0,99.903
+2219,16:090337e8 17:09036418 18:0971de18 19:0971e638,1,0.0,99.903
+2220,8:002349c0 9:00230000 10:00236000 11:00236a50,1,0.0,99.903
+2221,0:000001a4 1:0feea490 2:1eeeeeee 3:00000004,1,0.0,99.903
+2222,<*> <*> xer:20000002 ctr:00000001,1,0.0,99.903
+2223,28:089af7b0 29:0026e740 30:00997ee0 31:00997e70,1,0.0,99.903
+2224,24:00000000 25:00000008 26:08abef50 27:009a3c70,1,0.0,99.903
+2225,20:001f7a4c 21:00084840 22:002570b0 23:00008484,1,0.0,99.903
+2226,lr:0036d808 cr:48424248 xer:00000002 ctr:0036d05c,1,0.0,99.903
+2227,8:08f31a30 9:ffffffff 10:00000000 11:00000000,1,0.0,99.903
+2228,4:000007a8 5:0903ce20 6:000084ae 7:00008486,1,0.0,99.903
+2229,0:08fb85d0 1:0feea620 2:1eeeeeee 3:00001620,1,0.0,99.903
+2230,20:ffffffff 21:40000000 <*> 23:0feea440,1,0.0,99.903
+2231,external input interrupt (unit=0x03 bit=0x01): tree header with no target waiting,1,0.0,99.903
+2232,lr:00107b9c cr:880224e4 xer:20000002 ctr:0013c18c,1,0.0,99.903
+2233,28:84000000 29:00000561 30:480224e8 31:00000000,1,0.0,99.903
+2234,24:4c00010d 25:4c00010d 26:0089dc60 27:00010000,1,0.0,99.903
+2235,20:00b5fd60 21:001ecccc 22:00000800 23:0091e170,1,0.0,99.903
+2236,16:001b0000 17:001b0000 18:001b0000 19:008ddc70,1,0.0,99.903
+2237,12:880024e2 13:1eeeeeee 14:001b0000 15:001b0000,1,0.0,99.903
+2238,8:001aa524 9:00000000 10:00000800 11:00000003,1,0.0,99.903
+2239,4:00000000 5:001aa4cc 6:000003be 7:00000003,1,0.0,99.903
+2240,lr:0014b0fc cr:480022e4 xer:00000002 ctr:00165860,1,0.0,99.903
+2241,16:000018e3 17:000000f5 18:000002c4 19:001f7a58,1,0.0,99.903
+2242,28:00000000 29:09faec80 30:0001fbd0 31:09faecd0,1,0.0,99.903
+2243,20:0adf3200 21:0917d310 22:091fd320 23:0fee8c80,1,0.0,99.903
+2244,16:094fd380 17:0947d370 18:b1144000 19:00013444,1,0.0,99.903
+2245,12:00001a22 13:1eeeeeee 14:0ae73210 15:00000065,1,0.0,99.903
+2246,8:0af7d898 9:001fbd00 10:0ae73210 11:00000000,1,0.0,99.903
+2247,4:00007ef4 5:b1144000 6:0ae73210 7:0947d370,1,0.0,99.903
+2248,0:0036d808 1:0fee8af0 2:1eeeeeee 3:006c20d0,1,0.0,99.903
+2249,<*> cr:84084242 xer:00000002 <*>,1,0.0,99.903
+2250,28:00000060 29:00000120 <*> 31:00000001,1,0.0,99.903
+2251,24:00000003 <*> <*> 27:00000200,1,0.0,99.903
+2252,<*> 21:00000010 22:00000180 <*>,1,0.0,99.903
+2253,16:1a3a4f10 17:1842a5d0 18:0c294c30 19:0c294b30,1,0.0,99.903
+2254,8:1a3a4c00 9:0000cc00 10:0c294b40 11:00001980,1,0.0,99.903
+2255,20:1feaa680 21:1feaa748 22:094c4de8 23:0022a210,1,0.0,99.903
+2256,24:000c2d90 25:00000008 26:fffffff4 27:00055950,1,0.0,99.903
+2257,<*> cr:200024c4 xer:00000002 <*>,1,0.0,99.903
+2258,28:00211a50 29:00000000 30:0feea3c0 31:00b5d6b0,1,0.0,99.903
+2259,24:00000000 25:0feea3c0 26:00000002 27:00212b50,1,0.0,99.903
+2260,20:00000000 21:40000000 <*> <*>,1,0.0,99.903
+2261,8:00000080 9:00000040 10:fff9cf14 11:00000060,1,0.0,99.903
+2262,4:00000000 5:00b5d6c0 6:00000010 7:00b5d6a0,1,0.0,99.903
+2263,0:000000a0 1:0feea250 2:1eeeeeee 3:00000020,1,0.0,99.903
+2264,power module status fault detected on node card. status registers are: 0/0/1/1,1,0.0,99.903
+2265,lr:001280b0 cr:80002442 xer:00000002 ctr:0000fdc2,1,0.0,99.903
+2266,<*> 29:00010000 <*> 31:88000000,1,0.0,99.903
+2267,24:00000000 <*> <*> 27:00000001,1,0.0,99.903
+2268,<*> <*> 10:00000001 11:00000002,1,0.0,99.903
+2269,<*> 5:00000001 <*> 7:ff00ff00,1,0.0,99.903
+2270,4:18429ff0 5:0c287f40 6:1a3a4000 7:00001800,1,0.0,99.903
+2271,16:00000060 17:00b7e6c0 18:00bb3500 19:fffffff0,1,0.0,99.903
+2272,12:017873c0 13:1eeeeeee 14:00000001 15:00018c00,1,0.0,99.903
+2273,8:00ba16e0 9:017939c0 10:0160b2c0 11:0178f7c0,1,0.0,99.903
+2274,4:00b7d6a0 5:00bb24e0 6:00b476a0 7:00bb24e0,1,0.0,99.903
+2275,0:00001200 1:0fee8a20 2:1eeeeeee 3:00b7e8a0,1,0.0,99.903
+2276,20:000007e0 21:03636b88 22:00000865 23:0fee9250,1,0.0,99.903
+2277,16:02e039ac 17:00004200 18:002d6690 19:00000000,1,0.0,99.903
+2278,12:44804242 13:1eeeeeee 14:00000840 15:000007e0,1,0.0,99.903
+2279,mask..................0x04,1,0.0,99.903
+2280,symbol................13,1,0.0,99.903
+2281,20:0eaca548 21:000003e2 22:0eac8640 23:0eac0980,1,0.0,99.903
+2282,16:0a92fef8 17:0a9362e8 18:0eac76d8 19:0eac2888,1,0.0,99.903
+2283,20:001f7926 21:00887540 22:008868a0 23:4c000405,1,0.0,99.903
+2284,4:00000000 5:01306b40 6:0906e590 7:0fea0550,1,0.0,99.903
+2285,lr:00142020 cr:86404828 xer:20000002 ctr:00149f64,1,0.0,99.903
+2286,28:00270000 29:0026f530 30:002735f8 31:000c65b0,1,0.0,99.903
+2287,28:010b1600 29:09052a80 30:09088f00 31:000865b0,1,0.0,99.903
+2288,24:0fee06ec 25:0000003f 26:00270000 27:00e5d280,1,0.0,99.903
+2289,24:013f3340 25:0033c9a0 26:bff341a9 27:09092f40,1,0.0,99.903
+2290,20:00000082 21:0fee0700 22:0fea86f8 23:000011f0,1,0.0,99.903
+2291,20:000000bc 21:0fee0700 22:09052a80 23:010af8c0,1,0.0,99.903
+2292,16:000000a2 17:000000a2 18:000000a3 19:0fea0700,1,0.0,99.903
+2293,16:000000d6 17:000000e9 18:000000ea 19:0fea0700,1,0.0,99.903
+2294,12:01007dd0 13:1eeeeeee 14:0000beca 15:0fee1394,1,0.0,99.903
+2295,12:010afa50 13:1eeeeeee 14:0000bf5c 15:0fee17b8,1,0.0,99.903
+2296,8:ffffffc0 9:ffffffe0 10:00017929 11:00000000,1,0.0,99.903
+2297,4:09328910 5:0000001c 6:09328948 7:00000020,1,0.0,99.903
+2298,4:00000000 5:09052a80 6:09092f40 7:0033c9a0,1,0.0,99.903
+2299,16:0feeaa04 17:001f7834 18:008c30e0 19:00000000,1,0.0,99.903
+2300,ddrSize == 256*1024*1024 || ddrSize == 512*1024*1024,1,0.0,99.903
+2301,lr:0013bc70 cr:84002044 xer:00000002 ctr:001427e4,1,0.0,99.903
+2302,24:00000008 25:021f845c 26:00000000 27:021f8380,1,0.0,99.903
+2303,20:011f7f20 21:001f7f00 22:1feaa540 23:1feaa530,1,0.0,99.903
+2304,16:00000000 17:000047cc 18:00000000 19:1feaa7f0,1,0.0,99.903
+2305,12:44002044 13:1eeeeeee 14:40000000 15:40000000,1,0.0,99.903
+2306,8:00000010 9:00000002 10:00108e70 11:001e0000,1,0.0,99.903
+2307,4:001f7640 5:00300c80 6:00300c90 7:00300d60,1,0.0,99.903
+2308,0x38c97bc8 0x4bfff870,1,0.0,99.903
+2309,0x281f003f 0x3d200002,1,0.0,99.903
+2310,0x93e1004c 0x3be00000,1,0.0,99.903
+2311,"ddr: redundant bit steering failed, sequencer timeout",1,0.0,99.903
+2312,r08=0x008b5208 r09=0xffff91d4 r10=0x00350000 r11=0x00350000,1,0.0,99.903
+2313,28:00bb36e0 29:0178b5c0 30:017831c0 31:0177efc0,1,0.0,99.903
+2314,28:03a8e780 29:07a32f20 30:079d8320 31:079aad20,1,0.0,99.903
+2315,16:00000042 17:00000040 18:00000020 19:fffffff0,1,0.0,99.903
+2316,12:07a05920 13:1eeeeeee 14:00000005 15:00110400,1,0.0,99.903
+2317,8:03a890e0 9:07a8db20 10:07349400 11:07a60520,1,0.0,99.903
+2318,4:03a48c60 5:03a8db20 6:03a44220 7:03a8db20,1,0.0,99.903
+2319,<*> 1:0fee8a20 2:1eeeeeee <*>,1,0.0,99.903
+2320,lr:0000f588 cr:84002444 xer:00000002 ctr:000003d5,1,0.0,99.903
+2321,20:010fd5bc 21:40000000 22:1fe888d0 23:1fe888c0,1,0.0,99.903
+2322,16:00807c00 17:00807c08 18:00000010 19:fffffffc,1,0.0,99.903
+2323,12:300036e0 13:1eeeeeee 14:00000002 15:00807c04,1,0.0,99.903
+2324,<*> Message=ScomError,1,0.0,99.903
+2325,"Error getting detailed hw info for node, caught java.io.IOException: Problems with the chip, could not pull all resets",1,0.0,99.903
+2326,"Error getting detailed hw info for node, caught java.io.IOException: Problems with the chip, clear all resets",1,0.0,99.903
+2327,lr:0020c788 cr:42282224 xer:00000002 ctr:00000005,1,0.0,99.903
+2328,data cache flush parity error detected. attempting to correct,1,0.0,99.903
+2329,12:011e88c0 13:1eeeeeee 14:00019cfe 15:0fee0f1c,1,0.0,99.903
+2330,8:011e9688 9:011e95c0 10:011e94f8 11:00148f9c,1,0.0,99.903
+2331,4:00378cc8 5:011e9428 6:09094510 7:00000003,1,0.0,99.903
+2332,0:00378c80 1:0fea0570 2:1eeeeeee <*>,1,0.0,99.903
+2333,28:014a87b0 29:08f6a570 30:08f806f0 31:09048cf0,1,0.0,99.903
+2334,24:0180c6f0 25:0033b2a0 26:0180e430 27:09048e30,1,0.0,99.903
+2335,20:000002a6 21:0fee0710 22:08f6a570 23:014a7df0,1,0.0,99.903
+2336,16:00000029 17:00000031 18:00000032 19:0fea0710,1,0.0,99.903
+2337,12:001fdc08 13:1eeeeeee 14:000167b5 15:0fee0a44,1,0.0,99.903
+2338,8:014a8a58 9:014a8990 10:014a88c8 11:0180e4a0,1,0.0,99.903
+2339,4:00378d18 5:014a87f8 6:09048d10 7:00000005,1,0.0,99.903
+2340,0:00378c80 1:0fea0570 2:1eeeeeee 3:0180e430,1,0.0,99.903
+2341,20:001f684c 21:00000003 22:0feea9fc 23:001f65d8,1,0.0,99.903
+2342,0:000196bd 1:0fea05f0 2:1eeeeeee 3:09088f00,1,0.0,99.903
+2343,12:48402842 13:1eeeeeee 14:0000eb2c 15:001f6858,1,0.0,99.903
+2344,<*> <*> xer:20000002 ctr:00113b58,1,0.0,99.903
+2345,28:00000000 29:00d842b0 30:00ddab50 31:0026e740,1,0.0,99.903
+2346,24:0feea5f7 25:00003950 26:002570b0 27:00000083,1,0.0,99.903
+2347,20:00000024 21:00000009 22:00dfc898 23:08e7c7f0,1,0.0,99.903
+2348,16:000000dc 17:08ea7660 18:000006a1 19:00000024,1,0.0,99.903
+2349,<*> 13:1eeeeeee <*> 15:00000040,1,0.0,99.903
+2350,<*> 9:00000000 10:00000000 <*>,1,0.0,99.903
+2351,4:00001a90 5:0002e670 6:0000020c 7:08e78ea0,1,0.0,99.903
+2352,0:00002e67 1:0feea5b0 2:1eeeeeee 3:09f940d0,1,0.0,99.903
+2353,24:01505b70 25:0033b2a0 26:01306a70 27:09084df0,1,0.0,99.903
+2354,20:00000124 21:0fee0710 22:09047070 23:011e1bf0,1,0.0,99.903
+2355,16:00000087 17:0000009f 18:000000a0 19:0fea0710,1,0.0,99.903
+2356,12:01306c00 13:1eeeeeee 14:00002bdb 15:0fee119c,1,0.0,99.903
+2357,16:0feea9fc 17:001f6854 18:001f6850 19:0feea9b8,1,0.0,99.903
+2358,lr:0001e620 cr:200044e2 xer:00000002 ctr:002582cc,1,0.0,99.903
+2359,24:00000000 25:00000000 26:000862f0 27:00089cd0,1,0.0,99.903
+2360,8:00089464 9:0002014e 10:00090000 11:00090064,1,0.0,99.903
+2361,4:00000001 5:002582cc 6:00000000 7:00089464,1,0.0,99.903
+2362,0x80010024 0x38210020,1,0.0,99.903
+2363,0x48000dd1 0x83a10014,1,0.0,99.903
+2364,0x74000000 0x4cc63182,1,0.0,99.903
+2365,lr:0000a2f0 cr:48002822 xer:20000002 ctr:0fdfac9e,1,0.0,99.903
+2366,20:00000010 21:00000000 22:00000000 23:00729340,1,0.0,99.903
+2367,4:00021108 5:00021274 6:000000b8 7:000c8560,1,0.0,99.903
+2368,lr:00226870 cr:40000022 xer:20000002 ctr:0022eaa0,1,0.0,99.903
+2369,28:30008760 29:00000000 30:1fefff70 31:10c4d4a0,1,0.0,99.903
+2370,24:1fefff50 25:00000028 26:1fefff70 27:004ad960,1,0.0,99.903
+2371,4:00000040 <*> 6:00000010 <*>,1,0.0,99.903
+2372,16:00000067 17:000000bd 18:000000be 19:0fea0710,1,0.0,99.903
+2373,28:00000000 29:00000000 30:00000000 31:000c65b0,1,0.0,99.903
+2374,24:000c87b0 25:00000006 26:000c65b0 27:000c9cd0,1,0.0,99.903
+2375,12:00000000 13:00000000 14:00000000 15:00000000,1,0.0,99.903
+2376,8:000c9478 9:000002f0 10:000d0000 11:000d0078,1,0.0,99.903
+2377,4:00000003 5:000c8590 6:000c8580 7:000c9478,1,0.0,99.903
+2378,program,1,0.0,99.903
+2379,pro,1,0.0,99.903
+2380,24:00f9c330 25:0033b2a0 26:00f9a930 27:09066b70,1,0.0,99.903
+2381,20:00000052 21:0fee0710 22:ffffffff 23:0134d230,1,0.0,99.903
+2382,16:00000028 17:000000e4 18:000000e5 19:0fea0710,1,0.0,99.903
+2383,12:0134d370 13:1eeeeeee 14:00003c8a 15:0fee0a30,1,0.0,99.903
+2384,28:011e9430 29:09058630 30:09088df0 31:090944f0,1,0.0,99.903
+2385,24:014f4730 25:0033b2a0 26:0127ef70 27:090945f0,1,0.0,99.903
+2386,20:00000151 21:0fee0710 22:09058630 23:011e80b0,1,0.0,99.903
+2387,lr:0000ebe4 cr:20000000 xer:20000002 ctr:00009ae0,1,0.0,99.903

@@ -1,0 +1,42 @@
+==============================================================================
+LAPORAN STATISTIK PARSING & PEMBENTUKAN SEKUENS
+==============================================================================
+
+--- Dataset: BGL (sliding-window (size=20)) ---
+Total baris dibaca        : 4,747,963
+Baris berhasil diparsing  : 4,713,493 (99.27%)
+Baris gagal diparsing     : 34,470
+Jumlah template unik      : 1,822
+Frekuensi template (min/median/mean/max): 1 / 1.0 / 1974.7 / 1,706,750
+Baris normal / anomali    : 4,365,033 (92.6%) / 348,460 (7.4%)
+Jumlah sekuens terbentuk  : 235,674
+  Normal  : 215,418 (91.4%)
+  Anomali : 20,256 (8.6%)
+  Unknown : 0 (0.0%)
+Panjang sekuens (min/median/mean/p90/p99/max): 20/20.0/20.0/20.0/20.0/20
+Template unik per sekuens (min/median/mean/max): 1/1.0/1.4/20
+Top-5 template paling sering muncul:
+  - [1,706,750x] generating <*>
+  - [441,942x] iar <*> dear <*>
+  - [295,763x] <*> double-hummer alignment exceptions
+  - [267,724x] <*> floating point alignment exceptions
+  - [201,205x] CE sym <*> at <*> mask <*>
+
+--- Dataset: HDFS (HDFS block-ID) ---
+Total baris dibaca        : 11,175,629
+Baris berhasil diparsing  : 11,175,629 (100.00%)
+Baris gagal diparsing     : 0
+Jumlah template unik      : 47
+Frekuensi template (min/median/mean/max): 1 / 2.0 / 97179.4 / 1,723,229
+Jumlah sekuens terbentuk  : 575,061
+  Normal  : 558,223 (97.1%)
+  Anomali : 16,838 (2.9%)
+  Unknown : 0 (0.0%)
+Panjang sekuens (min/median/mean/p90/p99/max): 2/22.0/21.9/28.0/36.0/310
+Template unik per sekuens (min/median/mean/max): 2/7.0/7.3/26
+Top-5 template paling sering muncul:
+  - [1,723,229x] Receiving block <*> src: <*> dest: <*>
+  - [1,719,738x] BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+  - [1,706,511x] Received block <*> of size <*> from <*>
+  - [1,679,045x] PacketResponder <*> for block <*> <*>
+  - [1,402,046x] Deleting block <*> file <*>

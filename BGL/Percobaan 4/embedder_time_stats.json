@@ -1,0 +1,16 @@
+{
+  "train_extraction": {
+    "total_sec": 1768.505,
+    "n_samples": 235674,
+    "mean_sec_per_sample": 0.007504,
+    "throughput_sample_per_s": 133.26
+  },
+  "inference": {
+    "latency_ms_per_sample": 5.9973,
+    "throughput_sample_per_s": 166.74,
+    "n_samples": 500,
+    "batch_size": 32,
+    "n_repeat": 5,
+    "flops_per_sample": 5994931968
+  }
+}

@@ -1,0 +1,12 @@
+Dataset: BGL
+[EVT-Test]  accuracy | BERT: 0.9815 | DistilBERT: 0.9825 | p-value: 0.5771
+[EVT-Test]  precision | BERT: 0.9785 | DistilBERT: 0.9785 | p-value: 0.9751
+[EVT-Test]  recall | BERT: 0.9835 | DistilBERT: 0.9854 | p-value: 0.6295
+[EVT-Test]  f1 | BERT: 0.9810 | DistilBERT: 0.9820 | p-value: 0.5805
+
+Dataset: HDFS
+[EVT-Test]  accuracy | BERT: 0.9777 | DistilBERT: 0.9843 | p-value: 0.0000
+[EVT-Test]  precision | BERT: 0.9612 | DistilBERT: 0.9793 | p-value: 0.0000
+[EVT-Test]  recall | BERT: 0.9803 | DistilBERT: 0.9788 | p-value: 0.0003
+[EVT-Test]  f1 | BERT: 0.9707 | DistilBERT: 0.9791 | p-value: 0.0000
+

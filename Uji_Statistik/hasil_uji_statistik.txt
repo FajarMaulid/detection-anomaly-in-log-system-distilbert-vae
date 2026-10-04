@@ -1,0 +1,108 @@
+=== HASIL UJI STATISTIK DAN HIPOTESIS (Paired T-Test) ===
+
+--- Dataset: BGL ---
+Membandingkan BERT vs DistilBERT dengan 5 seed yang sama.
+
+Metrik: [Pct-p90-Test]  f1
+  Rata-rata BERT: 0.9473
+  Rata-rata DistilBERT: 0.9474
+  T-statistic: -0.2453, p-value: 0.8183
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: [Pct-p95-Test]  f1
+  Rata-rata BERT: 0.9717
+  Rata-rata DistilBERT: 0.9718
+  T-statistic: -0.7412, p-value: 0.4997
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: [Pct-p99-Test]  f1
+  Rata-rata BERT: 0.9765
+  Rata-rata DistilBERT: 0.9774
+  T-statistic: -1.8961, p-value: 0.1308
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: [EVT-Test]  f1
+  Rata-rata BERT: 0.9810
+  Rata-rata DistilBERT: 0.9820
+  T-statistic: -0.6005, p-value: 0.5805
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: train_total_sec
+  Rata-rata BERT: 436.2398
+  Rata-rata DistilBERT: 389.4016
+  T-statistic: 0.7240, p-value: 0.5091
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: ari
+  Rata-rata BERT: 0.5326
+  Rata-rata DistilBERT: 0.5330
+  T-statistic: -1.0780, p-value: 0.3417
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: nmi
+  Rata-rata BERT: 0.4391
+  Rata-rata DistilBERT: 0.4395
+  T-statistic: -1.3598, p-value: 0.2455
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: silhouette
+  Rata-rata BERT: 0.3389
+  Rata-rata DistilBERT: 0.3233
+  T-statistic: 1.0027, p-value: 0.3727
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+==================================================
+
+--- Dataset: HDFS ---
+Membandingkan BERT vs DistilBERT dengan 5 seed yang sama.
+
+Metrik: [Pct-p90-Test]  f1
+  Rata-rata BERT: 0.9169
+  Rata-rata DistilBERT: 0.9176
+  T-statistic: -1.7712, p-value: 0.1512
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: [Pct-p95-Test]  f1
+  Rata-rata BERT: 0.9507
+  Rata-rata DistilBERT: 0.9511
+  T-statistic: -2.3489, p-value: 0.0786
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: [Pct-p99-Test]  f1
+  Rata-rata BERT: 0.9800
+  Rata-rata DistilBERT: 0.9798
+  T-statistic: 0.7663, p-value: 0.4862
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: [EVT-Test]  f1
+  Rata-rata BERT: 0.9707
+  Rata-rata DistilBERT: 0.9791
+  T-statistic: -39.5239, p-value: 0.0000
+  Kesimpulan: Tolak H0. Terdapat perbedaan signifikan antara BERT dan DistilBERT (p < 0.05).
+
+Metrik: train_total_sec
+  Rata-rata BERT: 1164.2662
+  Rata-rata DistilBERT: 939.0378
+  T-statistic: 1.4048, p-value: 0.2328
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: ari
+  Rata-rata BERT: 0.3021
+  Rata-rata DistilBERT: 0.3023
+  T-statistic: -2.6224, p-value: 0.0586
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: nmi
+  Rata-rata BERT: 0.2398
+  Rata-rata DistilBERT: 0.2404
+  T-statistic: -2.6901, p-value: 0.0547
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+Metrik: silhouette
+  Rata-rata BERT: 0.4723
+  Rata-rata DistilBERT: 0.4838
+  T-statistic: -0.7273, p-value: 0.5073
+  Kesimpulan: Gagal Tolak H0. Tidak terdapat perbedaan signifikan antara BERT dan DistilBERT (p >= 0.05).
+
+==================================================
+

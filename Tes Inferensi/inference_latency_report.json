@@ -1,0 +1,131 @@
+{
+  "device": "cuda",
+  "window_size": 20,
+  "n_windows_measured": 50000,
+  "n_repeat": 5,
+  "end_to_end_latency_ms": {
+    "n_samples": 50000,
+    "mean_ms": 19.93323311734018,
+    "median_ms": 19.981938499995522,
+    "p90_ms": 20.717417999958343,
+    "p95_ms": 20.996513450052134,
+    "p99_ms": 21.54221245999679,
+    "max_ms": 31.376570000020365,
+    "throughput_window_per_s": 50.167476300173654
+  },
+  "stage_breakdown_ms": {
+    "drain3_parsing": {
+      "n_samples": 50000,
+      "mean_ms": 0.20905361740012834,
+      "median_ms": 0.17691099998273785,
+      "p90_ms": 0.25056330000552407,
+      "p95_ms": 0.2886611000121775,
+      "p99_ms": 0.9795813600237581,
+      "max_ms": 2.4551330000122107,
+      "throughput_window_per_s": 4783.46183355441
+    },
+    "distilbert_embedding": {
+      "n_samples": 50000,
+      "mean_ms": 18.315902352100228,
+      "median_ms": 18.43739449992654,
+      "p90_ms": 19.07945939998399,
+      "p95_ms": 19.346814199860773,
+      "p99_ms": 19.789931350125016,
+      "max_ms": 29.454210000039893,
+      "throughput_window_per_s": 54.597364671216056
+    },
+    "scaling_vae": {
+      "n_samples": 50000,
+      "mean_ms": 1.4082771478398264,
+      "median_ms": 1.3508795000234386,
+      "p90_ms": 1.5644915001530535,
+      "p95_ms": 1.6438104999338063,
+      "p99_ms": 2.045591359853916,
+      "max_ms": 3.711493999958293,
+      "throughput_window_per_s": 710.0875005562025
+    }
+  },
+  "batch_size_sensitivity_scaling_vae": [
+    {
+      "batch_size": 1,
+      "mean_ms_per_sample": 1.3066,
+      "median_ms_per_sample": 1.3041,
+      "p90_ms_per_sample": 1.3161,
+      "p95_ms_per_sample": 1.3167,
+      "p99_ms_per_sample": 1.3171,
+      "max_ms_per_sample": 1.3172,
+      "throughput_sample_per_s": 765.37
+    },
+    {
+      "batch_size": 8,
+      "mean_ms_per_sample": 0.1574,
+      "median_ms_per_sample": 0.1578,
+      "p90_ms_per_sample": 0.1583,
+      "p95_ms_per_sample": 0.1584,
+      "p99_ms_per_sample": 0.1584,
+      "max_ms_per_sample": 0.1584,
+      "throughput_sample_per_s": 6354.6
+    },
+    {
+      "batch_size": 16,
+      "mean_ms_per_sample": 0.0831,
+      "median_ms_per_sample": 0.0823,
+      "p90_ms_per_sample": 0.0854,
+      "p95_ms_per_sample": 0.086,
+      "p99_ms_per_sample": 0.0865,
+      "max_ms_per_sample": 0.0866,
+      "throughput_sample_per_s": 12035.94
+    },
+    {
+      "batch_size": 32,
+      "mean_ms_per_sample": 0.0443,
+      "median_ms_per_sample": 0.044,
+      "p90_ms_per_sample": 0.0449,
+      "p95_ms_per_sample": 0.045,
+      "p99_ms_per_sample": 0.045,
+      "max_ms_per_sample": 0.045,
+      "throughput_sample_per_s": 22558.81
+    },
+    {
+      "batch_size": 64,
+      "mean_ms_per_sample": 0.0242,
+      "median_ms_per_sample": 0.0242,
+      "p90_ms_per_sample": 0.0246,
+      "p95_ms_per_sample": 0.0246,
+      "p99_ms_per_sample": 0.0247,
+      "max_ms_per_sample": 0.0247,
+      "throughput_sample_per_s": 41261.56
+    },
+    {
+      "batch_size": 128,
+      "mean_ms_per_sample": 0.0146,
+      "median_ms_per_sample": 0.0145,
+      "p90_ms_per_sample": 0.0149,
+      "p95_ms_per_sample": 0.0149,
+      "p99_ms_per_sample": 0.0149,
+      "max_ms_per_sample": 0.0149,
+      "throughput_sample_per_s": 68551.33
+    },
+    {
+      "batch_size": 256,
+      "mean_ms_per_sample": 0.0097,
+      "median_ms_per_sample": 0.0097,
+      "p90_ms_per_sample": 0.0098,
+      "p95_ms_per_sample": 0.0098,
+      "p99_ms_per_sample": 0.0098,
+      "max_ms_per_sample": 0.0098,
+      "throughput_sample_per_s": 103526.71
+    }
+  ],
+  "sla_verdicts": {
+    "real_time (< 100 ms)": true,
+    "near_real_time (< 500 ms)": true,
+    "batch_1s (< 1000 ms)": true
+  },
+  "sla_targets_ms": {
+    "real_time (< 100 ms)": 100,
+    "near_real_time (< 500 ms)": 500,
+    "batch_1s (< 1000 ms)": 1000
+  },
+  "threshold_used": null
+}

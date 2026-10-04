@@ -1,0 +1,7 @@
+﻿Kategori,Skenario,Jumlah Window,Rata-rata (detik),Rata-rata (ms),Rata-rata (menit),Rata-rata (jam),Median / p50 (detik),Std Dev (detik),p10 (detik),p25 (detik),p75 (detik),p90 (detik),p95 (detik),p99 (detik),Minimum (detik),Maksimum (detik),Maksimum (jam),Laju Log (baris/s)
+Timestamp BGL (real-time),"Sliding Window (stride=1, window=20)",4713474,0.074766,74.766,0.0012,0.0,0.000551,1.080756,0.000237,0.000368,0.000976,0.003016,0.00626,1.530842,3e-06,209.754856,0.06,254.12
+Timestamp BGL (real-time),"Block Window (stride=20, window=20)",235674,0.074775,74.7751,0.0012,0.0,0.000551,1.066115,0.000237,0.000369,0.000969,0.003017,0.006224,1.516571,1.6e-05,177.064865,0.05,254.12
+Inferensi Pipeline (DistilBERT+VAE),"End-to-End (window=20, GPU CUDA, n=50,000)",50000,0.019933,19.9332,0.000332,5.54e-06,0.019982,,,,,0.020717,0.020997,0.021542,,0.031377,8.72e-06,1003.35
+Inferensi Pipeline – Stage Drain3,Drain3 Parsing (window=20),50000,0.000209,0.2091,3.48e-06,5.81e-08,0.000177,,,,,0.000251,0.000289,0.00098,,0.002455,6.82e-07,
+Inferensi Pipeline – Stage DistilBERT,DistilBERT Embedding (window=20),50000,0.018316,18.3159,0.000305,5.09e-06,0.018437,,,,,0.019079,0.019347,0.01979,,0.029454,8.18e-06,
+Inferensi Pipeline – Stage VAE,Scaling + VAE Inference (window=20),50000,0.001408,1.4083,2.347e-05,3.912e-07,0.001351,,,,,0.001564,0.001644,0.002046,,0.003711,1.031e-06,

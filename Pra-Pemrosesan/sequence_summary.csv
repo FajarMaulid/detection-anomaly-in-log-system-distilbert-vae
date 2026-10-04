@@ -1,0 +1,3 @@
+Dataset,Skema,Jumlah Sekuens,Sekuens Normal,Sekuens Anomali,Sekuens Unknown,Panjang Sekuens (median),Panjang Sekuens (mean),Panjang Sekuens (P90),Panjang Sekuens (max),Template Unik/Sekuens (mean)
+BGL,sliding-window (size=20),235674,215418,20256,0,20.0,20.0,20.0,20,1.42
+HDFS,HDFS block-ID,575061,558223,16838,0,22.0,21.87,28.0,310,7.25

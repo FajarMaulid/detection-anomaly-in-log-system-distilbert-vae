@@ -1,0 +1,14 @@
+category,metric,value
+embedder_train,total_sec,7754.018
+embedder_train,mean_ms_per_sample,13.484
+embedder_train,throughput_sample_per_s,74.16
+embedder_infer,latency_ms_per_sample,15.9828
+embedder_infer,throughput_sample_per_s,62.57
+embedder_infer,flops_per_sample,21768830976.0
+vae_train,total_sec,849.251
+vae_train,mean_epoch_sec,16.984
+vae_train,min_epoch_sec,16.683
+vae_train,max_epoch_sec,17.401
+vae_infer,latency_ms_per_sample,0.005
+vae_infer,throughput_sample_per_s,199334.33
+vae_infer,flops_per_sample,1142272.0

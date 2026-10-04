@@ -1,0 +1,13 @@
+split,method,accuracy,precision,recall,f1,roc_auc,pr_auc,threshold
+Train,Persentil-p90,0.9,0.0,0.0,0.0,,,0.004202
+Train,Persentil-p95,0.95,0.0,0.0,0.0,,,0.006886
+Train,Persentil-p99,0.99,0.0,0.0,0.0,,,0.026409
+Train,EVT/GPD,0.979,0.0,0.0,0.0,,,0.014637
+Validasi,Persentil-p90,0.9007,0.0,0.0,0.0,,,0.004202
+Validasi,Persentil-p95,0.9492,0.0,0.0,0.0,,,0.006886
+Validasi,Persentil-p99,0.989,0.0,0.0,0.0,,,0.026409
+Validasi,EVT/GPD,0.9783,0.0,0.0,0.0,,,0.014637
+Uji,Persentil-p90,0.9457,0.9031,0.9948,0.9467,0.9984,0.9983,0.004202
+Uji,Persentil-p95,0.9717,0.9497,0.9944,0.9715,0.9984,0.9983,0.006886
+Uji,Persentil-p99,0.9791,0.9894,0.9672,0.9782,0.9984,0.9983,0.026409
+Uji,EVT/GPD,0.9851,0.9793,0.9903,0.9848,0.9984,0.9983,0.014637

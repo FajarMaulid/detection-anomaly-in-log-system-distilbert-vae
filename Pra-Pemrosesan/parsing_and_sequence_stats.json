@@ -1,0 +1,251 @@
+{
+  "BGL": {
+    "scheme": "sliding-window (size=20)",
+    "parsing_stats": {
+      "dataset_name": "BGL",
+      "total_lines_read": 4747963,
+      "lines_parsed_ok": 4713493,
+      "lines_failed_parse": 34470,
+      "parse_success_rate": 0.9927,
+      "n_unique_templates": 1822,
+      "template_freq_top": [
+        {
+          "template": "generating <*>",
+          "count": 1706750
+        },
+        {
+          "template": "iar <*> dear <*>",
+          "count": 441942
+        },
+        {
+          "template": "<*> double-hummer alignment exceptions",
+          "count": 295763
+        },
+        {
+          "template": "<*> floating point alignment exceptions",
+          "count": 267724
+        },
+        {
+          "template": "CE sym <*> at <*> mask <*>",
+          "count": 201205
+        },
+        {
+          "template": "data TLB error interrupt",
+          "count": 152734
+        },
+        {
+          "template": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single in",
+          "count": 134852
+        },
+        {
+          "template": "instruction cache parity error corrected",
+          "count": 105924
+        },
+        {
+          "template": "<*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microsecon",
+          "count": 91293
+        },
+        {
+          "template": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTr",
+          "count": 84168
+        },
+        {
+          "template": "data storage interrupt",
+          "count": 63493
+        },
+        {
+          "template": "ciod: generated <*> core files for program <*>",
+          "count": 61452
+        },
+        {
+          "template": "program interrupt: <*> <*>",
+          "count": 51730
+        },
+        {
+          "template": "instruction address: <*>",
+          "count": 51226
+        },
+        {
+          "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+          "count": 46384
+        },
+        {
+          "template": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> micr",
+          "count": 43798
+        },
+        {
+          "template": "ciod: LOGIN <*> failed: No such file or directory",
+          "count": 43643
+        },
+        {
+          "template": "ciod: Error loading <*> invalid or missing program image, Permission denied",
+          "count": 42912
+        },
+        {
+          "template": "<*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",
+          "count": 33937
+        },
+        {
+          "template": "total of <*> ddr error(s) detected and corrected",
+          "count": 28484
+        }
+      ],
+      "template_freq_stats": {
+        "min": 1,
+        "median": 1.0,
+        "mean": 1974.6514453288646,
+        "max": 1706750
+      },
+      "line_label_counts": {
+        "normal": 4365033,
+        "anomaly": 348460
+      }
+    },
+    "seq_stats": {
+      "dataset_name": "BGL",
+      "n_sequences": 235674,
+      "label_counts": {
+        "normal": 215418,
+        "anomaly": 20256,
+        "unknown": 0
+      },
+      "seq_length_stats": {
+        "min": 20,
+        "median": 20.0,
+        "mean": 20.0,
+        "p90": 20.0,
+        "p99": 20.0,
+        "max": 20
+      },
+      "unique_template_per_seq_stats": {
+        "min": 1,
+        "median": 1.0,
+        "mean": 1.4194098627765472,
+        "max": 20
+      }
+    }
+  },
+  "HDFS": {
+    "scheme": "HDFS block-ID",
+    "parsing_stats": {
+      "dataset_name": "HDFS",
+      "total_lines_read": 11175629,
+      "lines_parsed_ok": 11175629,
+      "lines_failed_parse": 0,
+      "parse_success_rate": 1.0,
+      "n_unique_templates": 47,
+      "template_freq_top": [
+        {
+          "template": "Receiving block <*> src: <*> dest: <*>",
+          "count": 1723229
+        },
+        {
+          "template": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>",
+          "count": 1719738
+        },
+        {
+          "template": "Received block <*> of size <*> from <*>",
+          "count": 1706511
+        },
+        {
+          "template": "PacketResponder <*> for block <*> <*>",
+          "count": 1679045
+        },
+        {
+          "template": "Deleting block <*> file <*>",
+          "count": 1402046
+        },
+        {
+          "template": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>",
+          "count": 1396164
+        },
+        {
+          "template": "BLOCK* NameSystem.allocateBlock: <*> <*>",
+          "count": 575060
+        },
+        {
+          "template": "<*> Served block <*> to <*>",
+          "count": 428723
+        },
+        {
+          "template": "<*> exception while serving <*> to <*>",
+          "count": 356206
+        },
+        {
+          "template": "Verification succeeded for <*>",
+          "count": 120035
+        },
+        {
+          "template": "PacketResponder <*> for block <*> terminating",
+          "count": 27680
+        },
+        {
+          "template": "Received block <*> src: <*> dest: <*> of size <*>",
+          "count": 7090
+        },
+        {
+          "template": "<*> block <*> to <*>",
+          "count": 6933
+        },
+        {
+          "template": "BLOCK* ask <*> to replicate <*> to datanode(s) <*>",
+          "count": 6836
+        },
+        {
+          "template": "<*> Starting thread to transfer block <*> to <*>",
+          "count": 6836
+        },
+        {
+          "template": "Unexpected error trying to delete block <*> BlockInfo not found in volumeMap.",
+          "count": 5544
+        },
+        {
+          "template": "writeBlock <*> received exception java.io.IOException: Could not read from stream",
+          "count": 3225
+        },
+        {
+          "template": "Receiving empty packet for block <*>",
+          "count": 1461
+        },
+        {
+          "template": "BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for <*> on <*> size <*> But it does not belong to any ",
+          "count": 1265
+        },
+        {
+          "template": "BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for <*> on <*> size <*>",
+          "count": 948
+        }
+      ],
+      "template_freq_stats": {
+        "min": 1,
+        "median": 2.0,
+        "mean": 97179.38260869565,
+        "max": 1723229
+      },
+      "line_label_counts": null
+    },
+    "seq_stats": {
+      "dataset_name": "HDFS",
+      "n_sequences": 575061,
+      "label_counts": {
+        "normal": 558223,
+        "anomaly": 16838,
+        "unknown": 0
+      },
+      "seq_length_stats": {
+        "min": 2,
+        "median": 22.0,
+        "mean": 21.87191445777057,
+        "p90": 28.0,
+        "p99": 36.0,
+        "max": 310
+      },
+      "unique_template_per_seq_stats": {
+        "min": 2,
+        "median": 7.0,
+        "mean": 7.2525592937097105,
+        "max": 26
+      }
+    }
+  }
+}

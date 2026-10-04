@@ -1,0 +1,14 @@
+{
+  "trial": "trial_003",
+  "latent_dim": 32,
+  "vae_batch_size": 32,
+  "beta": 0.1144,
+  "learning_rate": 0.00658629,
+  "val_recon_loss": 0.010336,
+  "n_train_hp": 502400,
+  "total_train_sec": 612.595,
+  "mean_epoch_sec": 61.257,
+  "min_epoch_sec": 60.881,
+  "max_epoch_sec": 61.712,
+  "best_val_loss": 9.201689
+}
